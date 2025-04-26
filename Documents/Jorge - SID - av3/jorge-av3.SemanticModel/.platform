@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "jorge-av3"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "eeab6eef-6dc9-477f-81cc-c1db136bbab7"
+  }
+}

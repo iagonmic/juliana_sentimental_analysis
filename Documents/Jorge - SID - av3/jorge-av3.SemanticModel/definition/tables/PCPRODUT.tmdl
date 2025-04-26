@@ -1,0 +1,6361 @@
+table PCPRODUT
+	lineageTag: bdd15b35-9b3b-469c-944e-24010b075d7a
+
+	column CODPROD
+		dataType: string
+		lineageTag: 26a0ed13-c200-419e-a1eb-9a9e1e63259e
+		summarizeBy: none
+		sourceColumn: CODPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO
+		dataType: string
+		lineageTag: cbf928c5-5e5c-4801-bc1e-037a8706f0f4
+		summarizeBy: none
+		sourceColumn: DESCRICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMBALAGEM
+		dataType: string
+		lineageTag: 99f15182-72b7-4d59-820e-2f70f510f01e
+		summarizeBy: none
+		sourceColumn: EMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADE
+		dataType: string
+		lineageTag: 5b7c23f1-d750-4f85-be19-aa5a9e23b301
+		summarizeBy: none
+		sourceColumn: UNIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOLIQ
+		dataType: string
+		lineageTag: 3bf5ca68-c568-40cd-b452-1b6526225763
+		summarizeBy: none
+		sourceColumn: PESOLIQ
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOBRUTO
+		dataType: string
+		lineageTag: a1aad471-2dc3-40a4-8bab-a4ae848ba277
+		summarizeBy: none
+		sourceColumn: PESOBRUTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODEPTO
+		dataType: string
+		lineageTag: 878f6efa-15ca-46a0-9ecb-28afba59a207
+		summarizeBy: none
+		sourceColumn: CODEPTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSEC
+		dataType: string
+		lineageTag: 507a0d39-6436-4aff-90c0-edbee2d2ad44
+		summarizeBy: none
+		sourceColumn: CODSEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCOMINT1
+		dataType: string
+		lineageTag: 90891c9d-efe7-446f-ac2c-b4a72f0ad9da
+		summarizeBy: none
+		sourceColumn: PCOMINT1
+
+		annotation SummarizationSetBy = Automatic
+
+	column TEMREPOS
+		dataType: string
+		lineageTag: d68f1e5c-2bea-4aea-a59e-6f3eb5dfcaa3
+		summarizeBy: none
+		sourceColumn: TEMREPOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTUNIT
+		dataType: string
+		lineageTag: a96614a8-a405-4590-bd88-96a0b3001e1e
+		summarizeBy: none
+		sourceColumn: QTUNIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBS
+		dataType: string
+		lineageTag: 023c95a1-209b-4724-9cbd-a4dd29d4c2cb
+		summarizeBy: none
+		sourceColumn: OBS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCOMREP1
+		dataType: string
+		lineageTag: 827c4320-3588-4c20-b61e-a439a957841b
+		summarizeBy: none
+		sourceColumn: PCOMREP1
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCOMEXT1
+		dataType: string
+		lineageTag: 98771007-c695-45b6-a784-69e8baff6f16
+		summarizeBy: none
+		sourceColumn: PCOMEXT1
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFORNEC
+		dataType: string
+		lineageTag: e4e9c0fa-1576-4b12-bad6-3014f9be7a71
+		summarizeBy: none
+		sourceColumn: CODFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTCADASTRO
+		dataType: string
+		lineageTag: ec268936-cc99-44c5-bb1c-503a5a7ac02e
+		summarizeBy: none
+		sourceColumn: DTCADASTRO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VOLUME
+		dataType: string
+		lineageTag: 0f8181d2-1964-4dfa-8b64-1136590e9624
+		summarizeBy: none
+		sourceColumn: VOLUME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAUXILIAR
+		dataType: string
+		lineageTag: 9d871fe6-7f0e-4599-89a1-cae1f998ec37
+		summarizeBy: none
+		sourceColumn: CODAUXILIAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSE
+		dataType: string
+		lineageTag: cb53b944-072e-46d4-9012-6c251b8a4939
+		summarizeBy: none
+		sourceColumn: CLASSE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LASTROPAL
+		dataType: string
+		lineageTag: 9d44a61f-e42f-4b19-b40b-d2a9424dfda3
+		summarizeBy: none
+		sourceColumn: LASTROPAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTURAPAL
+		dataType: string
+		lineageTag: f6fe1b4d-3b4a-492f-9590-8b0d82ae2dad
+		summarizeBy: none
+		sourceColumn: ALTURAPAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTTOTPAL
+		dataType: string
+		lineageTag: 78af12f6-380a-492f-9b77-2af7e655a8bb
+		summarizeBy: none
+		sourceColumn: QTTOTPAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOVAL
+		dataType: string
+		lineageTag: cce73141-3a1b-410c-8c7a-48a1f56502ae
+		summarizeBy: none
+		sourceColumn: PRAZOVAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTUNITCX
+		dataType: string
+		lineageTag: 27f57ec8-65a5-4aa7-a524-30925db0e1ac
+		summarizeBy: none
+		sourceColumn: QTUNITCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column REVENDA
+		dataType: string
+		lineageTag: e2affe7b-199d-4696-8186-46880307a100
+		summarizeBy: none
+		sourceColumn: REVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column IMPORTADO
+		dataType: string
+		lineageTag: ac5a6ee2-cd6d-47b9-839b-1b04e37b5ae8
+		summarizeBy: none
+		sourceColumn: IMPORTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FOLHAROSTO
+		dataType: string
+		lineageTag: 3b7abf67-a4ea-4b54-aa9c-f1bc374dac76
+		summarizeBy: none
+		sourceColumn: FOLHAROSTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTEXCLUSAO
+		dataType: string
+		lineageTag: 428b62d0-b6b4-4436-84a5-89052f8409ed
+		summarizeBy: none
+		sourceColumn: DTEXCLUSAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODULO
+		dataType: string
+		lineageTag: c6d7a7ab-63fd-4517-b6ee-04798c19e557
+		summarizeBy: none
+		sourceColumn: MODULO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUA
+		dataType: string
+		lineageTag: 9e01309f-5875-490a-bdd2-1ede50e84db3
+		summarizeBy: none
+		sourceColumn: RUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column APTO
+		dataType: string
+		lineageTag: 025280f6-2bd0-443f-bd76-d7c46b41b0e2
+		summarizeBy: none
+		sourceColumn: APTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTCOM
+		dataType: string
+		lineageTag: 1a10f37d-e253-4d12-ae78-cb4aa18f0c59
+		summarizeBy: none
+		sourceColumn: DTULTALTCOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMPANHA
+		dataType: string
+		lineageTag: f72e5e96-f54d-418f-a32e-f65fd86ac60b
+		summarizeBy: none
+		sourceColumn: CAMPANHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODPRINC
+		dataType: string
+		lineageTag: c311908e-ec22-4816-a800-9e36df603973
+		summarizeBy: none
+		sourceColumn: CODPRODPRINC
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBS2
+		dataType: string
+		lineageTag: bf4666b9-3617-459d-8658-6995d1771fd1
+		summarizeBy: none
+		sourceColumn: OBS2
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIPI
+		dataType: string
+		lineageTag: 2cfd2cb1-bcca-4993-8264-d94f60ef97ff
+		summarizeBy: none
+		sourceColumn: PERCIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADEMASTER
+		dataType: string
+		lineageTag: 0af537da-803c-4021-a718-c49bf5924301
+		summarizeBy: none
+		sourceColumn: UNIDADEMASTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column CORREDOR
+		dataType: string
+		lineageTag: bd1e185d-cbaa-469c-acaa-946cd2fa7c56
+		summarizeBy: none
+		sourceColumn: CORREDOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column LARGURAM3
+		dataType: string
+		lineageTag: f905e7cc-a0a8-4ad3-a2cd-82a377b49a43
+		summarizeBy: none
+		sourceColumn: LARGURAM3
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTURAM3
+		dataType: string
+		lineageTag: 0a917c88-254b-4d23-b510-703d895fcbba
+		summarizeBy: none
+		sourceColumn: ALTURAM3
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMPRIMENTOM3
+		dataType: string
+		lineageTag: ea76ee65-709c-4030-91e0-1535d703aa1b
+		summarizeBy: none
+		sourceColumn: COMPRIMENTOM3
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPORESTRICAO
+		dataType: string
+		lineageTag: 012ef4d1-ed9b-47fd-9e29-a8bd8fd40a19
+		summarizeBy: none
+		sourceColumn: TIPORESTRICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTTOTPALFRAC
+		dataType: string
+		lineageTag: 28f5ebe9-f6ac-4b71-91e4-53b4aa2310c5
+		summarizeBy: none
+		sourceColumn: QTTOTPALFRAC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DV
+		dataType: string
+		lineageTag: 6353d315-267a-4358-a5ed-b1c912a63fa8
+		summarizeBy: none
+		sourceColumn: DV
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSEVENDA
+		dataType: string
+		lineageTag: 94316790-4212-4177-bf86-1ece4095021b
+		summarizeBy: none
+		sourceColumn: CLASSEVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSEMC
+		dataType: string
+		lineageTag: b9fd8050-9019-45b8-b962-754c1e2c2e82
+		summarizeBy: none
+		sourceColumn: CLASSEMC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSEESTOQUE
+		dataType: string
+		lineageTag: 9e3db756-078f-479c-9510-581b48b25395
+		summarizeBy: none
+		sourceColumn: CLASSEESTOQUE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSECOMPRA
+		dataType: string
+		lineageTag: 51b4599a-1d95-46c0-bc51-6c54bfeee53b
+		summarizeBy: none
+		sourceColumn: CLASSECOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERICM
+		dataType: string
+		lineageTag: 7188a3ae-02fd-477e-96ce-5b87a10bb08a
+		summarizeBy: none
+		sourceColumn: PERICM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC
+		dataType: string
+		lineageTag: ca8d7590-50c6-4058-83c0-5b6bb300e81e
+		summarizeBy: none
+		sourceColumn: PERCDESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCST
+		dataType: string
+		lineageTag: b5ccfc68-23ad-455e-a252-59661fccddfd
+		summarizeBy: none
+		sourceColumn: PERCST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBON
+		dataType: string
+		lineageTag: a2a8b676-222f-4fed-88e6-e96a3b372c30
+		summarizeBy: none
+		sourceColumn: PERCBON
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCFRETE
+		dataType: string
+		lineageTag: ef6b8c67-95cd-4e04-b326-ed70aedb88fc
+		summarizeBy: none
+		sourceColumn: PERCFRETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MOEDA
+		dataType: string
+		lineageTag: aef556c9-cf4e-4e63-8ddf-f7a75368ab9e
+		summarizeBy: none
+		sourceColumn: MOEDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTDOLAR
+		dataType: string
+		lineageTag: 446da18f-07c3-46be-bde8-2e92788c6d38
+		summarizeBy: none
+		sourceColumn: DTDOLAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO1
+		dataType: string
+		lineageTag: c0349f33-3628-4ef5-abf6-9f251dda0fac
+		summarizeBy: none
+		sourceColumn: DESCRICAO1
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO2
+		dataType: string
+		lineageTag: aa0573a3-ab69-4105-946f-d689d8f0bd52
+		summarizeBy: none
+		sourceColumn: DESCRICAO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO3
+		dataType: string
+		lineageTag: 8c54f5af-32ce-4caf-83fc-2a71bc277051
+		summarizeBy: none
+		sourceColumn: DESCRICAO3
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO4
+		dataType: string
+		lineageTag: b521e82a-7707-4895-a4c2-4d341e7c0e4d
+		summarizeBy: none
+		sourceColumn: DESCRICAO4
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSIFICFISCAL
+		dataType: string
+		lineageTag: 95faaa40-f982-47be-92f9-4cf84fd87a83
+		summarizeBy: none
+		sourceColumn: CLASSIFICFISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREP
+		dataType: string
+		lineageTag: a52524d7-3a1a-4aa3-b7d2-c1b0c4e7b293
+		summarizeBy: none
+		sourceColumn: CUSTOREP
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTCUSTOREP
+		dataType: string
+		lineageTag: 15d4261f-44c6-4e38-a77a-2ae9036d5e62
+		summarizeBy: none
+		sourceColumn: DTULTALTCUSTOREP
+
+		annotation SummarizationSetBy = Automatic
+
+	column NBM
+		dataType: string
+		lineageTag: 973dde2c-53bc-4975-82cd-4ab27799ceaa
+		summarizeBy: none
+		sourceColumn: NBM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFAB
+		dataType: string
+		lineageTag: c32c0dad-92e5-4077-a373-01d421d4a57c
+		summarizeBy: none
+		sourceColumn: CODFAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column TRIBFEDERAL
+		dataType: string
+		lineageTag: 304a280d-6fbd-4f06-9bf3-845c0ca9c805
+		summarizeBy: none
+		sourceColumn: TRIBFEDERAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIPIVENDA
+		dataType: string
+		lineageTag: a520a268-97f2-45f9-a741-078783661540
+		summarizeBy: none
+		sourceColumn: PERCIPIVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC1
+		dataType: string
+		lineageTag: 5f2541b6-62d1-459b-9159-85aec5ba85be
+		summarizeBy: none
+		sourceColumn: PERCDESC1
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC2
+		dataType: string
+		lineageTag: 9e5f8e1c-703d-4f69-9f8f-e99a5921e888
+		summarizeBy: none
+		sourceColumn: PERCDESC2
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC3
+		dataType: string
+		lineageTag: cd04cc23-f2f4-4241-a7c5-a109a56fdb55
+		summarizeBy: none
+		sourceColumn: PERCDESC3
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC4
+		dataType: string
+		lineageTag: cf4d7f32-8dab-4398-80e2-cc6dd9821586
+		summarizeBy: none
+		sourceColumn: PERCDESC4
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERICMSANTECIPADO
+		dataType: string
+		lineageTag: 8a680117-2b0e-4c2c-8a4f-6ad077c6ba02
+		summarizeBy: none
+		sourceColumn: PERICMSANTECIPADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODSIMILAR
+		dataType: string
+		lineageTag: 9f3e0884-d345-47dd-8654-d064f04b9225
+		summarizeBy: none
+		sourceColumn: CODPRODSIMILAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCATEGORIA
+		dataType: string
+		lineageTag: eb620005-1224-471b-8068-6eeba4867b7a
+		summarizeBy: none
+		sourceColumn: CODCATEGORIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSUBCATEGORIA
+		dataType: string
+		lineageTag: 2c05d2a6-5967-4e77-be02-5291c9045d94
+		summarizeBy: none
+		sourceColumn: CODSUBCATEGORIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFILIAL
+		dataType: string
+		lineageTag: 2603a84e-82fb-433b-ba10-6cb621fbadee
+		summarizeBy: none
+		sourceColumn: CODFILIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPODESCARGA
+		dataType: string
+		lineageTag: a317c516-9bc6-4a20-9b33-65f04ef41b56
+		summarizeBy: none
+		sourceColumn: TIPODESCARGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATUS
+		dataType: string
+		lineageTag: 2aa047bb-4cf3-4734-8e41-1af12978ae36
+		summarizeBy: none
+		sourceColumn: STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCOUTRASDESP
+		dataType: string
+		lineageTag: ff801d98-c82f-439c-932c-2375c0b18f33
+		summarizeBy: none
+		sourceColumn: PERCOUTRASDESP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCFRETEFOB
+		dataType: string
+		lineageTag: c674f845-3d54-468d-bccf-11be36d6f715
+		summarizeBy: none
+		sourceColumn: PERCFRETEFOB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESPADICIONAL
+		dataType: string
+		lineageTag: 4e98aa84-8066-4d72-a327-afe1466531fc
+		summarizeBy: none
+		sourceColumn: PERCDESPADICIONAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESPFIN
+		dataType: string
+		lineageTag: 76ff146a-98b3-4928-92cb-c987602460c5
+		summarizeBy: none
+		sourceColumn: PERCDESPFIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLBONIFIC
+		dataType: string
+		lineageTag: ac49e581-89b3-433f-b03f-f0f09d00fd15
+		summarizeBy: none
+		sourceColumn: VLBONIFIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOFIXO
+		dataType: string
+		lineageTag: 155360df-efef-490e-949e-590f60379c6f
+		summarizeBy: none
+		sourceColumn: PRECOFIXO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PISCOFINSRETIDO
+		dataType: string
+		lineageTag: 883e5b51-4580-443f-9c02-bf04e07fe0bb
+		summarizeBy: none
+		sourceColumn: PISCOFINSRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCCOMMOT
+		dataType: string
+		lineageTag: 496a0c0d-a6c2-4494-a6a2-39d22833b89c
+		summarizeBy: none
+		sourceColumn: PERCCOMMOT
+
+		annotation SummarizationSetBy = Automatic
+
+	column IVARESSARC
+		dataType: string
+		lineageTag: b535b1f0-ff59-4dbe-b9f9-70a1b018dc9d
+		summarizeBy: none
+		sourceColumn: IVARESSARC
+
+		annotation SummarizationSetBy = Automatic
+
+	column ICMSRESSARC
+		dataType: string
+		lineageTag: 16ff4402-4ac3-4f81-bd9c-e3e27fe78c6f
+		summarizeBy: none
+		sourceColumn: ICMSRESSARC
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOVOLUMEDESCARGA
+		dataType: string
+		lineageTag: ba58be3f-24f9-41b5-bc20-58e9de17d9bd
+		summarizeBy: none
+		sourceColumn: TIPOVOLUMEDESCARGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMISSAOFIXA
+		dataType: string
+		lineageTag: 27a51cdd-359b-4dba-8f7a-439829ad5143
+		summarizeBy: none
+		sourceColumn: COMISSAOFIXA
+
+		annotation SummarizationSetBy = Automatic
+
+	column USACLASSIFICACAO
+		dataType: string
+		lineageTag: 7b98b887-03af-48ef-b5d7-6c9e62e1c593
+		summarizeBy: none
+		sourceColumn: USACLASSIFICACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIVAICMANTECIP
+		dataType: string
+		lineageTag: 58c20157-5919-4e3d-89ab-d653fef09e28
+		summarizeBy: none
+		sourceColumn: PERCIVAICMANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQINTICMANTECIP
+		dataType: string
+		lineageTag: c66a2cbe-1576-4063-8fbb-349901600643
+		summarizeBy: none
+		sourceColumn: PERCALIQINTICMANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQEXTICMANTECIP
+		dataType: string
+		lineageTag: 2967a596-f747-42c6-9c4a-911637f631de
+		summarizeBy: none
+		sourceColumn: PERCALIQEXTICMANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMRED
+		dataType: string
+		lineageTag: 8715a64b-50f7-4a98-b746-7726d01eb3db
+		summarizeBy: none
+		sourceColumn: PERCICMRED
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIVA
+		dataType: string
+		lineageTag: a03bb00b-3966-4945-abc3-fbdf5a93c467
+		summarizeBy: none
+		sourceColumn: PERCIVA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQINT
+		dataType: string
+		lineageTag: cf2c6dc5-a1ef-43ab-b4b9-6ec288f0156d
+		summarizeBy: none
+		sourceColumn: PERCALIQINT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQEXT
+		dataType: string
+		lineageTag: 39093118-ae30-4299-a95b-97483838103c
+		summarizeBy: none
+		sourceColumn: PERCALIQEXT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAUXILIAR2
+		dataType: string
+		lineageTag: 78547908-871e-4d70-9ea2-4a541e755a66
+		summarizeBy: none
+		sourceColumn: CODAUXILIAR2
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENDADIRETA
+		dataType: string
+		lineageTag: ed59405e-cb8d-487d-8054-217d20e23647
+		summarizeBy: none
+		sourceColumn: VENDADIRETA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PASSELIVRE
+		dataType: string
+		lineageTag: 06f68e19-8c75-4d5d-bde0-ddc5fe7c59c1
+		summarizeBy: none
+		sourceColumn: PASSELIVRE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODULO2
+		dataType: string
+		lineageTag: b4e553b2-14d3-4968-92d5-bf7ddd419227
+		summarizeBy: none
+		sourceColumn: MODULO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUA2
+		dataType: string
+		lineageTag: 1007621d-73d7-45c5-b8f0-ca9d09ea7704
+		summarizeBy: none
+		sourceColumn: RUA2
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMERO2
+		dataType: string
+		lineageTag: 705fe2cb-338b-486c-b2b8-413efcdb6708
+		summarizeBy: none
+		sourceColumn: NUMERO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column APTO2
+		dataType: string
+		lineageTag: d84e4a38-5abd-4ef1-bfef-94cbda241c5e
+		summarizeBy: none
+		sourceColumn: APTO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPASSEFISCAL
+		dataType: string
+		lineageTag: b8a3219e-cc8f-4db2-9d04-204a94c5e2ea
+		summarizeBy: none
+		sourceColumn: CODPASSEFISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOALTURAPALETE
+		dataType: string
+		lineageTag: a6b4db85-f0fe-441b-ac4f-bb46862f3cf9
+		summarizeBy: none
+		sourceColumn: TIPOALTURAPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMLOTE
+		dataType: string
+		lineageTag: 88005f62-4175-48a7-ad15-64ac7e7fd197
+		summarizeBy: none
+		sourceColumn: NUMLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTVENC
+		dataType: string
+		lineageTag: 88a00d5b-99ee-4fd7-9384-ee60a0e2f037
+		summarizeBy: none
+		sourceColumn: DTVENC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERINDENIZ
+		dataType: string
+		lineageTag: 25f4a0ab-6fae-4dfe-a1d1-4b1f868ca5eb
+		summarizeBy: none
+		sourceColumn: PERINDENIZ
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERPIS
+		dataType: string
+		lineageTag: 1545d821-c037-465d-b2d3-24ea9225d398
+		summarizeBy: none
+		sourceColumn: PERPIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column MULTIPLO
+		dataType: string
+		lineageTag: e31ec11c-6d12-4061-89cc-bb96b08d23f7
+		summarizeBy: none
+		sourceColumn: MULTIPLO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLVENDATEMP
+		dataType: string
+		lineageTag: fb765101-7bfb-4a25-bf5a-4c6d7c8647f3
+		summarizeBy: none
+		sourceColumn: VLVENDATEMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOMERC
+		dataType: string
+		lineageTag: 72aa1ad1-52d4-4767-ba57-e5ece1247994
+		summarizeBy: none
+		sourceColumn: TIPOMERC
+
+		annotation SummarizationSetBy = Automatic
+
+	column NORMAFORNECEDOR
+		dataType: string
+		lineageTag: 8ab292ad-c0a1-4e7d-8da5-a9805a8f5218
+		summarizeBy: none
+		sourceColumn: NORMAFORNECEDOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOCALCST
+		dataType: string
+		lineageTag: b7e81266-f4a4-4909-9877-83d36488ad46
+		summarizeBy: none
+		sourceColumn: TIPOCALCST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERICMFRETE
+		dataType: string
+		lineageTag: 06edad09-04c1-4f0d-b366-05ab612ddb19
+		summarizeBy: none
+		sourceColumn: PERICMFRETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTEMINCOMPRA
+		dataType: string
+		lineageTag: f493d9de-eff7-4443-a2b8-1a5862e8e0a9
+		summarizeBy: none
+		sourceColumn: LOTEMINCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOSUGCOMPRA
+		dataType: string
+		lineageTag: 8c391b83-80d1-48b2-a626-81f3a02ca83e
+		summarizeBy: none
+		sourceColumn: TIPOSUGCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTEINCCOMPRA
+		dataType: string
+		lineageTag: eab1bb8c-7ffb-451f-8707-21d33a85a969
+		summarizeBy: none
+		sourceColumn: LOTEINCCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTEPRODUCAO
+		dataType: string
+		lineageTag: 6f6da056-297e-4922-8c14-4a187806d687
+		summarizeBy: none
+		sourceColumn: LOTEPRODUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column AUTORIZATIPO4
+		dataType: string
+		lineageTag: 99ba7648-4f95-4281-876a-dc16c2559065
+		summarizeBy: none
+		sourceColumn: AUTORIZATIPO4
+
+		annotation SummarizationSetBy = Automatic
+
+	column ACEITAVENDAFRACAO
+		dataType: string
+		lineageTag: 25686cda-99a3-4d39-b7d5-8c73655b73d5
+		summarizeBy: none
+		sourceColumn: ACEITAVENDAFRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCCADASTRO
+		dataType: string
+		lineageTag: b70ad34b-4892-47ae-be2a-efa0d3172871
+		summarizeBy: none
+		sourceColumn: CODFUNCCADASTRO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCULTALTER
+		dataType: string
+		lineageTag: 90692f8a-af29-4bb8-92b0-274e33dd2772
+		summarizeBy: none
+		sourceColumn: CODFUNCULTALTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCAL
+		dataType: string
+		lineageTag: fb957c38-78eb-4f1e-944e-7e68d7ba34fd
+		summarizeBy: none
+		sourceColumn: CODFISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUT
+		dataType: string
+		lineageTag: 67909c0e-f6ef-46c7-ab07-415a27e72f74
+		summarizeBy: none
+		sourceColumn: SITTRIBUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column MARGEMMIN
+		dataType: string
+		lineageTag: 6aaa98b9-cb0b-4ab9-8c0b-a44cbeb15b0f
+		summarizeBy: none
+		sourceColumn: MARGEMMIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLAGS
+		dataType: string
+		lineageTag: 35489b46-1bf5-496e-8a5b-11dc5667017b
+		summarizeBy: none
+		sourceColumn: FLAGS
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLAG0
+		dataType: string
+		lineageTag: 1f11ae3e-2205-4adf-9893-a8ce8cbfc517
+		summarizeBy: none
+		sourceColumn: FLAG0
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLAG1
+		dataType: string
+		lineageTag: 76300ccf-7efb-45d5-859f-ce866ed5fa57
+		summarizeBy: none
+		sourceColumn: FLAG1
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLAG2
+		dataType: string
+		lineageTag: e7b0f408-80bd-409a-9d17-e77b2a48fbda
+		summarizeBy: none
+		sourceColumn: FLAG2
+
+		annotation SummarizationSetBy = Automatic
+
+	column LARGURAARM
+		dataType: string
+		lineageTag: 9d7f1290-911b-4925-bb79-533626d64434
+		summarizeBy: none
+		sourceColumn: LARGURAARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMPRIMENTOARM
+		dataType: string
+		lineageTag: 211005ca-a7bd-4ed1-82bf-a2cd1f8f7a1b
+		summarizeBy: none
+		sourceColumn: COMPRIMENTOARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTURAARM
+		dataType: string
+		lineageTag: a9de03d4-54a3-4a1d-a7e8-36049f852c33
+		summarizeBy: none
+		sourceColumn: ALTURAARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VOLUMEARM
+		dataType: string
+		lineageTag: 737d79c4-eaf5-4e6f-a79f-5b16e9800563
+		summarizeBy: none
+		sourceColumn: VOLUMEARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMAPAPAL
+		dataType: string
+		lineageTag: 3942f612-06c9-402b-a10a-0a920ed321b1
+		summarizeBy: none
+		sourceColumn: CAMAPAPAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOPROD
+		dataType: string
+		lineageTag: 59610e7d-c3d0-4366-9f15-482f276dc920
+		summarizeBy: none
+		sourceColumn: TIPOPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOPAL
+		dataType: string
+		lineageTag: cf637ddd-3bc2-4f06-b894-1b73ee836133
+		summarizeBy: none
+		sourceColumn: TIPOPAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOARM
+		dataType: string
+		lineageTag: ab79f337-3a32-4e85-8f9a-a34ab793ef65
+		summarizeBy: none
+		sourceColumn: TIPOARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPACIDADEPICKING
+		dataType: string
+		lineageTag: d0441811-1d84-420c-9cde-2f8eb70ee4b2
+		summarizeBy: none
+		sourceColumn: CAPACIDADEPICKING
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCARACPROD
+		dataType: string
+		lineageTag: 691bb288-a8f5-4474-8f57-707c9a895e6a
+		summarizeBy: none
+		sourceColumn: CODCARACPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTIPOESTRUTURA
+		dataType: string
+		lineageTag: 1e2b2ebd-9ce3-4b91-9409-6ebf3000c1bd
+		summarizeBy: none
+		sourceColumn: CODTIPOESTRUTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column RESTRICAOBLOCADO
+		dataType: string
+		lineageTag: 3f491df2-8d90-4f7c-8c0c-04eba256f020
+		summarizeBy: none
+		sourceColumn: RESTRICAOBLOCADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PONTOREPOSICAO
+		dataType: string
+		lineageTag: 8b787c0a-7ef6-43e7-bce7-725a7d0b56c6
+		summarizeBy: none
+		sourceColumn: PONTOREPOSICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOPALPUL
+		dataType: string
+		lineageTag: 3b149ee6-1701-4bba-b4ef-2db5f7b040eb
+		summarizeBy: none
+		sourceColumn: TIPOPALPUL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTIPOESTRUTURAPUL
+		dataType: string
+		lineageTag: 650bbacd-965f-4a65-85b5-3837557c78d2
+		summarizeBy: none
+		sourceColumn: CODTIPOESTRUTURAPUL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODMASTER
+		dataType: string
+		lineageTag: 3b11bc4a-6ee4-4c7d-b6f2-941b1847946d
+		summarizeBy: none
+		sourceColumn: CODPRODMASTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTUNITCT
+		dataType: string
+		lineageTag: 34e2b196-1832-4723-9c0d-33d57d63b8af
+		summarizeBy: none
+		sourceColumn: QTUNITCT
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUACT
+		dataType: string
+		lineageTag: af1ea6a4-8e3a-45b4-ab53-364f5a5849aa
+		summarizeBy: none
+		sourceColumn: RUACT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMEROCT
+		dataType: string
+		lineageTag: 1c6fba9c-a285-4eed-8321-584b61fba3ab
+		summarizeBy: none
+		sourceColumn: NUMEROCT
+
+		annotation SummarizationSetBy = Automatic
+
+	column APTOCT
+		dataType: string
+		lineageTag: 94df577b-d575-4e36-b6b6-2368b19fd701
+		summarizeBy: none
+		sourceColumn: APTOCT
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODULOCT
+		dataType: string
+		lineageTag: 883c168f-d66c-4144-b1d7-17f7c45500ff
+		summarizeBy: none
+		sourceColumn: MODULOCT
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUACX
+		dataType: string
+		lineageTag: b5b82872-1376-4662-aebd-c5b0c8663250
+		summarizeBy: none
+		sourceColumn: RUACX
+
+		annotation SummarizationSetBy = Automatic
+
+	column APTOCX
+		dataType: string
+		lineageTag: 8c878286-869c-47ce-a2ec-8a189e9f38b1
+		summarizeBy: none
+		sourceColumn: APTOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODULOCX
+		dataType: string
+		lineageTag: 36529143-fe5d-431c-965b-8c464477c395
+		summarizeBy: none
+		sourceColumn: MODULOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADECT
+		dataType: string
+		lineageTag: 11dc15a6-43f0-491b-957d-7dc6bb88ba71
+		summarizeBy: none
+		sourceColumn: UNIDADECT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTA
+		dataType: string
+		lineageTag: 553d88d5-7ff0-4734-9c0f-555721a9899a
+		summarizeBy: none
+		sourceColumn: VLPAUTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAIPI
+		dataType: string
+		lineageTag: b7efb25d-4f9a-4506-94cb-1d81b7614768
+		summarizeBy: none
+		sourceColumn: VLPAUTAIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMBALAGEMMASTER
+		dataType: string
+		lineageTag: d681085f-6331-4bbc-9ec6-37d3ccea2d69
+		summarizeBy: none
+		sourceColumn: EMBALAGEMMASTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMBALAGEMCT
+		dataType: string
+		lineageTag: 7c7ca720-daa6-4dde-8f5f-65adecbd8843
+		summarizeBy: none
+		sourceColumn: EMBALAGEMCT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMDIASMAXVENDA
+		dataType: string
+		lineageTag: dd4c8e3b-25b1-428f-b26e-e341abc1ec03
+		summarizeBy: none
+		sourceColumn: NUMDIASMAXVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAALIQCREDICMSDIFER
+		dataType: string
+		lineageTag: 73fd5df1-a7ed-4cc5-90a6-968a12098fbe
+		summarizeBy: none
+		sourceColumn: USAALIQCREDICMSDIFER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQCREDICMSDIFEREST
+		dataType: string
+		lineageTag: bd7607eb-8e74-406f-894a-d9b306130619
+		summarizeBy: none
+		sourceColumn: PERCALIQCREDICMSDIFEREST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQCREDICMSDIFERINTER
+		dataType: string
+		lineageTag: 71ae7f1b-4504-4fa6-8ad8-ba0169646a33
+		summarizeBy: none
+		sourceColumn: PERCALIQCREDICMSDIFERINTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PSICOTROPICO
+		dataType: string
+		lineageTag: 3fa42e19-837a-42df-9b4e-866d9bb837a9
+		summarizeBy: none
+		sourceColumn: PSICOTROPICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODLINHAPROD
+		dataType: string
+		lineageTag: 5e7b480d-6262-4f7f-a861-ac42a66c1264
+		summarizeBy: none
+		sourceColumn: CODLINHAPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPTAB
+		dataType: string
+		lineageTag: 7ba4a3c9-b4ff-43b2-ad60-2e62f666329c
+		summarizeBy: none
+		sourceColumn: CUSTOREPTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUM
+		dataType: string
+		lineageTag: c250e923-9322-4704-b169-645c960a2793
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUMTAB
+		dataType: string
+		lineageTag: abdb8fde-9d49-436b-8167-a7fde71cd4c8
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUMTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC5
+		dataType: string
+		lineageTag: 71ce71db-df7c-4be5-8668-71b1bf84f4fe
+		summarizeBy: none
+		sourceColumn: PERCDESC5
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMLISTAINVENTROT
+		dataType: string
+		lineageTag: b252c445-9a38-4787-8ea2-097a7c7b10bb
+		summarizeBy: none
+		sourceColumn: NUMLISTAINVENTROT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQINVENTROT
+		dataType: string
+		lineageTag: 9b0d75c4-4b67-4f9f-bb23-50a35726b657
+		summarizeBy: none
+		sourceColumn: NUMSEQINVENTROT
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEDICAMENTOHOSPITALAR
+		dataType: string
+		lineageTag: 246962a1-c856-446b-a51f-54454cd05264
+		summarizeBy: none
+		sourceColumn: MEDICAMENTOHOSPITALAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONIFICVENDA
+		dataType: string
+		lineageTag: 6df4eedb-d1c5-4c4b-9913-78e2671f12f1
+		summarizeBy: none
+		sourceColumn: PERCBONIFICVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRINCIPIOATIVO
+		dataType: string
+		lineageTag: 6f2946f4-15c1-426b-a821-ce8eb5abed50
+		summarizeBy: none
+		sourceColumn: PRINCIPIOATIVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOTRIBUTMEDIC
+		dataType: string
+		lineageTag: 8d490378-4839-43b4-9365-306f45f65876
+		summarizeBy: none
+		sourceColumn: TIPOTRIBUTMEDIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEPOSITO
+		dataType: string
+		lineageTag: 259f83c6-994f-484a-b11b-db1716adc6f7
+		summarizeBy: none
+		sourceColumn: DEPOSITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PREDIO
+		dataType: string
+		lineageTag: f9861510-6c4e-489b-b2c5-989387ffc903
+		summarizeBy: none
+		sourceColumn: PREDIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NIVEL
+		dataType: string
+		lineageTag: 927dc7bd-e20f-4fe3-85fd-6b0c205fddc4
+		summarizeBy: none
+		sourceColumn: NIVEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODEQUIPE
+		dataType: string
+		lineageTag: 59c0bec6-ec22-4c97-88a1-1f6ada3d4987
+		summarizeBy: none
+		sourceColumn: CODEQUIPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCSUFRAMA
+		dataType: string
+		lineageTag: 25f4256a-987b-45f8-a900-b3c83c2ac077
+		summarizeBy: none
+		sourceColumn: PERCSUFRAMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column EXPORTABALANCA
+		dataType: string
+		lineageTag: bacc66c7-6015-4fa1-93d4-53b74eee2133
+		summarizeBy: none
+		sourceColumn: EXPORTABALANCA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODINFNUTRI
+		dataType: string
+		lineageTag: dfaa0227-e680-4446-9cf8-4a0658e77b94
+		summarizeBy: none
+		sourceColumn: CODINFNUTRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column SOMENTETV3
+		dataType: string
+		lineageTag: b78a7721-6765-4aee-a79d-752e58010754
+		summarizeBy: none
+		sourceColumn: SOMENTETV3
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCOMTLMKT
+		dataType: string
+		lineageTag: 391b3159-74ab-4fa5-ad5a-b317a4a55461
+		summarizeBy: none
+		sourceColumn: PCOMTLMKT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEQTABPRECO
+		dataType: string
+		lineageTag: 88e6e99a-b961-4bb3-91f8-8ff0e4282eae
+		summarizeBy: none
+		sourceColumn: SEQTABPRECO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTPONTOPEDIDO
+		dataType: string
+		lineageTag: f4d56a22-2f10-4af4-b673-929d2d9a969e
+		summarizeBy: none
+		sourceColumn: QTPONTOPEDIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMINPRODUZIR
+		dataType: string
+		lineageTag: dc80c143-547c-4395-8625-eb2499427fb1
+		summarizeBy: none
+		sourceColumn: QTMINPRODUZIR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMEDIOPRODUCAO
+		dataType: string
+		lineageTag: 0b2a2d15-057e-4b1e-9711-6559ca0509f0
+		summarizeBy: none
+		sourceColumn: PRAZOMEDIOPRODUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMECOMERCIAL
+		dataType: string
+		lineageTag: 3b6f436b-9db5-4940-b6d4-456086baf92c
+		summarizeBy: none
+		sourceColumn: NOMECOMERCIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column FRACAOSEPARACAO
+		dataType: string
+		lineageTag: 6e64dc90-bd18-428e-a41b-6c645f176111
+		summarizeBy: none
+		sourceColumn: FRACAOSEPARACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORTRANSF
+		dataType: string
+		lineageTag: 3cb625f2-33ba-4161-9870-81344945559e
+		summarizeBy: none
+		sourceColumn: FATORTRANSF
+
+		annotation SummarizationSetBy = Automatic
+
+	column TAMANHOLOTEFAB
+		dataType: string
+		lineageTag: d09df0c6-4e14-4c1d-9522-ad7cfc3e3998
+		summarizeBy: none
+		sourceColumn: TAMANHOLOTEFAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VELOCIDADEESP
+		dataType: string
+		lineageTag: 5f09c644-f596-47b6-8b7e-a8b62e3db8ef
+		summarizeBy: none
+		sourceColumn: VELOCIDADEESP
+
+		annotation SummarizationSetBy = Automatic
+
+	column VELOCIDADEOPERACIONAL
+		dataType: string
+		lineageTag: 9fd79580-19d0-4ef7-92b3-df5d4c5df82a
+		summarizeBy: none
+		sourceColumn: VELOCIDADEOPERACIONAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column EFICIENCIAOPERACIONAL
+		dataType: string
+		lineageTag: 4195953b-e2c5-490f-a4cf-845b8ab9b8d3
+		summarizeBy: none
+		sourceColumn: EFICIENCIAOPERACIONAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFILIALPRODUTORA
+		dataType: string
+		lineageTag: 90f20444-336e-42b1-bed4-da42f530e2e8
+		summarizeBy: none
+		sourceColumn: CODFILIALPRODUTORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORUNFARM
+		dataType: string
+		lineageTag: 33c10589-ca6e-49eb-8a95-8062cc295021
+		summarizeBy: none
+		sourceColumn: FATORUNFARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VOLUMEREC
+		dataType: string
+		lineageTag: ec817bd7-36f1-40ee-b9c3-1d3cd6ef1ea2
+		summarizeBy: none
+		sourceColumn: VOLUMEREC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZO
+		dataType: string
+		lineageTag: 579d81b7-024d-4984-a848-825ee58fd083
+		summarizeBy: none
+		sourceColumn: PRAZO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOENTR
+		dataType: string
+		lineageTag: 986fd3a9-773a-4e8d-a45e-ce176b9b52f5
+		summarizeBy: none
+		sourceColumn: PRAZOENTR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRINCIPATIVO
+		dataType: string
+		lineageTag: 98b8d6a8-41f0-4db7-ac87-93fbb42dfb80
+		summarizeBy: none
+		sourceColumn: CODPRINCIPATIVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODSINTEGRA
+		dataType: string
+		lineageTag: 3390df3f-dff3-4ff8-878e-7db070eeb0fd
+		summarizeBy: none
+		sourceColumn: CODPRODSINTEGRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPORESTRICAOMED
+		dataType: string
+		lineageTag: e27976be-0139-4012-abc5-6e3fb584479a
+		summarizeBy: none
+		sourceColumn: TIPORESTRICAOMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column INFORMACOESTECNICAS
+		dataType: string
+		lineageTag: 9d3eb78e-084d-433d-898e-07f509705480
+		summarizeBy: none
+		sourceColumn: INFORMACOESTECNICAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column FRETEESPECIAL
+		dataType: string
+		lineageTag: c96d3798-e9f5-4d0b-aa0a-d1ff6963b83f
+		summarizeBy: none
+		sourceColumn: FRETEESPECIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIRFOTOPROD
+		dataType: string
+		lineageTag: dcce2120-6884-42fb-93b4-6db8e017d083
+		summarizeBy: none
+		sourceColumn: DIRFOTOPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPMC
+		dataType: string
+		lineageTag: 651cea35-555a-4857-b093-0afe5024837a
+		summarizeBy: none
+		sourceColumn: CUSTOREPMC
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOMP
+		dataType: string
+		lineageTag: d820c84d-58d9-4ef5-aa5d-7208ff9960ae
+		summarizeBy: none
+		sourceColumn: TIPOMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOBRUTOMASTER
+		dataType: string
+		lineageTag: 34eba1d6-64a3-485a-8cef-ab87fcbe4201
+		summarizeBy: none
+		sourceColumn: PESOBRUTOMASTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOLIQMASTER
+		dataType: string
+		lineageTag: 7e512578-03fe-4e3c-8364-0415258b272e
+		summarizeBy: none
+		sourceColumn: PESOLIQMASTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCKROTATIVO
+		dataType: string
+		lineageTag: be2b2d75-ea2e-4c95-bb4d-01efdfb057f8
+		summarizeBy: none
+		sourceColumn: PCKROTATIVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOEXPURGO
+		dataType: string
+		lineageTag: e0fda792-23a1-4459-b0ba-129b79a2acb1
+		summarizeBy: none
+		sourceColumn: PRAZOEXPURGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMULTEXPURGO
+		dataType: string
+		lineageTag: 7d68058e-b63e-4d5d-8fd2-a748de2abff6
+		summarizeBy: none
+		sourceColumn: NUMULTEXPURGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTEXPURGO
+		dataType: string
+		lineageTag: 4e6a5419-e5f8-45df-b18b-a04e416b7b13
+		summarizeBy: none
+		sourceColumn: DTULTEXPURGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTPROXEXPURGO
+		dataType: string
+		lineageTag: e08c384d-3ccb-4d30-b142-b394f17d8693
+		summarizeBy: none
+		sourceColumn: DTPROXEXPURGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC6
+		dataType: string
+		lineageTag: c0debcc4-7027-4fc6-83bf-fbb0fdf9d6ca
+		summarizeBy: none
+		sourceColumn: PERCDESC6
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC7
+		dataType: string
+		lineageTag: af5600d9-a237-404c-af51-c322ef323af2
+		summarizeBy: none
+		sourceColumn: PERCDESC7
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC8
+		dataType: string
+		lineageTag: 297d53a0-740f-4f9b-86c5-764a46119ffc
+		summarizeBy: none
+		sourceColumn: PERCDESC8
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC9
+		dataType: string
+		lineageTag: f4303da0-00f8-4ef3-a87e-71bc7c818955
+		summarizeBy: none
+		sourceColumn: PERCDESC9
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC10
+		dataType: string
+		lineageTag: 99ebab2a-f0c7-4d70-916e-a81407928979
+		summarizeBy: none
+		sourceColumn: PERCDESC10
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMORIGINAL
+		dataType: string
+		lineageTag: 7f37b994-37d4-4c87-b261-5a560d01e633
+		summarizeBy: none
+		sourceColumn: NUMORIGINAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEPOSITOCX
+		dataType: string
+		lineageTag: 30a1587f-7f8c-4d34-936d-92f4463d1945
+		summarizeBy: none
+		sourceColumn: DEPOSITOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column PREDIOCX
+		dataType: string
+		lineageTag: c01b9a93-df60-4a1a-8692-0b1033363fc0
+		summarizeBy: none
+		sourceColumn: PREDIOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column NIVELCX
+		dataType: string
+		lineageTag: caac77f4-1efd-4a2d-9676-64db1416f748
+		summarizeBy: none
+		sourceColumn: NIVELCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column PONTOREPOSICAOCX
+		dataType: string
+		lineageTag: c6b806a2-7a50-4b38-850f-448032ebe1da
+		summarizeBy: none
+		sourceColumn: PONTOREPOSICAOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPACIDADEPICKINGCX
+		dataType: string
+		lineageTag: 2e3e326f-436d-45b5-88ad-89fd4a8c8200
+		summarizeBy: none
+		sourceColumn: CAPACIDADEPICKINGCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column DENOMINACAOCOMUNBRASILEIRA
+		dataType: string
+		lineageTag: 18c2b3cd-fec9-4834-a659-ec184b026c5a
+		summarizeBy: none
+		sourceColumn: DENOMINACAOCOMUNBRASILEIRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCTOLERANCIAVAL
+		dataType: string
+		lineageTag: 8e861317-c183-440e-ad5e-f4fb1fb3a7f0
+		summarizeBy: none
+		sourceColumn: PERCTOLERANCIAVAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO5
+		dataType: string
+		lineageTag: 25a72a85-c8f4-4427-88db-a6a6208478b2
+		summarizeBy: none
+		sourceColumn: DESCRICAO5
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO6
+		dataType: string
+		lineageTag: b3fd4ed1-d355-48ed-ad61-8efcf895e98c
+		summarizeBy: none
+		sourceColumn: DESCRICAO6
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO7
+		dataType: string
+		lineageTag: f24eabf1-3219-4623-8352-751d1e9ce7d1
+		summarizeBy: none
+		sourceColumn: DESCRICAO7
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOPROXIMACOMPRA
+		dataType: string
+		lineageTag: 437d5af5-f317-4e01-afcb-b4525dcff436
+		summarizeBy: none
+		sourceColumn: CUSTOPROXIMACOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODDISTRIB
+		dataType: string
+		lineageTag: 21917ec4-2a44-48a8-8a59-9d022a60efaf
+		summarizeBy: none
+		sourceColumn: CODDISTRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column ABASTEPALETE
+		dataType: string
+		lineageTag: cffd0292-ef34-4fb8-9cd2-9afe3d63e284
+		summarizeBy: none
+		sourceColumn: ABASTEPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column ABASTEPALETECX
+		dataType: string
+		lineageTag: ff917520-ee78-40a7-8186-0cc1dfa21d21
+		summarizeBy: none
+		sourceColumn: ABASTEPALETECX
+
+		annotation SummarizationSetBy = Automatic
+
+	column FRACIONADO
+		dataType: string
+		lineageTag: f0905475-77da-4cfb-8d73-6d0ea3a6b51f
+		summarizeBy: none
+		sourceColumn: FRACIONADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEDCODFUNCLIBVENDA
+		dataType: string
+		lineageTag: 41e11f6e-bc69-4839-a532-66feb27ddbc5
+		summarizeBy: none
+		sourceColumn: MEDCODFUNCLIBVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEDDTLIBVENDA
+		dataType: string
+		lineageTag: a9f48148-b2e9-4c04-bb35-e8a3570ca09c
+		summarizeBy: none
+		sourceColumn: MEDDTLIBVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODNESTLETERCEIROS
+		dataType: string
+		lineageTag: cf07508e-6249-4306-be30-e77318b4dc75
+		summarizeBy: none
+		sourceColumn: CODNESTLETERCEIROS
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVERSAONESTLE
+		dataType: string
+		lineageTag: b3c0c816-01e6-42fa-a57e-0e2f08036eb3
+		summarizeBy: none
+		sourceColumn: FATORCONVERSAONESTLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCVENDA
+		dataType: string
+		lineageTag: 805fae07-a1a7-4b2a-a10f-747e9a3d577b
+		summarizeBy: none
+		sourceColumn: PERCVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONFAZ
+		dataType: string
+		lineageTag: 6d226e29-2347-441a-b413-764f1699bdd2
+		summarizeBy: none
+		sourceColumn: CONFAZ
+
+		annotation SummarizationSetBy = Automatic
+
+	column MULTIPLO2
+		dataType: string
+		lineageTag: 4fca7e0e-597a-474f-a41d-747d60d8634a
+		summarizeBy: none
+		sourceColumn: MULTIPLO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISANUMREGMED
+		dataType: string
+		lineageTag: e3e72ead-0786-4959-ab26-de98c7fefae4
+		summarizeBy: none
+		sourceColumn: ANVISANUMREGMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAQTEMBALAGEM
+		dataType: string
+		lineageTag: eff2f5bc-7a17-4456-8995-62f5a8d7ef2b
+		summarizeBy: none
+		sourceColumn: ANVISAQTEMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAFORMAFARM
+		dataType: string
+		lineageTag: a9e3d1d4-cd81-4eb7-abe2-e492d271b7aa
+		summarizeBy: none
+		sourceColumn: ANVISAFORMAFARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAVIAADM
+		dataType: string
+		lineageTag: db558825-3203-44a9-8174-095cfedc9ed0
+		summarizeBy: none
+		sourceColumn: ANVISAVIAADM
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISACLASTERAPEUTICA
+		dataType: string
+		lineageTag: c1fa47d8-7a86-48a1-8964-88eee6726ae0
+		summarizeBy: none
+		sourceColumn: ANVISACLASTERAPEUTICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAUSOCONTINUO
+		dataType: string
+		lineageTag: d3157964-a688-472e-b61a-38efcc7d7498
+		summarizeBy: none
+		sourceColumn: ANVISAUSOCONTINUO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISACAPINSTAL
+		dataType: string
+		lineageTag: a3d055e9-8a20-433f-accb-691148ab64da
+		summarizeBy: none
+		sourceColumn: ANVISACAPINSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISACONCEN
+		dataType: string
+		lineageTag: d4652cfc-269d-41b4-b566-a421cf40b6a3
+		summarizeBy: none
+		sourceColumn: ANVISACONCEN
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAUNDOSAG
+		dataType: string
+		lineageTag: 97834554-1647-4fb7-b3fe-0480cee9d4f2
+		summarizeBy: none
+		sourceColumn: ANVISAUNDOSAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISANUMPRINCAT
+		dataType: string
+		lineageTag: 3b85a61f-3100-45d6-8a48-787a352af7c8
+		summarizeBy: none
+		sourceColumn: ANVISANUMPRINCAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISADESCPRINCAT1
+		dataType: string
+		lineageTag: 75b8ab48-f5c4-4615-93cf-b294849774c9
+		summarizeBy: none
+		sourceColumn: ANVISADESCPRINCAT1
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISADESCPRINCAT2
+		dataType: string
+		lineageTag: 2fa7fe4a-66df-43f3-a79f-8f3ee916b739
+		summarizeBy: none
+		sourceColumn: ANVISADESCPRINCAT2
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISADESCPRINCAT3
+		dataType: string
+		lineageTag: 3c1aa1da-a20b-462e-8e8c-516f91ac441b
+		summarizeBy: none
+		sourceColumn: ANVISADESCPRINCAT3
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISADESCPRINCAT4
+		dataType: string
+		lineageTag: 92ccd581-ed6b-4523-9e9e-9f4c9c3f9dac
+		summarizeBy: none
+		sourceColumn: ANVISADESCPRINCAT4
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISACOEFTEC
+		dataType: string
+		lineageTag: deb58876-2011-41f8-926a-b10e3d8c9399
+		summarizeBy: none
+		sourceColumn: ANVISACOEFTEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISAUNCOEFTEC
+		dataType: string
+		lineageTag: f079a216-0b4b-4fd2-a81c-60418a4c77ea
+		summarizeBy: none
+		sourceColumn: ANVISAUNCOEFTEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PAISORIGEM
+		dataType: string
+		lineageTag: ee2aaae4-1300-4311-92bd-3b6335ffa02c
+		summarizeBy: none
+		sourceColumn: PAISORIGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOEMBALAGEMNESTLE
+		dataType: string
+		lineageTag: a6548740-63c6-4a1f-b9fa-249cf88d4bbf
+		summarizeBy: none
+		sourceColumn: TIPOEMBALAGEMNESTLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOAP
+		dataType: string
+		lineageTag: b940ea1c-5344-4c28-a953-5f096a990bf6
+		summarizeBy: none
+		sourceColumn: CODENDERECOAP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOCX
+		dataType: string
+		lineageTag: 63a6f6c3-eb9d-4e60-a826-9c5c10dfb2bd
+		summarizeBy: none
+		sourceColumn: CODENDERECOCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPZFM
+		dataType: string
+		lineageTag: 9472c8b9-ad87-4fae-9e84-e6971f4c2557
+		summarizeBy: none
+		sourceColumn: CUSTOREPZFM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPZFMTAB
+		dataType: string
+		lineageTag: 8062df5b-5bfe-43f4-be25-0bcd9919a1e8
+		summarizeBy: none
+		sourceColumn: CUSTOREPZFMTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUMZFM
+		dataType: string
+		lineageTag: 02fb1161-c9a7-4362-b319-9a978a1d8782
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUMZFM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUMZFMTAB
+		dataType: string
+		lineageTag: 30c0f5bb-de3d-4efc-b414-3c2cc7647676
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUMZFMTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEXIVA
+		dataType: string
+		lineageTag: 5054da80-50f9-4445-88b6-1ef9845d45ed
+		summarizeBy: none
+		sourceColumn: MEXIVA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEXIEPS
+		dataType: string
+		lineageTag: bdc2d3c5-3854-4e9a-9236-3cb51b55c7c8
+		summarizeBy: none
+		sourceColumn: MEXIEPS
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEXFPGC
+		dataType: string
+		lineageTag: 49895c88-d377-45e4-b033-ea28a172cdf8
+		summarizeBy: none
+		sourceColumn: MEXFPGC
+
+		annotation SummarizationSetBy = Automatic
+
+	column USACROSS
+		dataType: string
+		lineageTag: 9b7fbabb-7c2b-4ba2-b603-431f090ec0e5
+		summarizeBy: none
+		sourceColumn: USACROSS
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAWMS
+		dataType: string
+		lineageTag: 258d2d9d-c411-48df-b871-761000797b98
+		summarizeBy: none
+		sourceColumn: USAWMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODGENEROFISCAL
+		dataType: string
+		lineageTag: a17184f0-b491-417a-98f3-39fe44d9c339
+		summarizeBy: none
+		sourceColumn: CODGENEROFISCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMAXGONDULA
+		dataType: string
+		lineageTag: c7ac6efc-52f3-4939-976c-fddbcd5ad450
+		summarizeBy: none
+		sourceColumn: QTMAXGONDULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMINGONDULA
+		dataType: string
+		lineageTag: 43eda5d3-a19a-4126-8e17-b94e1f6eedca
+		summarizeBy: none
+		sourceColumn: QTMINGONDULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZARVASILHAME
+		dataType: string
+		lineageTag: 95411da5-8178-4179-8c23-44461fa0d5be
+		summarizeBy: none
+		sourceColumn: UTILIZARVASILHAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODVASILHAME
+		dataType: string
+		lineageTag: 8f25063a-1014-4433-8693-07043e1dc139
+		summarizeBy: none
+		sourceColumn: CODVASILHAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQATU
+		dataType: string
+		lineageTag: 162fa09e-f748-4b91-a2e5-d71834228f0c
+		summarizeBy: none
+		sourceColumn: NUMSEQATU
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOEMBALAGE
+		dataType: string
+		lineageTag: 6a3f11fa-b399-4598-b7f5-938348ca1019
+		summarizeBy: none
+		sourceColumn: TIPOEMBALAGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOCARGA
+		dataType: string
+		lineageTag: eec8eb25-b0e5-4857-991a-4fc8e9608d8e
+		summarizeBy: none
+		sourceColumn: TIPOCARGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALIQAVULSADARE
+		dataType: string
+		lineageTag: b3001aff-14f7-4daa-b4c6-d9d72db35d61
+		summarizeBy: none
+		sourceColumn: ALIQAVULSADARE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBASEREDENT
+		dataType: string
+		lineageTag: 4a6b6891-9786-4089-bd81-fb3e68eaed18
+		summarizeBy: none
+		sourceColumn: PERCBASEREDENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPORKG
+		dataType: string
+		lineageTag: 709a128b-8870-47e8-91b7-aebca96bf344
+		summarizeBy: none
+		sourceColumn: VLIPIPORKG
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOPISCOFINSRETIDO
+		dataType: string
+		lineageTag: 004e9b77-a018-4985-a85e-2662a718bd5f
+		summarizeBy: none
+		sourceColumn: TIPOPISCOFINSRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESPECIFICOATIVIDADEPR
+		dataType: string
+		lineageTag: 47f301af-d398-4f61-8e4a-80a0d6fbae15
+		summarizeBy: none
+		sourceColumn: ESPECIFICOATIVIDADEPR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODROTINAULTALTER
+		dataType: string
+		lineageTag: febf19af-a66f-4d62-bf5b-697d383fe3a1
+		summarizeBy: none
+		sourceColumn: CODROTINAULTALTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMISSAOPORLUCRATIVIDADE
+		dataType: string
+		lineageTag: dcad2bcb-8eeb-48d4-9af8-5f0087c6011d
+		summarizeBy: none
+		sourceColumn: COMISSAOPORLUCRATIVIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPESO
+		dataType: string
+		lineageTag: ce226b0e-9d3f-4012-be1f-a40246556589
+		summarizeBy: none
+		sourceColumn: VLIPIPESO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOCOMISSAO
+		dataType: string
+		lineageTag: 5c7bfe24-824d-4353-8714-f1666634f314
+		summarizeBy: none
+		sourceColumn: TIPOCOMISSAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOESTOQUE
+		dataType: string
+		lineageTag: 5ad745ae-b0d8-46ad-94a8-0795f650d4a3
+		summarizeBy: none
+		sourceColumn: TIPOESTOQUE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOPECA
+		dataType: string
+		lineageTag: 385b8bbb-1ab9-4508-961b-16b09694dae3
+		summarizeBy: none
+		sourceColumn: PESOPECA
+
+		annotation SummarizationSetBy = Automatic
+
+	column RESTRICAOTRANSP
+		dataType: string
+		lineageTag: 14cc7b7f-2cca-44ba-b403-589dbe88113c
+		summarizeBy: none
+		sourceColumn: RESTRICAOTRANSP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRAZOENT
+		dataType: string
+		lineageTag: 9666eb58-b51b-4d30-b093-43867fa419cc
+		summarizeBy: none
+		sourceColumn: CODPRAZOENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMETROS
+		dataType: string
+		lineageTag: e0ff8a9a-8cc3-4fbb-949c-799c0eb70e3a
+		summarizeBy: none
+		sourceColumn: QTMETROS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOPALETE
+		dataType: string
+		lineageTag: 19d17046-8209-45d9-995f-dd59be8c503b
+		summarizeBy: none
+		sourceColumn: PESOPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOAL
+		dataType: string
+		lineageTag: 0c940393-17ec-49e7-9c39-72b07622a9ba
+		summarizeBy: none
+		sourceColumn: CODENDERECOAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALIDARLOTE
+		dataType: string
+		lineageTag: 1f11c9d2-996e-445f-9b0c-cb21a0ba5408
+		summarizeBy: none
+		sourceColumn: VALIDARLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODGRADE
+		dataType: string
+		lineageTag: fd5a333d-e7d4-4a67-98eb-7fad473fd77f
+		summarizeBy: none
+		sourceColumn: CODGRADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCOR
+		dataType: string
+		lineageTag: d2e58a60-22c4-4dcb-bba8-651a09cf88fd
+		summarizeBy: none
+		sourceColumn: CODCOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column COLUNAGRADE
+		dataType: string
+		lineageTag: 5c8e2bcb-7cfd-48a0-8561-94024b778467
+		summarizeBy: none
+		sourceColumn: COLUNAGRADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column ISENTOREGMS
+		dataType: string
+		lineageTag: d8ec69b5-53cf-45cc-be47-b9e6e2f1cb13
+		summarizeBy: none
+		sourceColumn: ISENTOREGMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGMS
+		dataType: string
+		lineageTag: a4f01f2f-0288-49e2-900f-1a8bc2f7a483
+		summarizeBy: none
+		sourceColumn: REGMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALBONIFIC
+		dataType: string
+		lineageTag: c4fcbc90-c67c-4e0b-8c90-98819d3a1f89
+		summarizeBy: none
+		sourceColumn: CODFISCALBONIFIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALSR
+		dataType: string
+		lineageTag: b23df8d5-e397-40c3-a140-4f16a5ecd0e3
+		summarizeBy: none
+		sourceColumn: CODFISCALSR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPANT
+		dataType: string
+		lineageTag: 7d96527f-40ab-466b-893f-d6ecac339054
+		summarizeBy: none
+		sourceColumn: CUSTOREPANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTOQUEPORLOTE
+		dataType: string
+		lineageTag: a649f492-0de0-4388-9f40-57610238de5f
+		summarizeBy: none
+		sourceColumn: ESTOQUEPORLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROXNUMLOTE
+		dataType: string
+		lineageTag: f9219051-4fd2-471f-b20f-383aac77cc53
+		summarizeBy: none
+		sourceColumn: PROXNUMLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTROLAVALIDADEDOLOTE
+		dataType: string
+		lineageTag: 0e424f5e-d8e9-41cb-990c-8bbc8da0487c
+		summarizeBy: none
+		sourceColumn: CONTROLAVALIDADEDOLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PREFIXOLOTE
+		dataType: string
+		lineageTag: f3f185c6-26e7-4143-ae17-856667dceb69
+		summarizeBy: none
+		sourceColumn: PREFIXOLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMEDIOVENDA
+		dataType: string
+		lineageTag: 7a78bcd5-3316-45aa-a695-28c45c859ca1
+		summarizeBy: none
+		sourceColumn: PRAZOMEDIOVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCCREDICMPRESUMIDO
+		dataType: string
+		lineageTag: 52b75c76-dd9c-4c88-bbd3-469f1ea37e32
+		summarizeBy: none
+		sourceColumn: PERCCREDICMPRESUMIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PONTOREPOSICAOAL
+		dataType: string
+		lineageTag: 76bd25ae-4f6f-45a1-b29b-9e3d89ca7a2b
+		summarizeBy: none
+		sourceColumn: PONTOREPOSICAOAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPACIDADEPICKINGAL
+		dataType: string
+		lineageTag: b4513947-4e4f-4145-9387-b4201ee88997
+		summarizeBy: none
+		sourceColumn: CAPACIDADEPICKINGAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPONORMA
+		dataType: string
+		lineageTag: 10fedca9-b9e7-4491-827c-026c130c7015
+		summarizeBy: none
+		sourceColumn: TIPONORMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column RECMINARM
+		dataType: string
+		lineageTag: 312d03a2-ae67-4a91-9ca8-1c6e55a92cc8
+		summarizeBy: none
+		sourceColumn: RECMINARM
+
+		annotation SummarizationSetBy = Automatic
+
+	column NORMAPALETE
+		dataType: string
+		lineageTag: 7ad93110-413a-4afe-b86e-4ac00ec24824
+		summarizeBy: none
+		sourceColumn: NORMAPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEIVA
+		dataType: string
+		lineageTag: 7142df88-1364-404c-aaa8-e239bd142231
+		summarizeBy: none
+		sourceColumn: REDBASEIVA
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEALIQEXT
+		dataType: string
+		lineageTag: ab60b113-391d-4c86-afa3-fc8bcf723c8e
+		summarizeBy: none
+		sourceColumn: REDBASEALIQEXT
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMINIMAATACADO
+		dataType: string
+		lineageTag: 88dcc3b1-206e-412c-b952-db78873b1277
+		summarizeBy: none
+		sourceColumn: QTMINIMAATACADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMINIMAATACADOF
+		dataType: string
+		lineageTag: a1fced92-64b5-4e28-8041-71015c26c01d
+		summarizeBy: none
+		sourceColumn: QTMINIMAATACADOF
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONCILIAIMPORTACAO
+		dataType: string
+		lineageTag: 993a16b2-3428-49fe-885d-65ee704d1524
+		summarizeBy: none
+		sourceColumn: CONCILIAIMPORTACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONOUTRAS
+		dataType: string
+		lineageTag: cde4559b-9c89-4b00-b762-a56c010ae820
+		summarizeBy: none
+		sourceColumn: PERCBONOUTRAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIMPORTACAO
+		dataType: string
+		lineageTag: 17472594-19bd-437c-9f81-7d069d3ed82e
+		summarizeBy: none
+		sourceColumn: PERCIMPORTACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCOFINSIMP
+		dataType: string
+		lineageTag: 64aa3390-5689-410d-b9b1-0411e33b5aa8
+		summarizeBy: none
+		sourceColumn: PERCOFINSIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERPISIMP
+		dataType: string
+		lineageTag: c6adf557-c714-4feb-88a7-a6cb6cf8a265
+		summarizeBy: none
+		sourceColumn: PERPISIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLMAODEOBRA
+		dataType: string
+		lineageTag: 4063267b-a8a0-4c55-aba9-067331812164
+		summarizeBy: none
+		sourceColumn: VLMAODEOBRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCOMPROF1
+		dataType: string
+		lineageTag: fc99f9e9-16dc-4227-bccb-943fbf8f6fa5
+		summarizeBy: none
+		sourceColumn: PCOMPROF1
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODRISCO
+		dataType: string
+		lineageTag: a76cd2a4-e877-4689-b09d-c32da1fd2f86
+		summarizeBy: none
+		sourceColumn: CODRISCO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODACONDICIONAMENTO
+		dataType: string
+		lineageTag: 8715d4dd-10f8-4839-ab47-f6fac14ad3ae
+		summarizeBy: none
+		sourceColumn: CODACONDICIONAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONFERENOCHECKOUT
+		dataType: string
+		lineageTag: cba2653b-472a-4cfa-b014-08baea5c402a
+		summarizeBy: none
+		sourceColumn: CONFERENOCHECKOUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLCALORICO
+		dataType: string
+		lineageTag: 2d331887-debf-437a-b1f6-856e5da9136c
+		summarizeBy: none
+		sourceColumn: VLCALORICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROTEINA
+		dataType: string
+		lineageTag: 9f9b51b3-e58b-4042-92a4-2bd6c3226f51
+		summarizeBy: none
+		sourceColumn: PROTEINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIPIDEO
+		dataType: string
+		lineageTag: f4837db5-d585-4e3a-997f-5345ca1952df
+		summarizeBy: none
+		sourceColumn: LIPIDEO
+
+		annotation SummarizationSetBy = Automatic
+
+	column UMIDADE
+		dataType: string
+		lineageTag: 536938e9-2e79-4e43-8d20-1c24cb0e066d
+		summarizeBy: none
+		sourceColumn: UMIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COL95
+		dataType: string
+		lineageTag: 6682d1c4-92a5-42ab-a2eb-c635ef93e879
+		summarizeBy: none
+		sourceColumn: COL95
+
+		annotation SummarizationSetBy = Automatic
+
+	column SALMONELA
+		dataType: string
+		lineageTag: a75a7964-8bb6-4e0a-b51d-d700f86dafe0
+		summarizeBy: none
+		sourceColumn: SALMONELA
+
+		annotation SummarizationSetBy = Automatic
+
+	column BOLORESLEVEDURAS
+		dataType: string
+		lineageTag: fc026ac8-0997-43d9-98e2-b7bce076866f
+		summarizeBy: none
+		sourceColumn: BOLORESLEVEDURAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTFAUREAUS
+		dataType: string
+		lineageTag: 2ad95e8a-677c-47b3-a94f-8f1f202fe2fb
+		summarizeBy: none
+		sourceColumn: ESTFAUREAUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column MOFADO
+		dataType: string
+		lineageTag: 85841a9c-e06f-42e6-8fee-4c5557c2cbd4
+		summarizeBy: none
+		sourceColumn: MOFADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TOTDEFEITO
+		dataType: string
+		lineageTag: 2e316e71-15c5-4421-a63c-d315f2866580
+		summarizeBy: none
+		sourceColumn: TOTDEFEITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAGRUPMAPASEP
+		dataType: string
+		lineageTag: 057b0ece-8652-4ff4-925c-00f1769b61e9
+		summarizeBy: none
+		sourceColumn: CODAGRUPMAPASEP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCPERDAKG
+		dataType: string
+		lineageTag: 0fbbe0a7-6c8b-4159-a076-a6dc970024d5
+		summarizeBy: none
+		sourceColumn: PERCPERDAKG
+
+		annotation SummarizationSetBy = Automatic
+
+	column APROVEITACREDICMS
+		dataType: string
+		lineageTag: f7dae580-af4d-4b59-919c-343245a098e5
+		summarizeBy: none
+		sourceColumn: APROVEITACREDICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column APROVEITACREDPISCOFINS
+		dataType: string
+		lineageTag: 3544c89a-a1ba-4e64-99cf-90ee2579a5f1
+		summarizeBy: none
+		sourceColumn: APROVEITACREDPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOFORNEC
+		dataType: string
+		lineageTag: b2d91fe3-db0a-4f2b-b3bd-8b6d172f5038
+		summarizeBy: none
+		sourceColumn: CUSTOFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESCICMS
+		dataType: string
+		lineageTag: d42900e5-c402-4aae-a838-839650eeda85
+		summarizeBy: none
+		sourceColumn: PERCDESCICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCACRES
+		dataType: string
+		lineageTag: 36957a9f-a304-4abe-8f8f-ad74e56fe5a6
+		summarizeBy: none
+		sourceColumn: PERCACRES
+
+		annotation SummarizationSetBy = Automatic
+
+	column PTABELAFORNEC
+		dataType: string
+		lineageTag: ff79fb28-bd6d-4387-9cde-2fa068cc3954
+		summarizeBy: none
+		sourceColumn: PTABELAFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHECARMULTIPLOVENDABNF
+		dataType: string
+		lineageTag: 53feb7cc-6c5d-4a62-8023-fd75b4b4df41
+		summarizeBy: none
+		sourceColumn: CHECARMULTIPLOVENDABNF
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLICMSANTECIPADO
+		dataType: string
+		lineageTag: 5e38b5a4-3140-4fe6-8976-36324f2deceb
+		summarizeBy: none
+		sourceColumn: VLICMSANTECIPADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSECOMISSAO
+		dataType: string
+		lineageTag: 736c7186-6103-42ac-a62d-741e76f540bc
+		summarizeBy: none
+		sourceColumn: CLASSECOMISSAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FRACAOCIPA
+		dataType: string
+		lineageTag: d60d31a0-79bf-4250-b394-758ff611bd91
+		summarizeBy: none
+		sourceColumn: FRACAOCIPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANALISEDESC
+		dataType: string
+		lineageTag: 1cc1b9c6-8ed8-41ab-ad54-3fe9273c86e6
+		summarizeBy: none
+		sourceColumn: ANALISEDESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column VOLPESMED
+		dataType: string
+		lineageTag: a7051931-92dd-4b97-bc97-73d1a6e14901
+		summarizeBy: none
+		sourceColumn: VOLPESMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column PH
+		dataType: string
+		lineageTag: fc34067b-4f7c-4d32-bd99-86b9c56da8a3
+		summarizeBy: none
+		sourceColumn: PH
+
+		annotation SummarizationSetBy = Automatic
+
+	column DENSIDADE
+		dataType: string
+		lineageTag: 3fc81bfa-f580-4d27-93c1-107145696e71
+		summarizeBy: none
+		sourceColumn: DENSIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DOSEAMENTO
+		dataType: string
+		lineageTag: b2fff0b6-5010-4464-ae66-43de0e32c1c3
+		summarizeBy: none
+		sourceColumn: DOSEAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTMICROBIANA
+		dataType: string
+		lineageTag: 200e38ae-6ff6-47d2-ae79-a8fc601bd20f
+		summarizeBy: none
+		sourceColumn: CONTMICROBIANA
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDENTIFICACAO
+		dataType: string
+		lineageTag: e7147e8a-3aa7-46b1-9417-d6688eb79602
+		summarizeBy: none
+		sourceColumn: IDENTIFICACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IMPUREZA
+		dataType: string
+		lineageTag: e9360804-6138-4606-98cb-b9470a6c55ce
+		summarizeBy: none
+		sourceColumn: IMPUREZA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FRIABILIDADE
+		dataType: string
+		lineageTag: 26eb0ae2-b8a9-48c8-903f-8ae861229d9e
+		summarizeBy: none
+		sourceColumn: FRIABILIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESINTEGRACAO
+		dataType: string
+		lineageTag: 057fe309-5e20-41e1-84c0-ca00b92371a1
+		summarizeBy: none
+		sourceColumn: DESINTEGRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DISSOLUCAO
+		dataType: string
+		lineageTag: 1bc910b8-55c7-4ee4-a359-d77b191e4382
+		summarizeBy: none
+		sourceColumn: DISSOLUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIFORMIDADE
+		dataType: string
+		lineageTag: 557eb980-cf61-4f59-b36d-c819d67e1afc
+		summarizeBy: none
+		sourceColumn: UNIFORMIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIRASSINATURA
+		dataType: string
+		lineageTag: d943a479-2e27-46a2-b1ff-e1c819e69763
+		summarizeBy: none
+		sourceColumn: DIRASSINATURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VERSANALISE
+		dataType: string
+		lineageTag: d6f572ad-5b67-4f83-874d-336cf03c635b
+		summarizeBy: none
+		sourceColumn: VERSANALISE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTLOGANALISE
+		dataType: string
+		lineageTag: b1b089c0-86c6-4fc5-9fab-12718f136024
+		summarizeBy: none
+		sourceColumn: CONTLOGANALISE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESQPATOGENOS
+		dataType: string
+		lineageTag: e50671dc-2b63-4d39-84ba-abcf60f28cc5
+		summarizeBy: none
+		sourceColumn: PESQPATOGENOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPULMAOREGULADOR
+		dataType: string
+		lineageTag: 1fab4f2a-fa27-4247-9ecb-9a6774fd7b85
+		summarizeBy: none
+		sourceColumn: USAPULMAOREGULADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTPULMAOREGULADOR
+		dataType: string
+		lineageTag: b61f472b-a99c-4563-8e79-9330572f3249
+		summarizeBy: none
+		sourceColumn: QTPULMAOREGULADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOPA
+		dataType: string
+		lineageTag: e03c7e0a-6dc6-411c-bc7e-ef3e9eb43c81
+		summarizeBy: none
+		sourceColumn: CODENDERECOPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPACIDADEPA
+		dataType: string
+		lineageTag: afac6278-7329-4a64-947c-6d09e70e9089
+		summarizeBy: none
+		sourceColumn: CAPACIDADEPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PONTOREPOSICAOPA
+		dataType: string
+		lineageTag: 7dfa0b12-b481-4368-bf18-82800b074149
+		summarizeBy: none
+		sourceColumn: PONTOREPOSICAOPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODEMBALAGEM
+		dataType: string
+		lineageTag: be29a8bc-ebad-45de-a652-7c904df05790
+		summarizeBy: none
+		sourceColumn: CODPRODEMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONSIDERARICMSANTECIPCUSTO
+		dataType: string
+		lineageTag: 6c0877b3-8afe-4e00-acaf-3448e4b120bf
+		summarizeBy: none
+		sourceColumn: CONSIDERARICMSANTECIPCUSTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCOFINS
+		dataType: string
+		lineageTag: 4a7691fb-ce2e-4dd3-af6e-f07baaaac59e
+		summarizeBy: none
+		sourceColumn: PERCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCREDICMS
+		dataType: string
+		lineageTag: 0b2ec71b-4579-42f4-9e79-70c284cf37db
+		summarizeBy: none
+		sourceColumn: PERCREDICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTIMPORTINTEGRACAO
+		dataType: string
+		lineageTag: 74efbdf4-f99d-4d8d-8de0-86679c7f040a
+		summarizeBy: none
+		sourceColumn: DTIMPORTINTEGRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTER
+		dataType: string
+		lineageTag: 2ecb0319-0b83-4688-9d2b-d50f3f8e9016
+		summarizeBy: none
+		sourceColumn: DTULTALTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column UMIDADEANALISE
+		dataType: string
+		lineageTag: e70c3578-5b22-476a-9a7d-4ea2aab3941a
+		summarizeBy: none
+		sourceColumn: UMIDADEANALISE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDIFERENCAKGFRIO
+		dataType: string
+		lineageTag: c4e1edfe-29b0-4e25-a7f1-384b3d42a250
+		summarizeBy: none
+		sourceColumn: PERCDIFERENCAKGFRIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEALIQEXTBCR
+		dataType: string
+		lineageTag: bdd47527-2ed0-412e-99a0-017821476447
+		summarizeBy: none
+		sourceColumn: REDBASEALIQEXTBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQEXTBCR
+		dataType: string
+		lineageTag: 0d82c853-c7a6-48ac-adec-04df9156f1c5
+		summarizeBy: none
+		sourceColumn: PERCALIQEXTBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQINTBCR
+		dataType: string
+		lineageTag: 88a6990e-8475-4139-a0bc-881a789a7786
+		summarizeBy: none
+		sourceColumn: PERCALIQINTBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLADICIONALBCSTBCR
+		dataType: string
+		lineageTag: 7095c24c-d3a3-4bae-afcf-42bb40b0e46d
+		summarizeBy: none
+		sourceColumn: VLADICIONALBCSTBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTABCR
+		dataType: string
+		lineageTag: 639acec1-036d-4116-9487-10ff71116845
+		summarizeBy: none
+		sourceColumn: VLPAUTABCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEIVABCR
+		dataType: string
+		lineageTag: f480d57f-9b71-46f1-97e5-014f08076da3
+		summarizeBy: none
+		sourceColumn: REDBASEIVABCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIVABCR
+		dataType: string
+		lineageTag: 3ddaf4f0-a424-4334-a07e-c76eb3831f94
+		summarizeBy: none
+		sourceColumn: PERCIVABCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CALCCREDIPI
+		dataType: string
+		lineageTag: f4e8673c-7579-4a66-b919-3d68af0f3f66
+		summarizeBy: none
+		sourceColumn: CALCCREDIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ENVIARFORCAVENDAS
+		dataType: string
+		lineageTag: abd52c25-3e86-4a7d-9691-2b1019c905ec
+		summarizeBy: none
+		sourceColumn: ENVIARFORCAVENDAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DADOSTECNICOS
+		dataType: string
+		lineageTag: b5e85a8b-3fff-4dc2-8b7e-6df08663ccde
+		summarizeBy: none
+		sourceColumn: DADOSTECNICOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALENTTRANSF
+		dataType: string
+		lineageTag: 2b6a4283-6dc6-48f9-88ff-9548dc0229bd
+		summarizeBy: none
+		sourceColumn: CODFISCALENTTRANSF
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMINVALIDADE
+		dataType: string
+		lineageTag: b1385578-9831-4d49-b413-9bdb6cd2749c
+		summarizeBy: none
+		sourceColumn: PRAZOMINVALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMAXVALIDADE
+		dataType: string
+		lineageTag: d50eba6d-490a-47c7-86ff-f54e39f2e316
+		summarizeBy: none
+		sourceColumn: PRAZOMAXVALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZAPRECOMAXCONSUMIDOR
+		dataType: string
+		lineageTag: 9a9a62bd-7215-4840-ae74-e313321316bf
+		summarizeBy: none
+		sourceColumn: UTILIZAPRECOMAXCONSUMIDOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIMPPRODUTORURAL
+		dataType: string
+		lineageTag: 71e3653e-b90b-4572-b910-59b0e5798bdf
+		summarizeBy: none
+		sourceColumn: PERCIMPPRODUTORURAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESTAQUEFICHATECNICA
+		dataType: string
+		lineageTag: 5eb7c640-c556-4718-9fa4-f10b9bd86e14
+		summarizeBy: none
+		sourceColumn: DESTAQUEFICHATECNICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPAG
+		dataType: string
+		lineageTag: 0c4e988c-3a4d-4940-98dd-5aab2023b8dc
+		summarizeBy: none
+		sourceColumn: NUMPAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column LETRAPAGINA
+		dataType: string
+		lineageTag: 6c9d36dd-a7f0-4488-af13-7449e6081d2a
+		summarizeBy: none
+		sourceColumn: LETRAPAGINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEQPAGINA
+		dataType: string
+		lineageTag: 9dfdf4f3-2608-44bc-8da9-7df295f3540c
+		summarizeBy: none
+		sourceColumn: SEQPAGINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODONU
+		dataType: string
+		lineageTag: a6f780e5-8ffb-4b98-8e1a-dced29cd8751
+		summarizeBy: none
+		sourceColumn: CODONU
+
+		annotation SummarizationSetBy = Automatic
+
+	column NATUREZAPRODUTO
+		dataType: string
+		lineageTag: 79a5671b-d30f-4209-b944-2f1cf8649d23
+		summarizeBy: none
+		sourceColumn: NATUREZAPRODUTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATAVOCOLLECT
+		dataType: string
+		lineageTag: 415c5bcf-dfa4-4cc4-a9c1-94b1073f7e3e
+		summarizeBy: none
+		sourceColumn: DATAVOCOLLECT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSFRETEFOBST
+		dataType: string
+		lineageTag: e754ec4a-29d0-43fa-a206-6ce3b3746047
+		summarizeBy: none
+		sourceColumn: PERCICMSFRETEFOBST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSFRETEFOBSTBCR
+		dataType: string
+		lineageTag: c1571dab-7d3f-416b-855f-25ac344bea6f
+		summarizeBy: none
+		sourceColumn: PERCICMSFRETEFOBSTBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIPIVENDATAB
+		dataType: string
+		lineageTag: 040d4b5d-9f02-4c19-bd77-f61342ba48fd
+		summarizeBy: none
+		sourceColumn: PERCIPIVENDATAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAIPIVENDA
+		dataType: string
+		lineageTag: 9d94f35d-540f-41f7-830f-367a92387b38
+		summarizeBy: none
+		sourceColumn: VLPAUTAIPIVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAIPIVENDATAB
+		dataType: string
+		lineageTag: cb18d0cd-249e-41a6-aac3-1cc4f7f9b5f5
+		summarizeBy: none
+		sourceColumn: VLPAUTAIPIVENDATAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPORKGVENDA
+		dataType: string
+		lineageTag: 94d7d400-ab60-40be-8110-a3a6d32780d5
+		summarizeBy: none
+		sourceColumn: VLIPIPORKGVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPORKGVENDATAB
+		dataType: string
+		lineageTag: 08efc811-ce23-433c-a143-b505d97eed01
+		summarizeBy: none
+		sourceColumn: VLIPIPORKGVENDATAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column IMUNETRIB
+		dataType: string
+		lineageTag: c36216ae-6d46-4a36-a6f2-0393014c182a
+		summarizeBy: none
+		sourceColumn: IMUNETRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFORMATOPAPEL
+		dataType: string
+		lineageTag: 25b7bc1d-3f54-4e01-9a8c-afeebf287a9b
+		summarizeBy: none
+		sourceColumn: CODFORMATOPAPEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column GRAMATURA
+		dataType: string
+		lineageTag: c51314e1-0751-4a09-821f-c9da7a37e531
+		summarizeBy: none
+		sourceColumn: GRAMATURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODUNIDMEDIDANF
+		dataType: string
+		lineageTag: 0c42686c-7eb9-443a-acc3-6cb0754bf5ae
+		summarizeBy: none
+		sourceColumn: CODUNIDMEDIDANF
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVERSAOKG
+		dataType: string
+		lineageTag: ba4e19e1-c567-456d-9ba2-eb8afba048f0
+		summarizeBy: none
+		sourceColumn: FATORCONVERSAOKG
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCPAPEL
+		dataType: string
+		lineageTag: 86b7fefe-8489-491c-a41e-edabe1c84f7a
+		summarizeBy: none
+		sourceColumn: DESCPAPEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALCONSIGFAT
+		dataType: string
+		lineageTag: 67ef8e3a-22a9-4898-aee0-3d0b5d119748
+		summarizeBy: none
+		sourceColumn: CODFISCALCONSIGFAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDIFALIQUOTAS
+		dataType: string
+		lineageTag: fa381b77-bd54-49e5-a6e3-18a0cdad03ae
+		summarizeBy: none
+		sourceColumn: PERCDIFALIQUOTAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLDIFALIQUOTAS
+		dataType: string
+		lineageTag: f40cd4de-8124-44c4-a6fc-65a6d955ad03
+		summarizeBy: none
+		sourceColumn: VLDIFALIQUOTAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOVARIAVEL
+		dataType: string
+		lineageTag: 853ba37a-f078-45a9-986c-15d34476e3c9
+		summarizeBy: none
+		sourceColumn: PESOVARIAVEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAICMS
+		dataType: string
+		lineageTag: d0eb89fd-115e-4169-ac50-587e3ece4e78
+		summarizeBy: none
+		sourceColumn: VLPAUTAICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLADICIONALBCST
+		dataType: string
+		lineageTag: 6f05af1d-0216-4f52-89dc-08c1f184a2fd
+		summarizeBy: none
+		sourceColumn: VLADICIONALBCST
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMPRACONSIGNADO
+		dataType: string
+		lineageTag: 3669ee95-4cfc-493b-87c6-6c16260d5168
+		summarizeBy: none
+		sourceColumn: COMPRACONSIGNADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALCONSIG
+		dataType: string
+		lineageTag: 5a3a4400-8dd5-47ca-ab7f-6e6a9897d863
+		summarizeBy: none
+		sourceColumn: CODFISCALCONSIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOGARANTIA
+		dataType: string
+		lineageTag: b088a2c5-aee8-4d66-8f78-4b7f1ddb8515
+		summarizeBy: none
+		sourceColumn: PRAZOGARANTIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTROLANUMSERIE
+		dataType: string
+		lineageTag: 4b44fe6e-f29f-4160-bc66-62495f24db1e
+		summarizeBy: none
+		sourceColumn: CONTROLANUMSERIE
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTDEMAXSEPARPEDIDO
+		dataType: string
+		lineageTag: 136f4e6e-57af-49ff-ab53-a79710a10be7
+		summarizeBy: none
+		sourceColumn: QTDEMAXSEPARPEDIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESPFORANF
+		dataType: string
+		lineageTag: c8dce3cd-b7d3-46b5-84d7-2c3046d997c2
+		summarizeBy: none
+		sourceColumn: PERCDESPFORANF
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMAXINDENIZACAO
+		dataType: string
+		lineageTag: 78f03ca8-c7f5-4008-b9c7-479e16b0f4eb
+		summarizeBy: none
+		sourceColumn: PRAZOMAXINDENIZACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFILIALRETIRA
+		dataType: string
+		lineageTag: 5f03d8b5-7e6b-48e0-8df1-91a727c41535
+		summarizeBy: none
+		sourceColumn: CODFILIALRETIRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODMARCA
+		dataType: string
+		lineageTag: 8033d210-6414-4e52-9f9b-a5d67b545790
+		summarizeBy: none
+		sourceColumn: CODMARCA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOEMBALAGEM
+		dataType: string
+		lineageTag: 06f7e810-f9e5-4887-82b1-49188747afa3
+		summarizeBy: none
+		sourceColumn: PESOEMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_DOSEAMENTO
+		dataType: string
+		lineageTag: 296cc026-f9ff-4fa8-9b46-753e98c59479
+		summarizeBy: none
+		sourceColumn: EX_DOSEAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_IMPUREZA
+		dataType: string
+		lineageTag: 251eb86a-f4ea-45aa-aad6-de4925f6ff17
+		summarizeBy: none
+		sourceColumn: EX_IMPUREZA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MARCA
+		dataType: string
+		lineageTag: d60085e9-2570-4c7d-854d-37f91832e54b
+		summarizeBy: none
+		sourceColumn: MARCA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTROLANUMSERIA
+		dataType: string
+		lineageTag: da5dfec9-24b2-48dc-a3ad-725e251edcbf
+		summarizeBy: none
+		sourceColumn: CONTROLANUMSERIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PVENDA
+		dataType: string
+		lineageTag: de7cb393-5772-4e78-ad1f-950e0bb65022
+		summarizeBy: none
+		sourceColumn: PVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTERSRVPRC
+		dataType: string
+		lineageTag: 91a6ae91-b011-46be-8d88-7353d5552cfc
+		summarizeBy: none
+		sourceColumn: DTULTALTERSRVPRC
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_UMIDADE
+		dataType: string
+		lineageTag: 24df6573-7055-4c45-9dc9-f04b4993dc49
+		summarizeBy: none
+		sourceColumn: EX_UMIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_COL95
+		dataType: string
+		lineageTag: b8e05e5a-4472-477c-b4e1-49194e8e3800
+		summarizeBy: none
+		sourceColumn: EX_COL95
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_SALMONELA
+		dataType: string
+		lineageTag: a76b77ce-3a97-410e-8ccc-1a69f146c113
+		summarizeBy: none
+		sourceColumn: EX_SALMONELA
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_BOLORESLEVEDURAS
+		dataType: string
+		lineageTag: 368f2904-98ab-4704-9e8b-fb7deacb2f43
+		summarizeBy: none
+		sourceColumn: EX_BOLORESLEVEDURAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_ESTFAUREAUS
+		dataType: string
+		lineageTag: 6b276c91-fc8e-4646-a99e-5e250a8141a0
+		summarizeBy: none
+		sourceColumn: EX_ESTFAUREAUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_MOFADO
+		dataType: string
+		lineageTag: 95c4c9fc-de1a-46f6-9739-c929ec0d28ae
+		summarizeBy: none
+		sourceColumn: EX_MOFADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_TOTDEFEITO
+		dataType: string
+		lineageTag: 6cdc9ce3-06f6-40ca-856d-2ae529a45b34
+		summarizeBy: none
+		sourceColumn: EX_TOTDEFEITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_VLCALORICO
+		dataType: string
+		lineageTag: 7f9a8027-ea21-44a3-8460-39e485a28899
+		summarizeBy: none
+		sourceColumn: EX_VLCALORICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_PROTEINA
+		dataType: string
+		lineageTag: f5062ac1-730f-4458-80be-f87840f7e773
+		summarizeBy: none
+		sourceColumn: EX_PROTEINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_LIPIDEO
+		dataType: string
+		lineageTag: 1c7e9047-ce4b-47c6-b7e1-bffd8d761e6b
+		summarizeBy: none
+		sourceColumn: EX_LIPIDEO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_VOLPESMED
+		dataType: string
+		lineageTag: 2d76a2cf-a50f-4724-a473-f066bda45b4d
+		summarizeBy: none
+		sourceColumn: EX_VOLPESMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_ANALISEDESC
+		dataType: string
+		lineageTag: 8ea4f800-a8b7-4eaf-b8a6-f0f531e330d7
+		summarizeBy: none
+		sourceColumn: EX_ANALISEDESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_UNIFORMIDADE
+		dataType: string
+		lineageTag: 722e9913-16ad-4099-b8f4-cc7080bcf0fa
+		summarizeBy: none
+		sourceColumn: EX_UNIFORMIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_DISSOLUCAO
+		dataType: string
+		lineageTag: 8cc4d366-96b8-45d7-851f-61a63824c825
+		summarizeBy: none
+		sourceColumn: EX_DISSOLUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_DESINTEGRACAO
+		dataType: string
+		lineageTag: be5b1573-60eb-4d5e-ad8e-16e263e9b68f
+		summarizeBy: none
+		sourceColumn: EX_DESINTEGRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_FRIABILIDADE
+		dataType: string
+		lineageTag: e4bb79fa-5897-4626-8837-a18a554417b2
+		summarizeBy: none
+		sourceColumn: EX_FRIABILIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_IDENTIFICACAO
+		dataType: string
+		lineageTag: 51484567-b179-4f0f-ac7c-8e3b1fca8fcb
+		summarizeBy: none
+		sourceColumn: EX_IDENTIFICACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_PESQPATOGENOS
+		dataType: string
+		lineageTag: 212de03a-0337-40d3-8e2e-0289249d0c24
+		summarizeBy: none
+		sourceColumn: EX_PESQPATOGENOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_CONTMICROBIANA
+		dataType: string
+		lineageTag: f9a53c0c-d723-4521-9877-723204e52e3a
+		summarizeBy: none
+		sourceColumn: EX_CONTMICROBIANA
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_DENSIDADE
+		dataType: string
+		lineageTag: ec39c8a1-ba80-4ace-a9b1-87bf7f5b32c9
+		summarizeBy: none
+		sourceColumn: EX_DENSIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column EX_PH
+		dataType: string
+		lineageTag: b59360a1-7484-4bae-990d-c126212d494c
+		summarizeBy: none
+		sourceColumn: EX_PH
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNDPOREMBALAGEM
+		dataType: string
+		lineageTag: 0f18257e-324c-4fb4-ab67-09b8d5888d24
+		summarizeBy: none
+		sourceColumn: UNDPOREMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSDIFERIDO
+		dataType: string
+		lineageTag: 9b26ff53-2422-4e05-bd19-577fe650585e
+		summarizeBy: none
+		sourceColumn: PERCICMSDIFERIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMDIASVALIDADEMIN
+		dataType: string
+		lineageTag: 4bcb2407-baf4-4ccc-b009-2e5fa531ff13
+		summarizeBy: none
+		sourceColumn: NUMDIASVALIDADEMIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECIFICESTRANGEIRA
+		dataType: string
+		lineageTag: f7557945-c8ba-4082-9ef5-aa0800e2393f
+		summarizeBy: none
+		sourceColumn: PRECIFICESTRANGEIRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCSEGURO
+		dataType: string
+		lineageTag: 6d72d8ae-4fc3-453d-8ddd-5d254c08a3c6
+		summarizeBy: none
+		sourceColumn: PERCSEGURO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESPDENTRONF
+		dataType: string
+		lineageTag: f5b90c37-99cd-4bfb-9e0a-174f9674b434
+		summarizeBy: none
+		sourceColumn: PERCDESPDENTRONF
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTDMAXSEPARARPEDIDO
+		dataType: string
+		lineageTag: 4cffea5a-6aba-4ca9-9a52-609c46898546
+		summarizeBy: none
+		sourceColumn: QTDMAXSEPARARPEDIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FUNDAPIANO
+		dataType: string
+		lineageTag: 6ed62a93-acb7-4db8-9368-04124d5253c9
+		summarizeBy: none
+		sourceColumn: FUNDAPIANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESCICMSDIF
+		dataType: string
+		lineageTag: d711fe55-6e94-47ec-96a8-5266c10dfecf
+		summarizeBy: none
+		sourceColumn: PERCDESCICMSDIF
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODDNF
+		dataType: string
+		lineageTag: 3f5a5035-cf03-4ecb-9ee6-7159e40aa965
+		summarizeBy: none
+		sourceColumn: CODPRODDNF
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAPVOLDNF
+		dataType: string
+		lineageTag: f7113286-5dfa-4b07-9944-a590c99528c0
+		summarizeBy: none
+		sourceColumn: CAPVOLDNF
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVDNF
+		dataType: string
+		lineageTag: 8f091e23-d686-432f-8b68-dff41258f45b
+		summarizeBy: none
+		sourceColumn: FATORCONVDNF
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCALIQEXTGUIA
+		dataType: string
+		lineageTag: c6934ebf-990f-4966-931a-c11404b5a06d
+		summarizeBy: none
+		sourceColumn: PERCALIQEXTGUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODRELEV
+		dataType: string
+		lineageTag: 0378ae11-7623-43be-a1fd-8ce7552d1dc3
+		summarizeBy: none
+		sourceColumn: CODPRODRELEV
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTALTCUSTOFORNEC
+		dataType: string
+		lineageTag: ad33611a-d197-45a2-9bf8-5c5f15948356
+		summarizeBy: none
+		sourceColumn: DTALTCUSTOFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTROLAPATRIMONIO
+		dataType: string
+		lineageTag: c5f1d1e6-ed74-40e0-babc-0dc5d3af1bab
+		summarizeBy: none
+		sourceColumn: CONTROLAPATRIMONIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column BASEPISCOFINSLITRAGEM
+		dataType: string
+		lineageTag: 5c56199a-ae82-47dc-b94e-cf022daa5497
+		summarizeBy: none
+		sourceColumn: BASEPISCOFINSLITRAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALORPISLITRAGEM
+		dataType: string
+		lineageTag: e2eab91a-35df-4fad-8300-abfd4b86757b
+		summarizeBy: none
+		sourceColumn: VALORPISLITRAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALORCOFINSLITRAGEM
+		dataType: string
+		lineageTag: 2148f623-f94a-4271-9289-5e6199bb870e
+		summarizeBy: none
+		sourceColumn: VALORCOFINSLITRAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PISRETIDO
+		dataType: string
+		lineageTag: 126f0dc5-cabd-4943-af69-a81610d993c9
+		summarizeBy: none
+		sourceColumn: PISRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COFINSRETIDO
+		dataType: string
+		lineageTag: 5d65bdca-5d1f-4947-a541-0a2d91d67950
+		summarizeBy: none
+		sourceColumn: COFINSRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IRRETIDO
+		dataType: string
+		lineageTag: e9a4cd93-4a6d-489a-8e76-2712b679773c
+		summarizeBy: none
+		sourceColumn: IRRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CSLLRETIDO
+		dataType: string
+		lineageTag: 572bade4-402c-4ee6-a08b-1233150cb5fb
+		summarizeBy: none
+		sourceColumn: CSLLRETIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EXTIPI
+		dataType: string
+		lineageTag: 5ca8aa46-115b-4845-8871-4e14f12ff8f3
+		summarizeBy: none
+		sourceColumn: EXTIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANVISA
+		dataType: string
+		lineageTag: 2b2e5eff-792f-4729-bcce-e36b3bc2be62
+		summarizeBy: none
+		sourceColumn: ANVISA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SIMPRO
+		dataType: string
+		lineageTag: deb469ae-91c5-4ef8-8638-fda0ed8914fe
+		summarizeBy: none
+		sourceColumn: SIMPRO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLRAPLICINT
+		dataType: string
+		lineageTag: 25996180-79b0-42e9-8975-293785c483d3
+		summarizeBy: none
+		sourceColumn: VLRAPLICINT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBSTANCIA
+		dataType: string
+		lineageTag: ee8304e2-931f-45d2-aa65-87c44768e3b7
+		summarizeBy: none
+		sourceColumn: SUBSTANCIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODEXCECAOPISCOFINS
+		dataType: string
+		lineageTag: 34afa61a-7da6-4ac3-9751-d936a290d927
+		summarizeBy: none
+		sourceColumn: CODEXCECAOPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMEECOMMERCE
+		dataType: string
+		lineageTag: 95d84841-3ab3-41c1-b75a-9decb03e3001
+		summarizeBy: none
+		sourceColumn: NOMEECOMMERCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column TITULOECOMMERCE
+		dataType: string
+		lineageTag: 5465eb15-0489-4fc9-8d88-7fe2f512a2d1
+		summarizeBy: none
+		sourceColumn: TITULOECOMMERCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBTITULOECOMMERCE
+		dataType: string
+		lineageTag: 5984990b-7da2-4318-8c92-cc972d32ed34
+		summarizeBy: none
+		sourceColumn: SUBTITULOECOMMERCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIRETORIOFOTOS
+		dataType: string
+		lineageTag: 672a07f5-b85c-4a69-a8a4-d43adeab6599
+		summarizeBy: none
+		sourceColumn: DIRETORIOFOTOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTEXPORTACAOWMS
+		dataType: string
+		lineageTag: c3e101e7-d51a-4f05-b36e-c3abff032a1c
+		summarizeBy: none
+		sourceColumn: DTEXPORTACAOWMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTIMPORTACAOWMS
+		dataType: string
+		lineageTag: 74c93939-2023-4f8e-9371-b07722d86177
+		summarizeBy: none
+		sourceColumn: DTIMPORTACAOWMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODNCMEX
+		dataType: string
+		lineageTag: 5b2061e5-9e16-498c-930f-260a924cb14a
+		summarizeBy: none
+		sourceColumn: CODNCMEX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODLINHANESTLE
+		dataType: string
+		lineageTag: cec59477-6662-4055-8045-097fef4dd572
+		summarizeBy: none
+		sourceColumn: CODLINHANESTLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column GTINCODAUXILIAR
+		dataType: string
+		lineageTag: dc336a83-c248-4694-8497-28e8d230874d
+		summarizeBy: none
+		sourceColumn: GTINCODAUXILIAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column GTINCODAUXILIAR2
+		dataType: string
+		lineageTag: 51e47012-3f85-48fe-aecf-a7bd58761f0a
+		summarizeBy: none
+		sourceColumn: GTINCODAUXILIAR2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSITTRIBPISCOFINSDEV
+		dataType: string
+		lineageTag: e37368fa-57dc-4372-bff5-7fe70fdf32b7
+		summarizeBy: none
+		sourceColumn: CODSITTRIBPISCOFINSDEV
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTENT
+		dataType: string
+		lineageTag: 9c8d0f8b-311e-4c1c-a02e-9583040e0654
+		summarizeBy: none
+		sourceColumn: SITTRIBUTENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTDEV
+		dataType: string
+		lineageTag: cb38b41c-4f1c-4bf3-8288-4afea8b9feb9
+		summarizeBy: none
+		sourceColumn: SITTRIBUTDEV
+
+		annotation SummarizationSetBy = Automatic
+
+	column GERAICMSLIVROFISCALDEVFORNEC
+		dataType: string
+		lineageTag: e68e833b-5ab1-4e3c-a8ee-ae95972f1a11
+		summarizeBy: none
+		sourceColumn: GERAICMSLIVROFISCALDEVFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALENTTV9
+		dataType: string
+		lineageTag: b832ada1-2595-4276-bdbb-278e5bd76d4b
+		summarizeBy: none
+		sourceColumn: CODFISCALENTTV9
+
+		annotation SummarizationSetBy = Automatic
+
+	column LITRAGEM
+		dataType: string
+		lineageTag: 6d39e5df-dcbb-4fb3-a93b-1ea7a3753d68
+		summarizeBy: none
+		sourceColumn: LITRAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUGVENDA
+		dataType: string
+		lineageTag: 20301ddb-1e9a-49a8-885b-f4a078879e0f
+		summarizeBy: none
+		sourceColumn: SUGVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAPISCOFINS
+		dataType: string
+		lineageTag: d4ee3f60-515c-473a-9581-812144b17207
+		summarizeBy: none
+		sourceColumn: VLPAUTAPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPISCOFINSLIT
+		dataType: string
+		lineageTag: 89943f59-9932-4add-93c8-aaefef753999
+		summarizeBy: none
+		sourceColumn: USAPISCOFINSLIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column BASEPISCOFINSLIT
+		dataType: string
+		lineageTag: 7fbabb82-c0bd-489c-ae76-3a0116753b25
+		summarizeBy: none
+		sourceColumn: BASEPISCOFINSLIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPISLIT
+		dataType: string
+		lineageTag: dc7cecd3-9da3-4312-bb2a-98a89d320c7e
+		summarizeBy: none
+		sourceColumn: VLPISLIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLCOFINSLIT
+		dataType: string
+		lineageTag: 5629d0ec-353b-49ec-bff7-363ddd987711
+		summarizeBy: none
+		sourceColumn: VLCOFINSLIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAPISCOFINSIMP
+		dataType: string
+		lineageTag: 1bcd4ac3-4138-4677-9408-bec33ce77af0
+		summarizeBy: none
+		sourceColumn: VLPAUTAPISCOFINSIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPISCOFINSLITIMP
+		dataType: string
+		lineageTag: aa8e52a2-02d0-4949-8e98-1763282abbef
+		summarizeBy: none
+		sourceColumn: USAPISCOFINSLITIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column BASEPISCOFINSLITIMP
+		dataType: string
+		lineageTag: c63275e6-bc38-47ba-8d60-bcb55fa8199f
+		summarizeBy: none
+		sourceColumn: BASEPISCOFINSLITIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPISLITIMP
+		dataType: string
+		lineageTag: 71912628-1efc-467d-89c3-134423fa793d
+		summarizeBy: none
+		sourceColumn: VLPISLITIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLCOFINSLITIMP
+		dataType: string
+		lineageTag: 2869a22f-c45c-4984-99b1-893604eda8b8
+		summarizeBy: none
+		sourceColumn: VLCOFINSLITIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSITTRIBPISCOFINS
+		dataType: string
+		lineageTag: 9511ca96-38bd-4e22-a4af-508353a80eb5
+		summarizeBy: none
+		sourceColumn: CODSITTRIBPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROTINALANC
+		dataType: string
+		lineageTag: 4688ac52-7e36-4e94-bc1e-dd196e368d98
+		summarizeBy: none
+		sourceColumn: ROTINALANC
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLFRETEPORKG
+		dataType: string
+		lineageTag: ccf2bc59-5d22-498b-987a-1c23bb35d53b
+		summarizeBy: none
+		sourceColumn: VLFRETEPORKG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTRIBPISCOFINS
+		dataType: string
+		lineageTag: 6e0514e7-5710-457a-b5e5-7d45e4da013b
+		summarizeBy: none
+		sourceColumn: CODTRIBPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCMVAORIG
+		dataType: string
+		lineageTag: a7183d80-a70a-401e-a95e-676370dd9506
+		summarizeBy: none
+		sourceColumn: PERCMVAORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column ASSINATURA
+		dataType: string
+		lineageTag: 9497beea-3d5c-488e-965b-45605788fdf2
+		summarizeBy: none
+		sourceColumn: ASSINATURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICREDBASEIVAPLIQ
+		dataType: string
+		lineageTag: 44c05e0a-91a7-460d-a3d1-c8deda22b993
+		summarizeBy: none
+		sourceColumn: APLICREDBASEIVAPLIQ
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICREDBASEIVAPLIQBCR
+		dataType: string
+		lineageTag: b23044c9-f18b-4adc-9447-c0f40a4bf389
+		summarizeBy: none
+		sourceColumn: APLICREDBASEIVAPLIQBCR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINICONTLOTE
+		dataType: string
+		lineageTag: 832813d7-d02c-4146-a6e4-bf9e4a39378c
+		summarizeBy: none
+		sourceColumn: DTINICONTLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSEFLOW
+		dataType: string
+		lineageTag: b05c7c9a-e63f-4d66-95c3-49070fa70e60
+		summarizeBy: none
+		sourceColumn: CLASSEFLOW
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONCENTRACAO
+		dataType: string
+		lineageTag: 64c735de-8b78-4bf1-8e2b-ee7351f4599d
+		summarizeBy: none
+		sourceColumn: CONCENTRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPI
+		dataType: string
+		lineageTag: 94c141de-c4a0-440f-8f28-21a6358723e8
+		summarizeBy: none
+		sourceColumn: VLIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTDEVFORNEC
+		dataType: string
+		lineageTag: 6a120345-24d5-4ba9-897b-c0e948e3aeaa
+		summarizeBy: none
+		sourceColumn: SITTRIBUTDEVFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALDEVFORNEC
+		dataType: string
+		lineageTag: 2e53f562-7250-4952-9414-c338606f5e11
+		summarizeBy: none
+		sourceColumn: CODFISCALDEVFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRAZOMAXVENDA
+		dataType: string
+		lineageTag: 9f9f08f7-bfae-4cc0-9dad-214904a1a142
+		summarizeBy: none
+		sourceColumn: PRAZOMAXVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CATERGORIA
+		dataType: string
+		lineageTag: aee12663-b42d-4067-b6cd-39615a3a92a1
+		summarizeBy: none
+		sourceColumn: CATERGORIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODLINHA
+		dataType: string
+		lineageTag: df949e0b-b41a-43dc-9bbe-923833c2db39
+		summarizeBy: none
+		sourceColumn: CODLINHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCQUEBRAPRODUCAO
+		dataType: string
+		lineageTag: a9873631-cd4a-4de8-8184-5b2687b6915c
+		summarizeBy: none
+		sourceColumn: PERCQUEBRAPRODUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERMITEPRODUCAO
+		dataType: string
+		lineageTag: 8d528d7a-f964-4963-922b-222ed41ba176
+		summarizeBy: none
+		sourceColumn: PERMITEPRODUCAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINHAPROD
+		dataType: string
+		lineageTag: 7b9567bc-2e10-4d3b-b6fc-e8fe039d671e
+		summarizeBy: none
+		sourceColumn: LINHAPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTPRODUZIR
+		dataType: string
+		lineageTag: 74351ccd-d4f9-4faf-a61a-5a79ed13f6ce
+		summarizeBy: none
+		sourceColumn: QTPRODUZIR
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICPERCIVAPAUTA
+		dataType: string
+		lineageTag: 01a5ad43-b4ac-48e5-967c-7d576c4a98e0
+		summarizeBy: none
+		sourceColumn: APLICPERCIVAPAUTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column INVENTARIOPARCIAL
+		dataType: string
+		lineageTag: 1fef4ab9-fcb3-4826-8328-62067500f9d3
+		summarizeBy: none
+		sourceColumn: INVENTARIOPARCIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTABLIT
+		dataType: string
+		lineageTag: 7d005031-b36f-4a57-88fc-ddf810ed3386
+		summarizeBy: none
+		sourceColumn: CODTABLIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODGRULIT
+		dataType: string
+		lineageTag: 8359edc8-3a26-4db4-871a-41f09b33cb98
+		summarizeBy: none
+		sourceColumn: CODGRULIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column IPIPORVALOR
+		dataType: string
+		lineageTag: 951c50c8-e55e-45fe-92d2-7d61dd962d27
+		summarizeBy: none
+		sourceColumn: IPIPORVALOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCCARGATRIBMEDIA
+		dataType: string
+		lineageTag: 23f79736-656a-4806-ade0-68a95fec9199
+		summarizeBy: none
+		sourceColumn: PERCCARGATRIBMEDIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODLINHAPRAZO
+		dataType: string
+		lineageTag: b89483ae-fd5c-4e0c-b5e3-285b2816f9d9
+		summarizeBy: none
+		sourceColumn: CODLINHAPRAZO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLPAUTAICMSANTEC
+		dataType: string
+		lineageTag: e08be4ad-4260-4c72-8261-454ad73da3cb
+		summarizeBy: none
+		sourceColumn: VLPAUTAICMSANTEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column ATUPESOMASTERENT
+		dataType: string
+		lineageTag: dedc8bf8-7687-4e9e-8e7e-e8da42888f59
+		summarizeBy: none
+		sourceColumn: ATUPESOMASTERENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMCASASDECREDUCAOICMS
+		dataType: string
+		lineageTag: aeb9574b-e628-4157-a0cd-546d6798ae19
+		summarizeBy: none
+		sourceColumn: NUMCASASDECREDUCAOICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODDEPTOWEB
+		dataType: string
+		lineageTag: 3597943d-b1f6-4bfb-80cf-88951bcefdb7
+		summarizeBy: none
+		sourceColumn: CODDEPTOWEB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSECAOWEB
+		dataType: string
+		lineageTag: decee0d7-a3a6-432a-8740-ea675fd241d3
+		summarizeBy: none
+		sourceColumn: CODSECAOWEB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCATEGORIAWEB
+		dataType: string
+		lineageTag: 408cb85e-caca-4d22-8187-3c0ee9bd4713
+		summarizeBy: none
+		sourceColumn: CODCATEGORIAWEB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSUBCATEGORIAWEB
+		dataType: string
+		lineageTag: c56d61f6-ce63-4b1c-b6dc-d46f7e3edad5
+		summarizeBy: none
+		sourceColumn: CODSUBCATEGORIAWEB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPTABANT
+		dataType: string
+		lineageTag: 8c72fac0-69c5-4255-a4f6-20e3fb7f71e7
+		summarizeBy: none
+		sourceColumn: CUSTOREPTABANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPZFMANT
+		dataType: string
+		lineageTag: df096bb2-fd8c-41b9-8ec7-f96f68b7ea03
+		summarizeBy: none
+		sourceColumn: CUSTOREPZFMANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUMTABANT
+		dataType: string
+		lineageTag: ce30ac85-49a2-46a3-83d0-03dc2b1a7eee
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUMTABANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOMAXCONSUMZFMANT
+		dataType: string
+		lineageTag: 4d465d2c-81ca-41fa-bb4f-264b1978c4b3
+		summarizeBy: none
+		sourceColumn: PRECOMAXCONSUMZFMANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column OSCOMODATO
+		dataType: string
+		lineageTag: f18f6e46-759f-4cfb-9238-cedd0f989458
+		summarizeBy: none
+		sourceColumn: OSCOMODATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBRIGAPREENCCONTRATO
+		dataType: string
+		lineageTag: 6fff867d-6624-4109-b8d0-ab69bd52b5b1
+		summarizeBy: none
+		sourceColumn: OBRIGAPREENCCONTRATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column GERAOSAUTOMATIC
+		dataType: string
+		lineageTag: 013cff16-48b5-4084-842b-6635f4d9c7cf
+		summarizeBy: none
+		sourceColumn: GERAOSAUTOMATIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSERVICO
+		dataType: string
+		lineageTag: 7d5d4175-10d6-4a00-b5d0-c7f6930ca70a
+		summarizeBy: none
+		sourceColumn: NUMSERVICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RESTRINGECOTACAO
+		dataType: string
+		lineageTag: e8d88330-3454-4925-b47a-d474202aae7a
+		summarizeBy: none
+		sourceColumn: RESTRINGECOTACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOMEDICAMENTO
+		dataType: string
+		lineageTag: f970046e-7e56-472d-90b7-b43183b85549
+		summarizeBy: none
+		sourceColumn: TIPOMEDICAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column GRUPOFATURAMENTO
+		dataType: string
+		lineageTag: 308cee10-167b-45fd-beda-7fcb9cc119eb
+		summarizeBy: none
+		sourceColumn: GRUPOFATURAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPMCBASEST
+		dataType: string
+		lineageTag: d60f0d39-2b55-4005-9295-19e97dd7b99d
+		summarizeBy: none
+		sourceColumn: USAPMCBASEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCREDPMC
+		dataType: string
+		lineageTag: efd40cac-94b3-4d49-9ffa-155c4f75b3a8
+		summarizeBy: none
+		sourceColumn: PERCREDPMC
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPISUSPENSO
+		dataType: string
+		lineageTag: d0815002-c4f9-461c-a264-4c46627aa47f
+		summarizeBy: none
+		sourceColumn: VLIPISUSPENSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIPISUSPENSO
+		dataType: string
+		lineageTag: 4cf67e89-30ad-48f6-ae9b-bc751702fce7
+		summarizeBy: none
+		sourceColumn: PERCIPISUSPENSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column MYFROTA
+		dataType: string
+		lineageTag: 0f77ad3b-1bec-449d-875d-69b527d5eedf
+		summarizeBy: none
+		sourceColumn: MYFROTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSITTRIBST
+		dataType: string
+		lineageTag: 5a43305b-f626-4dcd-9dba-ab1b6ae0ea0f
+		summarizeBy: none
+		sourceColumn: CODSITTRIBST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSBASEICMSANTECIPADO
+		dataType: string
+		lineageTag: ad9eea7a-bc20-447a-847d-6f038d59f5e9
+		summarizeBy: none
+		sourceColumn: PERCICMSBASEICMSANTECIPADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC1TAB
+		dataType: string
+		lineageTag: 97d6f09f-3230-4097-bc1e-b83958cc02fc
+		summarizeBy: none
+		sourceColumn: PERCDESC1TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC2TAB
+		dataType: string
+		lineageTag: 379f5aa1-e5b5-4988-9499-6dce4c35ea67
+		summarizeBy: none
+		sourceColumn: PERCDESC2TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC3TAB
+		dataType: string
+		lineageTag: 6edce0f9-729e-4279-8ffe-6b7da6aeffdd
+		summarizeBy: none
+		sourceColumn: PERCDESC3TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC4TAB
+		dataType: string
+		lineageTag: 944fbc0d-ef0a-43ba-8c16-3dc3137e85fd
+		summarizeBy: none
+		sourceColumn: PERCDESC4TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC5TAB
+		dataType: string
+		lineageTag: 8a099395-7f12-42ae-aca1-b4331dd088cd
+		summarizeBy: none
+		sourceColumn: PERCDESC5TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC6TAB
+		dataType: string
+		lineageTag: 6a36b989-64bf-4e7d-b9a5-3c934b8fe01a
+		summarizeBy: none
+		sourceColumn: PERCDESC6TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC7TAB
+		dataType: string
+		lineageTag: 7375ee8f-2f16-4fa5-8e25-52253d0ee309
+		summarizeBy: none
+		sourceColumn: PERCDESC7TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC8TAB
+		dataType: string
+		lineageTag: fad56bb6-d14d-4cd1-9aa6-9dc6ed9d88e1
+		summarizeBy: none
+		sourceColumn: PERCDESC8TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC9TAB
+		dataType: string
+		lineageTag: 2b90e527-d869-4760-a039-71fd7eb8648d
+		summarizeBy: none
+		sourceColumn: PERCDESC9TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCDESC10TAB
+		dataType: string
+		lineageTag: 9c020324-03d1-4240-8700-5fed1e6e2880
+		summarizeBy: none
+		sourceColumn: PERCDESC10TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTVIGENCIAPOLITICA
+		dataType: string
+		lineageTag: 86e1169a-f5a4-4b47-9628-ef54740ef3bf
+		summarizeBy: none
+		sourceColumn: DTVIGENCIAPOLITICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column GERABASEPISCOFINSSEMALIQ
+		dataType: string
+		lineageTag: 13f22ef8-01e6-44c1-ad2d-01a570311a2c
+		summarizeBy: none
+		sourceColumn: GERABASEPISCOFINSSEMALIQ
+
+		annotation SummarizationSetBy = Automatic
+
+	column USALICENCAIMPORTACAO
+		dataType: string
+		lineageTag: 3b969085-7dfc-45ac-aaa3-893c0395fa9d
+		summarizeBy: none
+		sourceColumn: USALICENCAIMPORTACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column MULTIPLOCOMPRAS
+		dataType: string
+		lineageTag: 22c54ecd-6b52-4169-a04f-023d5c674290
+		summarizeBy: none
+		sourceColumn: MULTIPLOCOMPRAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CALCCREDIPICONT
+		dataType: string
+		lineageTag: ffd4c8ad-944e-4e6e-b9d3-1dd463578344
+		summarizeBy: none
+		sourceColumn: CALCCREDIPICONT
+
+		annotation SummarizationSetBy = Automatic
+
+	column APROVEITACREDICMSCONT
+		dataType: string
+		lineageTag: 99f12e9f-9d66-44c4-b650-fc6b62da50fc
+		summarizeBy: none
+		sourceColumn: APROVEITACREDICMSCONT
+
+		annotation SummarizationSetBy = Automatic
+
+	column APROVEITACREDPISCOFINSCONT
+		dataType: string
+		lineageTag: 63683acc-a062-4193-bece-a0a67b8f7758
+		summarizeBy: none
+		sourceColumn: APROVEITACREDPISCOFINSCONT
+
+		annotation SummarizationSetBy = Automatic
+
+	column ENVIASNGPC
+		dataType: string
+		lineageTag: 3faff20f-d209-4589-b149-564e31ccd2b7
+		summarizeBy: none
+		sourceColumn: ENVIASNGPC
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGISTROMSMED
+		dataType: string
+		lineageTag: af9559f2-6fb8-4e68-b903-24ec9b70238a
+		summarizeBy: none
+		sourceColumn: REGISTROMSMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTMINSUGCOMPRA
+		dataType: string
+		lineageTag: c53171b1-05b0-4c11-a736-b46fcac47001
+		summarizeBy: none
+		sourceColumn: QTMINSUGCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ENVIAINFTECNICANFE
+		dataType: string
+		lineageTag: e9839f3c-e466-4087-8075-cf82a9e95bf8
+		summarizeBy: none
+		sourceColumn: ENVIAINFTECNICANFE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONTROLADOIBAMA
+		dataType: string
+		lineageTag: 0e703a79-c945-42d7-9895-3a4756e635bb
+		summarizeBy: none
+		sourceColumn: CONTROLADOIBAMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CESTABASICALEGIS
+		dataType: string
+		lineageTag: 73e5b64f-cf77-49b2-a93c-84e22afff543
+		summarizeBy: none
+		sourceColumn: CESTABASICALEGIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODINTERNO
+		dataType: string
+		lineageTag: 891af7d1-b10b-4af9-904a-807786d3bd2f
+		summarizeBy: none
+		sourceColumn: CODINTERNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICACOES
+		dataType: string
+		lineageTag: bcd2cf09-ee04-40b9-a244-88ecffed51af
+		summarizeBy: none
+		sourceColumn: APLICACOES
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODUSUULTALTCOM
+		dataType: string
+		lineageTag: 654d46e1-0bba-4112-905e-ca9243d4ecb1
+		summarizeBy: none
+		sourceColumn: CODUSUULTALTCOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZASELO
+		dataType: string
+		lineageTag: 29419f2a-0d0f-4bfe-b8ab-f323309f36e0
+		summarizeBy: none
+		sourceColumn: UTILIZASELO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDINTEGRACAOMYFROTA
+		dataType: string
+		lineageTag: 7f40fefa-b09c-4da2-b104-76cc919911f7
+		summarizeBy: none
+		sourceColumn: IDINTEGRACAOMYFROTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTURA
+		dataType: string
+		lineageTag: 384fc8e3-994a-4174-a0cd-2b7433ff6f8c
+		summarizeBy: none
+		sourceColumn: ALTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTURATOTAL
+		dataType: string
+		lineageTag: 17276c49-e7ba-4d1e-bb42-4588a9e80719
+		summarizeBy: none
+		sourceColumn: ALTURATOTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANP
+		dataType: string
+		lineageTag: 17634dff-4517-47f4-9405-2771e7734c02
+		summarizeBy: none
+		sourceColumn: ANP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCLASSETERAPEUTSNGPC
+		dataType: string
+		lineageTag: 73675248-17fb-4d00-b9e2-3a23051a1971
+		summarizeBy: none
+		sourceColumn: CODCLASSETERAPEUTSNGPC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALCOCOMPRA
+		dataType: string
+		lineageTag: 06b8e469-d5fa-4e57-877a-0e71136b209b
+		summarizeBy: none
+		sourceColumn: CODFISCALCOCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALCOREMESSA
+		dataType: string
+		lineageTag: 0ef75b3e-f271-4f30-8bb0-5c7b4a2c7136
+		summarizeBy: none
+		sourceColumn: CODFISCALCOREMESSA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALDEVOPLOG
+		dataType: string
+		lineageTag: b9507ae2-a0ca-495e-a07e-f714dffc6cfa
+		summarizeBy: none
+		sourceColumn: CODFISCALDEVOPLOG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALENTOPLOG
+		dataType: string
+		lineageTag: f48baec2-42d6-4cf4-9864-20fe8732e5c8
+		summarizeBy: none
+		sourceColumn: CODFISCALENTOPLOG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODANTUTICAD
+		dataType: string
+		lineageTag: 2cca6623-944a-480c-826b-d73807d5a31a
+		summarizeBy: none
+		sourceColumn: CODPRODANTUTICAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODFORNEC
+		dataType: string
+		lineageTag: 278c6f07-6a26-4661-874d-79f210eea77f
+		summarizeBy: none
+		sourceColumn: CODPRODFORNEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODROTINAULTALTCOM
+		dataType: string
+		lineageTag: 64b65947-6084-4677-a7e1-20b56c3bce5e
+		summarizeBy: none
+		sourceColumn: CODROTINAULTALTCOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODROTINAULTALTCOMTAB
+		dataType: string
+		lineageTag: fff4e945-58c8-4682-a2a3-9bea3dfeafc5
+		summarizeBy: none
+		sourceColumn: CODROTINAULTALTCOMTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSUBMARCA
+		dataType: string
+		lineageTag: aba289a2-a85e-4938-bc48-6c1c45e2309c
+		summarizeBy: none
+		sourceColumn: CODSUBMARCA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTIPORECEIT
+		dataType: string
+		lineageTag: 0954b6b2-82f9-4bb6-bc73-fe3964afa844
+		summarizeBy: none
+		sourceColumn: CODTIPORECEIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODTIPOUSOMED
+		dataType: string
+		lineageTag: 7a030670-86a7-424e-a9b8-587840c0d0f8
+		summarizeBy: none
+		sourceColumn: CODTIPOUSOMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODUSUULTALTCOMTAB
+		dataType: string
+		lineageTag: 9b0c0f1f-6556-45c8-a6c6-73ba943a0d40
+		summarizeBy: none
+		sourceColumn: CODUSUULTALTCOMTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMISSAOSERVICOPRESTADO
+		dataType: string
+		lineageTag: 93b4bf5c-5628-4612-8170-acafd8d98e44
+		summarizeBy: none
+		sourceColumn: COMISSAOSERVICOPRESTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONSIISUSPENSOBASEICMS
+		dataType: string
+		lineageTag: 77cf9fb8-e395-43da-9f6a-10d221678d70
+		summarizeBy: none
+		sourceColumn: CONSIISUSPENSOBASEICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONSIPISUSPENSOBASEICMS
+		dataType: string
+		lineageTag: 648584cb-e676-4a24-9d8f-7249becfe6b3
+		summarizeBy: none
+		sourceColumn: CONSIPISUSPENSOBASEICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOFORNECSEMST
+		dataType: string
+		lineageTag: 811b585b-82e6-482a-a034-569f3f920762
+		summarizeBy: none
+		sourceColumn: CUSTOFORNECSEMST
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOPROXIMACOMPRASEMST
+		dataType: string
+		lineageTag: 972b6381-22b1-45bd-830d-d1c00c29b168
+		summarizeBy: none
+		sourceColumn: CUSTOPROXIMACOMPRASEMST
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIAMETROEXTERNO
+		dataType: string
+		lineageTag: 87c1a9c1-b25f-475c-bd45-38eaa45ab5bc
+		summarizeBy: none
+		sourceColumn: DIAMETROEXTERNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIAMETROINTERNO
+		dataType: string
+		lineageTag: 7f8cb83b-4a9d-49d5-8e61-11d18d734dfb
+		summarizeBy: none
+		sourceColumn: DIAMETROINTERNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIASCONSECENT
+		dataType: string
+		lineageTag: be11341f-2828-4fb8-8d87-2f5ea8d636e9
+		summarizeBy: none
+		sourceColumn: DIASCONSECENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column DSCPRODANTUTICAD
+		dataType: string
+		lineageTag: f2c60b14-7a59-4be2-94d3-48b01cc58cb2
+		summarizeBy: none
+		sourceColumn: DSCPRODANTUTICAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFINUTICODPRODANTUTICAD
+		dataType: string
+		lineageTag: af8be908-bf67-4370-bb34-b1cfad0cd3c3
+		summarizeBy: none
+		sourceColumn: DTFINUTICODPRODANTUTICAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINICODPRODANTUTICAD
+		dataType: string
+		lineageTag: 12643f88-a891-48d3-a2e2-396d2edb8dbd
+		summarizeBy: none
+		sourceColumn: DTINICODPRODANTUTICAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTPRIMOVNOVCODPROD
+		dataType: string
+		lineageTag: 27b439f7-764f-433e-bf63-5c4a41e3628e
+		summarizeBy: none
+		sourceColumn: DTPRIMOVNOVCODPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTATUPCOMPRA
+		dataType: string
+		lineageTag: 6387450a-edc7-420b-a0e1-7c61721d09d4
+		summarizeBy: none
+		sourceColumn: DTULTATUPCOMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FARMACIAPOPULAR
+		dataType: string
+		lineageTag: 2af0fb21-b50f-4288-8ae5-c76ac315a135
+		summarizeBy: none
+		sourceColumn: FARMACIAPOPULAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVTRIB
+		dataType: string
+		lineageTag: e55a6cdf-2e05-4213-a768-98cf2cfeba9b
+		summarizeBy: none
+		sourceColumn: FATORCONVTRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDDESTAQUE
+		dataType: string
+		lineageTag: 1d4704df-a37f-432f-b8ec-aa3fdf42823c
+		summarizeBy: none
+		sourceColumn: IDDESTAQUE
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDEMBALAGEM
+		dataType: string
+		lineageTag: 521983a6-72c1-4c4f-8bf5-feb953a1d451
+		summarizeBy: none
+		sourceColumn: IDEMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column IECTEREF
+		dataType: string
+		lineageTag: b0f62684-76dd-4cec-8d0c-86216286a6de
+		summarizeBy: none
+		sourceColumn: IECTEREF
+
+		annotation SummarizationSetBy = Automatic
+
+	column INDUZLOTE
+		dataType: string
+		lineageTag: 96d25695-9966-4c26-be99-07e467be1f0e
+		summarizeBy: none
+		sourceColumn: INDUZLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMREGAGRMAP
+		dataType: string
+		lineageTag: 378a69bd-824c-4c27-b9fd-c9f87a9bce78
+		summarizeBy: none
+		sourceColumn: NUMREGAGRMAP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCOFINS_SERVICO
+		dataType: string
+		lineageTag: f8a564bc-52e1-45d6-86f0-a7eeca62165d
+		summarizeBy: none
+		sourceColumn: PERCOFINS_SERVICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCPRODEIC
+		dataType: string
+		lineageTag: 2c2d2547-6503-471f-8f4b-1a5d03f0ebb5
+		summarizeBy: none
+		sourceColumn: PERCPRODEIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERPIS_SERVICO
+		dataType: string
+		lineageTag: 552d7b98-6c8b-4ca0-be13-089769cbb8c0
+		summarizeBy: none
+		sourceColumn: PERPIS_SERVICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOMAXIMO
+		dataType: string
+		lineageTag: 0cf95886-b48b-4e90-966c-92ebdf71ebbe
+		summarizeBy: none
+		sourceColumn: PESOMAXIMO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOMINIMO
+		dataType: string
+		lineageTag: fe586420-7f9e-4359-ae79-7d5ba3d12392
+		summarizeBy: none
+		sourceColumn: PESOMINIMO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECIFICACAOAUTOMATICA
+		dataType: string
+		lineageTag: b1439fbc-c982-4358-8058-1c05f764ffdc
+		summarizeBy: none
+		sourceColumn: PRECIFICACAOAUTOMATICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column RETINOICO
+		dataType: string
+		lineageTag: b9f43723-77f8-4542-b580-bda537b6c6ea
+		summarizeBy: none
+		sourceColumn: RETINOICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUT_SERVICO
+		dataType: string
+		lineageTag: da7cefcc-c873-44f9-8bc3-397ccd97880b
+		summarizeBy: none
+		sourceColumn: SITTRIBUT_SERVICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATUSSUCATA
+		dataType: string
+		lineageTag: 47467e06-5447-4749-a61f-31bd5563be9a
+		summarizeBy: none
+		sourceColumn: STATUSSUCATA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TAMANHOPECA
+		dataType: string
+		lineageTag: 9a090ea4-97ab-4051-9221-150825f33148
+		summarizeBy: none
+		sourceColumn: TAMANHOPECA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TARAPORPECA
+		dataType: string
+		lineageTag: f7601f2a-9fe3-47dd-a39d-a492fc2b7528
+		summarizeBy: none
+		sourceColumn: TARAPORPECA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOCUSTOTRANSF
+		dataType: string
+		lineageTag: 37a25ef7-59b0-4918-8af8-78599125a905
+		summarizeBy: none
+		sourceColumn: TIPOCUSTOTRANSF
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOEMBARQUEIMP
+		dataType: string
+		lineageTag: a44c4e22-a3df-461e-a372-5ed6547b90ae
+		summarizeBy: none
+		sourceColumn: TIPOEMBARQUEIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADETRIB
+		dataType: string
+		lineageTag: c89dce0f-0b5b-46ff-a548-7dfdabfc7926
+		summarizeBy: none
+		sourceColumn: UNIDADETRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column USOPROLONGADOSNGPC
+		dataType: string
+		lineageTag: eb98d651-d8d6-4f3a-8453-51c523a783e5
+		summarizeBy: none
+		sourceColumn: USOPROLONGADOSNGPC
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALORTARAPORPECA
+		dataType: string
+		lineageTag: f7919ab8-278e-4c76-a375-3947aef2edbf
+		summarizeBy: none
+		sourceColumn: VALORTARAPORPECA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMEROSSERIECONTROLADOS
+		dataType: string
+		lineageTag: 887cc98f-84d3-4d64-b3c0-234791aceb5e
+		summarizeBy: none
+		sourceColumn: NUMEROSSERIECONTROLADOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONIFIC
+		dataType: string
+		lineageTag: ef7deb61-1981-43e3-9394-2c1bf26d442a
+		summarizeBy: none
+		sourceColumn: PERCBONIFIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column VERBADINPORPERC
+		dataType: string
+		lineageTag: c8759878-dffb-4c5f-a550-984b3b8cb91c
+		summarizeBy: none
+		sourceColumn: VERBADINPORPERC
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONTAB
+		dataType: string
+		lineageTag: 7d987bc0-6dd4-45a4-a41c-be143f56dba9
+		summarizeBy: none
+		sourceColumn: PERCBONTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLBONIFICTAB
+		dataType: string
+		lineageTag: ae6fc557-8318-43c7-a45b-e9586a1b07cb
+		summarizeBy: none
+		sourceColumn: VLBONIFICTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONIFICTAB
+		dataType: string
+		lineageTag: 67abd526-506a-457b-ac9d-2ec009200858
+		summarizeBy: none
+		sourceColumn: PERCBONIFICTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCBONOUTRASTAB
+		dataType: string
+		lineageTag: 2af1efdc-c16e-46ec-b8ea-4f04a7ef982d
+		summarizeBy: none
+		sourceColumn: PERCBONOUTRASTAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLADICIONALBCICMSANTECIP
+		dataType: string
+		lineageTag: 19a15019-babc-49c6-9af4-d67ba284a6dd
+		summarizeBy: none
+		sourceColumn: VLADICIONALBCICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICPERCIVAPAUTAICMSANTECIP
+		dataType: string
+		lineageTag: 6bef1182-8a0b-4130-8d3d-74b6af5c802e
+		summarizeBy: none
+		sourceColumn: APLICPERCIVAPAUTAICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSFRETEFOBICMSANTECIP
+		dataType: string
+		lineageTag: 78c22e17-ea7e-4627-8e38-5c0cef0e849b
+		summarizeBy: none
+		sourceColumn: PERCICMSFRETEFOBICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCMVAORIGICMSANTECIP
+		dataType: string
+		lineageTag: e955be01-a572-4299-8c0b-604e62276c6e
+		summarizeBy: none
+		sourceColumn: PERCMVAORIGICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCCARGATRIBMEDIAICMSANTECIP
+		dataType: string
+		lineageTag: a40733ab-af8e-4c57-8a86-368700be33b8
+		summarizeBy: none
+		sourceColumn: PERCCARGATRIBMEDIAICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEIVAICMSANTECIP
+		dataType: string
+		lineageTag: 73ac2ebc-a01e-45fd-befd-e92fc4059886
+		summarizeBy: none
+		sourceColumn: REDBASEIVAICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column REDBASEALIQEXTICMSANTECIP
+		dataType: string
+		lineageTag: 5e568ae1-d9a3-47ec-8373-37197f615312
+		summarizeBy: none
+		sourceColumn: REDBASEALIQEXTICMSANTECIP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONSIDERARICMSANTECIPCUSTOCONT
+		dataType: string
+		lineageTag: a2011050-11dc-4e6f-a932-145b703a57c9
+		summarizeBy: none
+		sourceColumn: CONSIDERARICMSANTECIPCUSTOCONT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSALMED
+		dataType: string
+		lineageTag: d82477c3-ada1-4014-94e5-7dd485c528b2
+		summarizeBy: none
+		sourceColumn: CODSALMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIISUSPENSO
+		dataType: string
+		lineageTag: cfce438a-e71e-4e01-ba5e-b2415a703b41
+		summarizeBy: none
+		sourceColumn: PERCIISUSPENSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERPISCALCDI
+		dataType: string
+		lineageTag: ff558078-e29b-4b8f-aaf8-d08f675df4c2
+		summarizeBy: none
+		sourceColumn: PERPISCALCDI
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCOFINSCALCDI
+		dataType: string
+		lineageTag: 53871b40-c552-4a9c-b99f-4a7b4c72be85
+		summarizeBy: none
+		sourceColumn: PERCOFINSCALCDI
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTOQUEPORDTVALIDADE
+		dataType: string
+		lineageTag: 9624d75d-30aa-4c92-a005-a4f41cbe8e55
+		summarizeBy: none
+		sourceColumn: ESTOQUEPORDTVALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOLIQDI
+		dataType: string
+		lineageTag: cabf358c-4553-4e51-840d-b564b1b680f3
+		summarizeBy: none
+		sourceColumn: PESOLIQDI
+
+		annotation SummarizationSetBy = Automatic
+
+	column FORMAESTERILIZACAO
+		dataType: string
+		lineageTag: 5c87f7e6-1b3a-4af1-8bfe-10f19ec12fe5
+		summarizeBy: none
+		sourceColumn: FORMAESTERILIZACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDINTEGRACAOCIASHOP
+		dataType: string
+		lineageTag: fb9ba79f-1ced-400a-b3ba-55a67862e2e5
+		summarizeBy: none
+		sourceColumn: IDINTEGRACAOCIASHOP
+
+		annotation SummarizationSetBy = Automatic
+
+	column ENVIAECOMMERCE
+		dataType: string
+		lineageTag: db8bbe4a-6f58-4399-8017-71dacf7c9017
+		summarizeBy: none
+		sourceColumn: ENVIAECOMMERCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMISSAOSERVICOFUNCIONARIO
+		dataType: string
+		lineageTag: 0a1da74e-cc18-4d0f-8901-6677966161fc
+		summarizeBy: none
+		sourceColumn: COMISSAOSERVICOFUNCIONARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICAPERCREDALIQIPI
+		dataType: string
+		lineageTag: 034a452f-6a3b-479c-82c6-c4f93c04bc88
+		summarizeBy: none
+		sourceColumn: APLICAPERCREDALIQIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column GTINCODAUXILIARTRIB
+		dataType: string
+		lineageTag: b13a36e4-f92a-41db-8cf8-a8271dcca2ea
+		summarizeBy: none
+		sourceColumn: GTINCODAUXILIARTRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAUXILIARTRIB
+		dataType: string
+		lineageTag: 6536893b-de56-4ec2-b715-81353c005bd5
+		summarizeBy: none
+		sourceColumn: CODAUXILIARTRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column VERIFCRAMOATIVCALCST
+		dataType: string
+		lineageTag: 551772a7-c41a-4ad9-b309-d489457599af
+		summarizeBy: none
+		sourceColumn: VERIFCRAMOATIVCALCST
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGISTROPECA
+		dataType: string
+		lineageTag: 3428390b-1de3-4d5c-893d-85b09b2722e8
+		summarizeBy: none
+		sourceColumn: REGISTROPECA
+
+		annotation SummarizationSetBy = Automatic
+
+	column GERAICMSLIVROFISCALENT
+		dataType: string
+		lineageTag: 4217982d-9754-47b3-ab03-da466cb60dce
+		summarizeBy: none
+		sourceColumn: GERAICMSLIVROFISCALENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZACREDREDPISCOFINS
+		dataType: string
+		lineageTag: b5495028-2875-4e4e-85a7-c18d6d722e83
+		summarizeBy: none
+		sourceColumn: UTILIZACREDREDPISCOFINS
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMODATO
+		dataType: string
+		lineageTag: 60a515ac-fd0a-4ecf-a411-5a3b9eefcec6
+		summarizeBy: none
+		sourceColumn: COMODATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINKFABRICANTE
+		dataType: string
+		lineageTag: 09a440d3-de2a-4654-9174-97769c05e58c
+		summarizeBy: none
+		sourceColumn: LINKFABRICANTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUSAENGRADADO
+		dataType: string
+		lineageTag: a0564ab1-4ad8-481a-a7b5-10feff1db743
+		summarizeBy: none
+		sourceColumn: PRODUSAENGRADADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODENGRADADO
+		dataType: string
+		lineageTag: 416a89af-be1d-48a1-8e0f-af026cdfa40c
+		summarizeBy: none
+		sourceColumn: CODPRODENGRADADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATCONVPRODENGRAD
+		dataType: string
+		lineageTag: 8d5618e6-bf8f-44fb-b931-a85131c054da
+		summarizeBy: none
+		sourceColumn: FATCONVPRODENGRAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTIMPORTPRECOMED
+		dataType: string
+		lineageTag: afec031d-0e67-49cf-881a-3cc0be047a4c
+		summarizeBy: none
+		sourceColumn: DTIMPORTPRECOMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column CTRABCFARMAMED
+		dataType: string
+		lineageTag: 661ebde5-a574-4e86-a4de-4fdeea4652b0
+		summarizeBy: none
+		sourceColumn: CTRABCFARMAMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODGRUPOPRODCOMISSMED
+		dataType: string
+		lineageTag: d1b3f05d-76d5-4a6e-ba44-a5bb68bccc74
+		summarizeBy: none
+		sourceColumn: CODGRUPOPRODCOMISSMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column CLASSEVENDAQT
+		dataType: string
+		lineageTag: 09ea1597-f281-4f22-80e3-e58f6dc3e9fd
+		summarizeBy: none
+		sourceColumn: CLASSEVENDAQT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODUNIDADEMEDIDASNGPC
+		dataType: string
+		lineageTag: 8e8bcb3f-871f-4421-8ca6-485417518b24
+		summarizeBy: none
+		sourceColumn: CODUNIDADEMEDIDASNGPC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCEST
+		dataType: string
+		lineageTag: f11848a0-f4c8-4403-afd1-98a484778b52
+		summarizeBy: none
+		sourceColumn: CODCEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCESTDEV
+		dataType: string
+		lineageTag: 82c166a0-4a65-49fc-8dd1-dfe6dcbc712e
+		summarizeBy: none
+		sourceColumn: CODCESTDEV
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCENTUALCPRB
+		dataType: string
+		lineageTag: 08625353-c760-4e8c-84d3-00a424934ecd
+		summarizeBy: none
+		sourceColumn: PERCENTUALCPRB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGOCNAE
+		dataType: string
+		lineageTag: 72b977b6-6f95-4ad0-afd4-f6cf48ff0d70
+		summarizeBy: none
+		sourceColumn: CODIGOCNAE
+
+		annotation SummarizationSetBy = Automatic
+
+	column TEMPOSERVICO
+		dataType: string
+		lineageTag: d87aff47-6379-499e-a8eb-ad34134068eb
+		summarizeBy: none
+		sourceColumn: TEMPOSERVICO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCENTUALINCIDENCIA
+		dataType: string
+		lineageTag: 4af6e4c5-173d-4f0c-bd3e-6d7280d17c39
+		summarizeBy: none
+		sourceColumn: PERCENTUALINCIDENCIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOSERVICOVINCULADORECEITA
+		dataType: string
+		lineageTag: 048b378c-dfd2-4e10-a062-a3731d0150b3
+		summarizeBy: none
+		sourceColumn: TIPOSERVICOVINCULADORECEITA
+
+		annotation SummarizationSetBy = Automatic
+
+	column INCIDENCIACPRB
+		dataType: string
+		lineageTag: 2c9efb90-39f0-43cc-a8f3-ca0561b990ea
+		summarizeBy: none
+		sourceColumn: INCIDENCIACPRB
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZAPRECOFABRICA
+		dataType: string
+		lineageTag: 248a6a19-62af-41a1-8a9a-55b84e34c26a
+		summarizeBy: none
+		sourceColumn: UTILIZAPRECOFABRICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERMITIRBROKERTV5
+		dataType: string
+		lineageTag: 9cd86260-def8-4430-93c6-6c1f3c73ad8c
+		summarizeBy: none
+		sourceColumn: PERMITIRBROKERTV5
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLFRETE
+		dataType: string
+		lineageTag: 3d0f2be5-4c28-4147-8414-c59bb0b0242b
+		summarizeBy: none
+		sourceColumn: VLFRETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CFOPORIG
+		dataType: string
+		lineageTag: 5219ad1b-4ebf-4250-8a6d-0508242ce4af
+		summarizeBy: none
+		sourceColumn: CFOPORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODBCST
+		dataType: string
+		lineageTag: 78f81417-7bf0-4988-ad22-2f74183d8b08
+		summarizeBy: none
+		sourceColumn: MODBCST
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODBCSTGUIA
+		dataType: string
+		lineageTag: 4dc49caa-4c1a-4334-aeb8-23836a1a477f
+		summarizeBy: none
+		sourceColumn: MODBCSTGUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANTIDUMPING
+		dataType: string
+		lineageTag: 0ea795bb-3e5b-41a3-9adb-0858e16e5dd8
+		summarizeBy: none
+		sourceColumn: ANTIDUMPING
+
+		annotation SummarizationSetBy = Automatic
+
+	column ENDERECAMENTOCUBAGEM
+		dataType: string
+		lineageTag: d0ea7dc1-f955-4670-8fee-66a8214281e1
+		summarizeBy: none
+		sourceColumn: ENDERECAMENTOCUBAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTCAD
+		dataType: string
+		lineageTag: 11d18af2-ed11-4899-a3dc-4af6ab7550f2
+		summarizeBy: none
+		sourceColumn: DTULTALTCAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCULTALTCAD
+		dataType: string
+		lineageTag: b195f774-e07b-4c69-807d-af6a9bf45b6b
+		summarizeBy: none
+		sourceColumn: CODFUNCULTALTCAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCFUNCEP
+		dataType: string
+		lineageTag: edc75562-49a3-4f8b-8ccd-c53f0f3b882c
+		summarizeBy: none
+		sourceColumn: PERCFUNCEP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCFECP
+		dataType: string
+		lineageTag: 74889cf5-1640-443a-ab12-76982f6b12c3
+		summarizeBy: none
+		sourceColumn: PERCFECP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCCSLL
+		dataType: string
+		lineageTag: afe5fef0-9334-4965-aab4-b83f9f0bde64
+		summarizeBy: none
+		sourceColumn: PERCCSLL
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPAUTATV10
+		dataType: string
+		lineageTag: f6e9d58c-e4e3-431f-8f5f-c15ba719d9ca
+		summarizeBy: none
+		sourceColumn: VLIPIPAUTATV10
+
+		annotation SummarizationSetBy = Automatic
+
+	column VLIPIPAUTATV10TAB
+		dataType: string
+		lineageTag: a50c2503-1934-4469-b2c7-596925c1dcfe
+		summarizeBy: none
+		sourceColumn: VLIPIPAUTATV10TAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOBRUTOFRETE
+		dataType: string
+		lineageTag: fa9a47ab-e957-4856-8561-867e0c42793a
+		summarizeBy: none
+		sourceColumn: PESOBRUTOFRETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALREMENTFUT
+		dataType: string
+		lineageTag: 05b3650f-ff3c-49bd-9f1b-a89feb0781b4
+		summarizeBy: none
+		sourceColumn: CODFISCALREMENTFUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALENTENTFUT
+		dataType: string
+		lineageTag: 5d9225d4-2bc1-4de8-bf5e-27d5ea2ce688
+		summarizeBy: none
+		sourceColumn: CODFISCALENTENTFUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTENTFUT
+		dataType: string
+		lineageTag: 58657878-43a5-44b6-b491-cd5de3d749de
+		summarizeBy: none
+		sourceColumn: SITTRIBUTENTFUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column LICITUSARCAP
+		dataType: string
+		lineageTag: 7fbb923d-5c57-43bc-bfe2-5a53f58417e2
+		summarizeBy: none
+		sourceColumn: LICITUSARCAP
+
+		annotation SummarizationSetBy = Automatic
+
+	column LICITPERCDESONERACAP
+		dataType: string
+		lineageTag: 4ea11b2b-9d59-471e-a749-1eff2e690aa7
+		summarizeBy: none
+		sourceColumn: LICITPERCDESONERACAP
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAECOMMERCEUNILEVER
+		dataType: string
+		lineageTag: 319ba791-88f5-4d7e-968f-941036de51b6
+		summarizeBy: none
+		sourceColumn: USAECOMMERCEUNILEVER
+
+		annotation SummarizationSetBy = Automatic
+
+	column LICITUSARDESONERAICM
+		dataType: string
+		lineageTag: 0f928561-8064-45b9-b776-c61ba34868a7
+		summarizeBy: none
+		sourceColumn: LICITUSARDESONERAICM
+
+		annotation SummarizationSetBy = Automatic
+
+	column LICITPERCDESONERAICM
+		dataType: string
+		lineageTag: 08e21931-a33a-46fd-a623-b08a1c6352ec
+		summarizeBy: none
+		sourceColumn: LICITPERCDESONERAICM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCIVA2
+		dataType: string
+		lineageTag: fafa1577-ecbb-4379-ad54-7eff80a52df2
+		summarizeBy: none
+		sourceColumn: PERCIVA2
+
+		annotation SummarizationSetBy = Automatic
+
+	column LICITCONVENIOISENCAOICMS
+		dataType: string
+		lineageTag: 8ec32d00-45fd-461b-93a5-63da995e3399
+		summarizeBy: none
+		sourceColumn: LICITCONVENIOISENCAOICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCENTUALISS
+		dataType: string
+		lineageTag: 3eee9d0b-d4af-4531-bb0c-fbf293378842
+		summarizeBy: none
+		sourceColumn: PERCENTUALISS
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMBVENDAECOMMERCEUNILEVER
+		dataType: string
+		lineageTag: 685586bd-6c44-4c5d-a494-db75874e76ff
+		summarizeBy: none
+		sourceColumn: EMBVENDAECOMMERCEUNILEVER
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALBENEFICSAIDA
+		dataType: string
+		lineageTag: 476e4f47-2c30-493b-86f7-ddcb1e584bef
+		summarizeBy: none
+		sourceColumn: CODFISCALBENEFICSAIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALBENEFICRETORNO
+		dataType: string
+		lineageTag: f13da85a-1f65-4c9b-beb4-a53aac088532
+		summarizeBy: none
+		sourceColumn: CODFISCALBENEFICRETORNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFISCALBENEFICENTRADA
+		dataType: string
+		lineageTag: dc5c7f68-cba9-4b75-9413-a036a6383033
+		summarizeBy: none
+		sourceColumn: CODFISCALBENEFICENTRADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTBENEFICSAIDA
+		dataType: string
+		lineageTag: ee832ea8-436b-469c-848e-1b34aaee20f9
+		summarizeBy: none
+		sourceColumn: SITTRIBUTBENEFICSAIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTBENEFICRETORNO
+		dataType: string
+		lineageTag: 402fc8f2-8312-4bd2-b9f2-626479ea16d2
+		summarizeBy: none
+		sourceColumn: SITTRIBUTBENEFICRETORNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITTRIBUTBENEFICENTRADA
+		dataType: string
+		lineageTag: db37466a-50da-418c-90a4-e87b3d7261fe
+		summarizeBy: none
+		sourceColumn: SITTRIBUTBENEFICENTRADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCICMSDESONERACAO
+		dataType: string
+		lineageTag: f8843e9e-315f-47ee-88a4-f713b2ec792b
+		summarizeBy: none
+		sourceColumn: PERCICMSDESONERACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ACEITATROCAINSERVIVEL
+		dataType: string
+		lineageTag: 6254948d-019f-4e7a-a319-da1702ade182
+		summarizeBy: none
+		sourceColumn: ACEITATROCAINSERVIVEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODINSERVIVEL
+		dataType: string
+		lineageTag: 6c4c8e4e-6379-41c3-b27d-eb0a88656e63
+		summarizeBy: none
+		sourceColumn: CODINSERVIVEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARCACABATERIA
+		dataType: string
+		lineageTag: 1b19169a-6c0c-467a-bed9-3701ce4911aa
+		summarizeBy: none
+		sourceColumn: CARCACABATERIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ISENTOTCIF
+		dataType: string
+		lineageTag: 94eff953-9691-4f24-bda9-0fee0c395319
+		summarizeBy: none
+		sourceColumn: ISENTOTCIF
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADETRIBEX
+		dataType: string
+		lineageTag: a9f67987-7024-4428-b2c9-5bfa8be93249
+		summarizeBy: none
+		sourceColumn: UNIDADETRIBEX
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVTRIBEX
+		dataType: string
+		lineageTag: feeef98e-c026-4126-8102-2def1dc4687e
+		summarizeBy: none
+		sourceColumn: FATORCONVTRIBEX
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCANP
+		dataType: string
+		lineageTag: 95403680-1d57-4d62-b41d-9b592504d377
+		summarizeBy: none
+		sourceColumn: DESCANP
+
+		annotation SummarizationSetBy = Automatic
+
+	column BLOQUEIOACORDOPARCERIA
+		dataType: string
+		lineageTag: 0a7b7c5a-c8af-48c6-8c9d-6ebee9a41a68
+		summarizeBy: none
+		sourceColumn: BLOQUEIOACORDOPARCERIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERACRESCIMOIPI
+		dataType: string
+		lineageTag: 01711307-8a04-4e9a-8458-a69b4784bcc7
+		summarizeBy: none
+		sourceColumn: PERACRESCIMOIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAGREGACAO
+		dataType: string
+		lineageTag: ab782e20-bbc2-4b3b-9524-3ede8d4e6be7
+		summarizeBy: none
+		sourceColumn: CODAGREGACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column USACODAGREGACAO
+		dataType: string
+		lineageTag: b99b2c53-ba18-4f9c-98a8-2c9c1eee8f9e
+		summarizeBy: none
+		sourceColumn: USACODAGREGACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ISENTOSTCOZINHAINDUSTRIAL
+		dataType: string
+		lineageTag: aa004993-4e08-48c5-93ad-b31c1a54f9be
+		summarizeBy: none
+		sourceColumn: ISENTOSTCOZINHAINDUSTRIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRINCIPATIVO2
+		dataType: string
+		lineageTag: e73e97bd-b1f5-4433-b224-163539b03e0d
+		summarizeBy: none
+		sourceColumn: CODPRINCIPATIVO2
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZAMULTIPLICADOR
+		dataType: string
+		lineageTag: eee7578c-3ba5-40c5-bc30-a14f28cde495
+		summarizeBy: none
+		sourceColumn: UTILIZAMULTIPLICADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PGLP
+		dataType: string
+		lineageTag: 65b155bb-52ce-4974-8a9a-883235e467b6
+		summarizeBy: none
+		sourceColumn: PGLP
+
+		annotation SummarizationSetBy = Automatic
+
+	column PGNN
+		dataType: string
+		lineageTag: 38591edd-ca58-4e3b-bbcb-829a3c54731c
+		summarizeBy: none
+		sourceColumn: PGNN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PGNI
+		dataType: string
+		lineageTag: b5d35bb0-84a4-49f9-9b7f-ad90ec9b06c9
+		summarizeBy: none
+		sourceColumn: PGNI
+
+		annotation SummarizationSetBy = Automatic
+
+	column VPART
+		dataType: string
+		lineageTag: 070f48da-6db1-4b74-bddb-d3d4c655de95
+		summarizeBy: none
+		sourceColumn: VPART
+
+		annotation SummarizationSetBy = Automatic
+
+	column FATORCONVERSAOBIONEXO
+		dataType: string
+		lineageTag: 7d327a6b-b402-4ea0-8c9a-ff548ad8d820
+		summarizeBy: none
+		sourceColumn: FATORCONVERSAOBIONEXO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PGLI
+		dataType: string
+		lineageTag: 09b53efe-6a34-4f8e-881c-29edc0bf168e
+		summarizeBy: none
+		sourceColumn: PGLI
+
+		annotation SummarizationSetBy = Automatic
+
+	column PGLN
+		dataType: string
+		lineageTag: 8d86f398-dc8e-4e7c-9a07-705f0dea3ff9
+		summarizeBy: none
+		sourceColumn: PGLN
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAMAIORVALORPARACALCULOICMS
+		dataType: string
+		lineageTag: 641ef5e1-c344-4c55-8f0e-08959961a35e
+		summarizeBy: none
+		sourceColumn: USAMAIORVALORPARACALCULOICMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column USABASESTNOFCP
+		dataType: string
+		lineageTag: d3c17a26-cb8f-4b2a-ac08-7e50750cc348
+		summarizeBy: none
+		sourceColumn: USABASESTNOFCP
+
+		annotation SummarizationSetBy = Automatic
+
+	column UNIDADEPADRAO
+		dataType: string
+		lineageTag: 2de85d17-e068-4692-abc3-207d8379cd22
+		summarizeBy: none
+		sourceColumn: UNIDADEPADRAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAODINAMICA
+		dataType: string
+		lineageTag: 8fb5bcc9-8716-4b46-bc60-1cbab430b46d
+		summarizeBy: none
+		sourceColumn: DESCRICAODINAMICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column GRAMATURALICIT
+		dataType: string
+		lineageTag: 3c75d23e-fc2d-45b9-9649-34643acadf9c
+		summarizeBy: none
+		sourceColumn: GRAMATURALICIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column IDSOFITVIEW
+		dataType: string
+		lineageTag: 0c7578be-3d7a-4b23-95cb-c084945c92c0
+		summarizeBy: none
+		sourceColumn: IDSOFITVIEW
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTALTERSOFITVIEW
+		dataType: string
+		lineageTag: f651bcc8-e53c-4ed3-b270-ed592212d2e7
+		summarizeBy: none
+		sourceColumn: DTULTALTERSOFITVIEW
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTEXCLUSAOSOFITVIEW
+		dataType: string
+		lineageTag: b9f7116b-9dc4-471e-89e8-7ec08be32957
+		summarizeBy: none
+		sourceColumn: DTEXCLUSAOSOFITVIEW
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODMOTISENCAOANVISA
+		dataType: string
+		lineageTag: ec9351e3-0331-4a55-b6f4-f716c7d2014e
+		summarizeBy: none
+		sourceColumn: CODMOTISENCAOANVISA
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAICMSDESONERACAO
+		dataType: string
+		lineageTag: 4c9194a8-eb24-4d20-9923-fc488c6db5fd
+		summarizeBy: none
+		sourceColumn: USAICMSDESONERACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOINTEGRACAOB2B
+		dataType: string
+		lineageTag: 1424a341-8857-436c-bcdf-9e4c919b06c1
+		summarizeBy: none
+		sourceColumn: TIPOINTEGRACAOB2B
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMERO
+		dataType: string
+		lineageTag: a68599d1-3116-46e1-b355-79bde931ed54
+		summarizeBy: none
+		sourceColumn: NUMERO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMEROCX
+		dataType: string
+		lineageTag: 7af9386f-32bf-4bd3-8246-42933aa5c55f
+		summarizeBy: none
+		sourceColumn: NUMEROCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODSAZONALIDADEMED
+		dataType: string
+		lineageTag: 833d6591-d3f8-45d0-a39d-3680f37a86bc
+		summarizeBy: none
+		sourceColumn: CODSAZONALIDADEMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODADWORDS
+		dataType: string
+		lineageTag: ec4fd46a-3b9d-4f1a-9efb-b789b546f2c2
+		summarizeBy: none
+		sourceColumn: CODADWORDS
+
+		annotation SummarizationSetBy = Automatic
+
+	column EXIBESEMESTOQUEECOMMERCE
+		dataType: string
+		lineageTag: df1d113d-fa86-4bf9-8c8e-8b9deeab1c61
+		summarizeBy: none
+		sourceColumn: EXIBESEMESTOQUEECOMMERCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LINKID
+		dataType: string
+		lineageTag: 4c2721a5-2698-4287-8db2-27b8f038bf9f
+		summarizeBy: none
+		sourceColumn: LINKID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODCAMPLOMADEE
+		dataType: string
+		lineageTag: 4018ed94-91da-4e9a-b3bc-a70fce914bcd
+		summarizeBy: none
+		sourceColumn: CODCAMPLOMADEE
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZAINTEGRACAOKIBON
+		dataType: string
+		lineageTag: 076ad552-c163-46fd-b346-7ccf6eb8aaf5
+		summarizeBy: none
+		sourceColumn: UTILIZAINTEGRACAOKIBON
+
+		annotation SummarizationSetBy = Automatic
+
+	column PREDOMINANCIA
+		dataType: string
+		lineageTag: d518b5f8-4d6d-4d5b-b198-05fab8d0b779
+		summarizeBy: none
+		sourceColumn: PREDOMINANCIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column USABASEREDICMSPRESUMIDO
+		dataType: string
+		lineageTag: 9b06ad01-5b5d-4376-a69e-802a4f820820
+		summarizeBy: none
+		sourceColumn: USABASEREDICMSPRESUMIDO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALIQUOTATCIF
+		dataType: string
+		lineageTag: 7f37b75b-f863-44ff-adba-29b538928897
+		summarizeBy: none
+		sourceColumn: ALIQUOTATCIF
+
+		annotation SummarizationSetBy = Automatic
+
+	column PMPFMEDICAMENTO
+		dataType: string
+		lineageTag: 06fbe73e-11a8-4bb5-b866-0bbb72e486fe
+		summarizeBy: none
+		sourceColumn: PMPFMEDICAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRECOFABRICA
+		dataType: string
+		lineageTag: 1c1e8930-f4b9-4a8a-8d49-68342b966c55
+		summarizeBy: none
+		sourceColumn: PRECOFABRICA
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPMPFBASEST
+		dataType: string
+		lineageTag: 8125ae47-bbe4-4591-9a0d-15cf557fac9a
+		summarizeBy: none
+		sourceColumn: USAPMPFBASEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAPFABBASEST
+		dataType: string
+		lineageTag: d39e2d42-a0a6-47ce-8a39-6a12ebd3c31c
+		summarizeBy: none
+		sourceColumn: USAPFABBASEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCREDPMPF
+		dataType: string
+		lineageTag: 3239ecfc-c567-4757-8b6b-811da7a993a8
+		summarizeBy: none
+		sourceColumn: PERCREDPMPF
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERCREDPFAB
+		dataType: string
+		lineageTag: cf42028c-01dd-4ee7-a6ba-51123540dd80
+		summarizeBy: none
+		sourceColumn: PERCREDPFAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBSCONTXCAMPO
+		dataType: string
+		lineageTag: 4ecaf53d-035e-4be6-8fc0-b85b00345cd1
+		summarizeBy: none
+		sourceColumn: OBSCONTXCAMPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBSCONTXTEXTO
+		dataType: string
+		lineageTag: 911696ee-1372-4ce7-ac3b-d9bd3c622a10
+		summarizeBy: none
+		sourceColumn: OBSCONTXTEXTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBSFISCOXCAMPO
+		dataType: string
+		lineageTag: 01494e40-b268-4d78-a367-a78b09a10099
+		summarizeBy: none
+		sourceColumn: OBSFISCOXCAMPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBSFISCOXTEXTO
+		dataType: string
+		lineageTag: 79f54c2c-cd64-4ec9-a9f7-986dcc09bb1d
+		summarizeBy: none
+		sourceColumn: OBSFISCOXTEXTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONVENIOISENCAOICMSMED
+		dataType: string
+		lineageTag: ca292202-552a-4ff1-8094-9ccd934e92a6
+		summarizeBy: none
+		sourceColumn: CONVENIOISENCAOICMSMED
+
+		annotation SummarizationSetBy = Automatic
+
+	column USAMAIORVALORPARACALCULOIPI
+		dataType: string
+		lineageTag: 66e103d4-0c9c-4b69-8b36-5b4c11b07821
+		summarizeBy: none
+		sourceColumn: USAMAIORVALORPARACALCULOIPI
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTALTERC5
+		dataType: string
+		lineageTag: 6028ef9d-f366-4721-bfc5-f5859c06f2b7
+		summarizeBy: none
+		sourceColumn: DTALTERC5
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERMITEMULTIPLICACAOPDV
+		dataType: string
+		lineageTag: 50091d0b-66c3-4b6f-aab0-f374b1a165c9
+		summarizeBy: none
+		sourceColumn: PERMITEMULTIPLICACAOPDV
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPANT2
+		dataType: string
+		lineageTag: e4b69ff4-9804-451d-820f-488077b1e250
+		summarizeBy: none
+		sourceColumn: CUSTOREPANT2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOREPANT3
+		dataType: string
+		lineageTag: 327e7660-4669-4b52-a7c7-ddda251d0a3b
+		summarizeBy: none
+		sourceColumn: CUSTOREPANT3
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PCPRODUT = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Dogec\Documents\Jorge - SID - av3\PCPRODUT.xlsx"), null, true),
+				    #"Result 1_Sheet" = Fonte{[Item="Result 1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Result 1_Sheet", [PromoteAllScalars=true])
+				in
+				    #"Cabeçalhos Promovidos"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

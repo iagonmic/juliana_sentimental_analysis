@@ -1,0 +1,74 @@
+relationship e1f3ca25-2c11-4f82-bb89-2801595c1d0f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DATA
+	toColumn: LocalDateTable_96605be6-dc55-461d-b919-3f2786807071.Date
+
+relationship d354f299-b4aa-4960-bfcb-a4b03a48a337
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTVALIDADE
+	toColumn: LocalDateTable_ee897427-0881-4550-a162-640314a30adf.Date
+
+relationship 1c0f2b2b-dfb7-4f83-82a2-37bfd8f259af
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTESTORNO
+	toColumn: LocalDateTable_f29949f9-3a0f-496b-8541-4583aa1a3729.Date
+
+relationship b3bfc398-5125-46ad-9276-5a8c1a6df372
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTINICIOOS
+	toColumn: LocalDateTable_1eb50b36-bb6a-4ffa-9e76-4d99a270ca4c.Date
+
+relationship ec75a281-fa86-4035-82a1-a3d88692b7dc
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTFIMOS
+	toColumn: LocalDateTable_9f2baf56-dcdb-4394-890e-bc49edbc12e7.Date
+
+relationship eedd9ec7-b155-4eda-8790-7e7952a2cc4c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTULTIMP
+	toColumn: LocalDateTable_1c77797a-28fb-4dbf-b357-44f99a22c142.Date
+
+relationship 43166d23-46ea-4b18-9bfc-03fcf6b271d8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTPRIIMP
+	toColumn: LocalDateTable_4a66e734-fe07-45b9-bae7-3b1693de0912.Date
+
+relationship 65e5c073-c881-4cee-bfee-32b41485010f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTFIMSEPARACAO
+	toColumn: LocalDateTable_4e40eaf8-6faf-4bb3-b032-da46a9786e7c.Date
+
+relationship 827a108d-9ca4-4af7-b1d6-87b64c49eb35
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTINICIOCONFERENCIA
+	toColumn: LocalDateTable_7fbdbc26-d7ec-4721-8165-f5e8e325e6ee.Date
+
+relationship 1bac99f2-f5f9-47a5-b0cb-1f46d3a4d9ed
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTFIMCONFERENCIA
+	toColumn: LocalDateTable_d36eef93-495b-4d4f-b6b3-622fe89bebc5.Date
+
+relationship 30be249d-ca2a-4556-8681-55af87128c4c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DATALIBERACAO
+	toColumn: LocalDateTable_d7800437-3474-468c-88a9-f821d11a29f6.Date
+
+relationship ef87c666-a6b8-4fa1-bc60-b265e6c9930d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DATAGERACAO
+	toColumn: LocalDateTable_79cb6eee-797a-486f-956a-a6d7d32ec6a5.Date
+
+relationship 445ff49c-b015-47be-83eb-e26bdd93c084
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTFIMOSFILA
+	toColumn: LocalDateTable_80958682-0614-429f-bd33-575a03de6c7d.Date
+
+relationship 8eede4ca-c6d4-43b5-9c41-57dd77727411
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PCMOVENDPEND.DTENTRADA
+	toColumn: LocalDateTable_209e01ba-73ce-49c7-abd6-8f04d1aba4ac.Date
+
+relationship c8dd68af-72c6-eb0d-0d86-c5f89117e67e
+	fromColumn: PCMOVENDPEND.CODPROD
+	toColumn: PCPRODUT.CODPROD
+

@@ -1,0 +1,1240 @@
+table PCMOVENDPEND
+	lineageTag: 7fa76a93-1cff-4dc0-baff-af236185b6d1
+
+	column DATA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a488b33e-fa6a-4e43-bf7c-9c6b33b1079c
+		summarizeBy: none
+		sourceColumn: DATA
+
+		variation Variation
+			isDefault
+			relationship: e1f3ca25-2c11-4f82-bb89-2801595c1d0f
+			defaultHierarchy: LocalDateTable_96605be6-dc55-461d-b919-3f2786807071.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CODPROD
+		dataType: string
+		lineageTag: 61006152-e31b-4450-82b3-9c0822fca2b9
+		summarizeBy: none
+		sourceColumn: CODPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column QT
+		dataType: int64
+		formatString: 0
+		lineageTag: 32cd05f8-3771-4bb0-90b4-a7a432a2a53f
+		summarizeBy: sum
+		sourceColumn: QT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODOPER
+		dataType: string
+		lineageTag: f812b397-bcd4-45de-b7f8-d8ac8e1c7434
+		summarizeBy: none
+		sourceColumn: CODOPER
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANS
+		dataType: string
+		lineageTag: 46471552-b99a-48fd-aae4-5cf97dd70f2a
+		summarizeBy: none
+		sourceColumn: NUMTRANS
+
+		annotation SummarizationSetBy = Automatic
+
+	column HORA
+		dataType: int64
+		formatString: 0
+		lineageTag: 51c843c9-ca50-440d-93be-be10cdb3a0a8
+		summarizeBy: sum
+		sourceColumn: HORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MINUTO
+		dataType: int64
+		formatString: 0
+		lineageTag: ec1eda4f-fb38-49f1-b937-4d6056dc7735
+		summarizeBy: sum
+		sourceColumn: MINUTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSWMS
+		dataType: int64
+		formatString: 0
+		lineageTag: 08f915f4-54eb-4ea3-b818-13a1ea13d92c
+		summarizeBy: sum
+		sourceColumn: NUMTRANSWMS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTVALIDADE
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ce1fb935-e6a4-40ab-a7f2-54080bb3ab24
+		summarizeBy: none
+		sourceColumn: DTVALIDADE
+
+		variation Variation
+			isDefault
+			relationship: d354f299-b4aa-4960-bfcb-a4b03a48a337
+			defaultHierarchy: LocalDateTable_ee897427-0881-4550-a162-640314a30adf.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CODROTINA
+		dataType: int64
+		formatString: 0
+		lineageTag: b2b79a67-df7c-494f-ac3a-cb3d1e32adb5
+		summarizeBy: sum
+		sourceColumn: CODROTINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMCARINI
+		dataType: string
+		lineageTag: ce25f864-05a2-49fd-96ac-1b07c6dd7488
+		summarizeBy: none
+		sourceColumn: NUMCARINI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMCARFIM
+		dataType: string
+		lineageTag: a62fb25c-acc2-4593-9891-f44febecc115
+		summarizeBy: none
+		sourceColumn: NUMCARFIM
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVIAS
+		dataType: int64
+		formatString: 0
+		lineageTag: 67b0b1f0-c85e-46da-b50a-77e99016d222
+		summarizeBy: sum
+		sourceColumn: NUMVIAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQ
+		dataType: int64
+		formatString: 0
+		lineageTag: 582fcf92-8a3c-4456-8ffc-48329a49bdd1
+		summarizeBy: sum
+		sourceColumn: NUMSEQ
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMCAR
+		dataType: int64
+		formatString: 0
+		lineageTag: edab3b99-f3c4-496b-8e22-35aece56e00c
+		summarizeBy: sum
+		sourceColumn: NUMCAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMBONUS
+		dataType: string
+		lineageTag: dbc5106a-9abd-41d9-9c91-cbd29ff36b7b
+		summarizeBy: none
+		sourceColumn: NUMBONUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTESTORNO
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1f28f597-93d5-4d40-a26a-0d5581acf025
+		summarizeBy: none
+		sourceColumn: DTESTORNO
+
+		variation Variation
+			isDefault
+			relationship: 1c0f2b2b-dfb7-4f83-82a2-37bfd8f259af
+			defaultHierarchy: LocalDateTable_f29949f9-3a0f-496b-8541-4583aa1a3729.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCESTORNO
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e3ca463-31af-4503-9b5e-b840354d7bde
+		summarizeBy: sum
+		sourceColumn: CODFUNCESTORNO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPALETE
+		dataType: int64
+		formatString: 0
+		lineageTag: cb1cfc4e-d601-448d-8412-8dddd90fa791
+		summarizeBy: sum
+		sourceColumn: NUMPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOPROD
+		dataType: int64
+		formatString: 0
+		lineageTag: d66b1b29-2b17-4666-8af9-f04c28b16846
+		summarizeBy: sum
+		sourceColumn: TIPOPROD
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPED
+		dataType: int64
+		formatString: 0
+		lineageTag: 5d643f88-2f92-4ce2-b645-c2d2d268543c
+		summarizeBy: sum
+		sourceColumn: NUMPED
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMLOTE
+		dataType: string
+		lineageTag: 8608a0bd-c6ed-4364-bd22-e26e2b7a95dc
+		summarizeBy: none
+		sourceColumn: NUMLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTRESERVADA
+		dataType: string
+		lineageTag: 9166639c-cb78-4445-bbca-181928b3f28d
+		summarizeBy: none
+		sourceColumn: QTRESERVADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSICAO
+		dataType: string
+		lineageTag: 477a2bac-198d-4dbd-b04a-7b80a02d1a14
+		summarizeBy: none
+		sourceColumn: POSICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTORIG
+		dataType: int64
+		formatString: 0
+		lineageTag: c6ba7c25-670b-4cce-b91f-5220d03bad5a
+		summarizeBy: sum
+		sourceColumn: QTORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCCONF
+		dataType: int64
+		formatString: 0
+		lineageTag: ae660487-0757-49c3-a189-7004c38bfb71
+		summarizeBy: sum
+		sourceColumn: CODFUNCCONF
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATACONF
+		dataType: string
+		lineageTag: 9b3567fa-277f-4b56-a8d3-f6d427b71f1b
+		summarizeBy: none
+		sourceColumn: DATACONF
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFILIAL
+		dataType: int64
+		formatString: 0
+		lineageTag: c136d560-328f-4208-bf6d-74bab5d863a9
+		summarizeBy: sum
+		sourceColumn: CODFILIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSVENDA
+		dataType: int64
+		formatString: 0
+		lineageTag: ebcec569-e64b-4ce8-94ed-f223fb3da9c6
+		summarizeBy: sum
+		sourceColumn: NUMTRANSVENDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPEDINI
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b2914cf-e99c-41cc-b461-dec57394152e
+		summarizeBy: sum
+		sourceColumn: NUMPEDINI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPEDFIM
+		dataType: int64
+		formatString: 0
+		lineageTag: 8d91bdce-5733-42d4-911e-61af700e95c9
+		summarizeBy: sum
+		sourceColumn: NUMPEDFIM
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSVENDAINI
+		dataType: string
+		lineageTag: c4a0fef0-dac2-4a70-818b-3b30826107dc
+		summarizeBy: none
+		sourceColumn: NUMTRANSVENDAINI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSVENDAFIM
+		dataType: string
+		lineageTag: c56033ff-bc3f-44c4-a590-9fae1b792838
+		summarizeBy: none
+		sourceColumn: NUMTRANSVENDAFIM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECO
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c63023d-bd3a-4c9a-89fb-9c1e0dfc0724
+		summarizeBy: sum
+		sourceColumn: CODENDERECO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINICIOOS
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: db5d74c5-951c-4186-b24a-0789bc6dd245
+		summarizeBy: none
+		sourceColumn: DTINICIOOS
+
+		variation Variation
+			isDefault
+			relationship: b3bfc398-5125-46ad-9276-5a8c1a6df372
+			defaultHierarchy: LocalDateTable_1eb50b36-bb6a-4ffa-9e76-4d99a270ca4c.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFIMOS
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5a33d156-2993-47cb-bc51-87a613fe0b8e
+		summarizeBy: none
+		sourceColumn: DTFIMOS
+
+		variation Variation
+			isDefault
+			relationship: ec75a281-fa86-4035-82a1-a3d88692b7dc
+			defaultHierarchy: LocalDateTable_9f2baf56-dcdb-4394-890e-bc49edbc12e7.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCOS
+		dataType: int64
+		formatString: 0
+		lineageTag: fb070b24-4dce-4872-ac0e-4f7986207b95
+		summarizeBy: sum
+		sourceColumn: CODFUNCOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMOS
+		dataType: int64
+		formatString: 0
+		lineageTag: cef7a56c-328c-4061-ac0a-1e7aa415770a
+		summarizeBy: sum
+		sourceColumn: NUMOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOOS
+		dataType: int64
+		formatString: 0
+		lineageTag: 61b23a97-97a3-4c2b-a280-4e6b9027ca53
+		summarizeBy: sum
+		sourceColumn: TIPOOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTSEPARADA
+		dataType: int64
+		formatString: 0
+		lineageTag: f05e0017-2bdb-4669-bca7-b22e74ba7582
+		summarizeBy: sum
+		sourceColumn: QTSEPARADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICENT
+		dataType: string
+		lineageTag: 7f7a8d62-35b2-438f-b516-560af26fa3fc
+		summarizeBy: none
+		sourceColumn: MUNICENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMBOX
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ef612b4-f472-4c56-b11b-9b47672c2a6a
+		summarizeBy: sum
+		sourceColumn: NUMBOX
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVOL
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a12e8d4-77fb-4eb4-abf6-a9d8aa0e5a5d
+		summarizeBy: sum
+		sourceColumn: NUMVOL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOORIG
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a4bca9a-ab60-40fa-88e5-2af8b92814a8
+		summarizeBy: sum
+		sourceColumn: CODENDERECOORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEQPALETE
+		dataType: string
+		lineageTag: d6ad3a32-c6e3-41b1-aa19-84ca3e6e112e
+		summarizeBy: none
+		sourceColumn: SEQPALETE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRACA
+		dataType: int64
+		formatString: 0
+		lineageTag: 94b17f03-0fb6-4b06-890d-358320b686d9
+		summarizeBy: sum
+		sourceColumn: CODPRACA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCOSFIM
+		dataType: int64
+		formatString: 0
+		lineageTag: 4532debe-41fd-4c86-a1a9-b20fd207eaa1
+		summarizeBy: sum
+		sourceColumn: CODFUNCOSFIM
+
+		annotation SummarizationSetBy = Automatic
+
+	column FUNCULTIMP
+		dataType: int64
+		formatString: 0
+		lineageTag: 688db4be-98ca-44e0-8378-db1106e77460
+		summarizeBy: sum
+		sourceColumn: FUNCULTIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTULTIMP
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 0c942055-525b-4888-99d4-77f243b6968e
+		summarizeBy: none
+		sourceColumn: DTULTIMP
+
+		variation Variation
+			isDefault
+			relationship: eedd9ec7-b155-4eda-8790-7e7952a2cc4c
+			defaultHierarchy: LocalDateTable_1c77797a-28fb-4dbf-b357-44f99a22c142.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEQCONF
+		dataType: int64
+		formatString: 0
+		lineageTag: b243d4cc-3d45-417a-b167-7fda1ea9f852
+		summarizeBy: sum
+		sourceColumn: SEQCONF
+
+		annotation SummarizationSetBy = Automatic
+
+	column FUNCPRIIMP
+		dataType: int64
+		formatString: 0
+		lineageTag: 115333c1-df0d-482c-9651-e0a512ff5b03
+		summarizeBy: sum
+		sourceColumn: FUNCPRIIMP
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTPRIIMP
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 661fa34f-2132-43a8-8c63-23064bb32ed5
+		summarizeBy: none
+		sourceColumn: DTPRIIMP
+
+		variation Variation
+			isDefault
+			relationship: 43166d23-46ea-4b18-9bfc-03fcf6b271d8
+			defaultHierarchy: LocalDateTable_4a66e734-fe07-45b9-bae7-3b1693de0912.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATRFUNC
+		dataType: string
+		lineageTag: dbba0191-db8a-49a0-90f9-3952ec1fa1c4
+		summarizeBy: none
+		sourceColumn: MATRFUNC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCINICIOS
+		dataType: string
+		lineageTag: 4e34deb9-0306-4b96-9662-df201c4642c1
+		summarizeBy: none
+		sourceColumn: CODFUNCINICIOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPALETE1
+		dataType: string
+		lineageTag: 3ded7bae-f5d2-46b5-99da-77a45416134b
+		summarizeBy: none
+		sourceColumn: NUMPALETE1
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPALETE2
+		dataType: string
+		lineageTag: 3f7837fe-d7be-4aa9-a4dd-d8c7773ca7d2
+		summarizeBy: none
+		sourceColumn: NUMPALETE2
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOEMBALAGEM
+		dataType: string
+		lineageTag: b9d9c818-ccc2-4b2e-bf6d-b1c229ee6b25
+		summarizeBy: none
+		sourceColumn: TIPOEMBALAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFIMSEPARACAO
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: aa86fb7c-29cb-44b8-a29b-dd32572819e0
+		summarizeBy: none
+		sourceColumn: DTFIMSEPARACAO
+
+		variation Variation
+			isDefault
+			relationship: 65e5c073-c881-4cee-bfee-32b41485010f
+			defaultHierarchy: LocalDateTable_4e40eaf8-6faf-4bb3-b032-da46a9786e7c.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTERROS
+		dataType: string
+		lineageTag: 2ae08532-abd2-4dd4-bc93-737cd6395957
+		summarizeBy: none
+		sourceColumn: QTERROS
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTCANCEL
+		dataType: string
+		lineageTag: 90ae6f0d-432a-43e1-bdf3-0a2aa63b3fac
+		summarizeBy: none
+		sourceColumn: QTCANCEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVOLPAS
+		dataType: string
+		lineageTag: 2070f992-efcb-4167-9832-0925aed7fff8
+		summarizeBy: none
+		sourceColumn: NUMVOLPAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODORIG
+		dataType: string
+		lineageTag: 02fcd3ba-56e1-449e-be2b-2261f9284ad6
+		summarizeBy: none
+		sourceColumn: CODPRODORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column PCMOVENDPEND
+		dataType: string
+		lineageTag: 3a8d14c7-97a4-4da1-a349-dad16d678dc0
+		summarizeBy: none
+		sourceColumn: PCMOVENDPEND
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPALETE3
+		dataType: string
+		lineageTag: ba0adfdc-c224-4e6c-ab0b-b17c72986041
+		summarizeBy: none
+		sourceColumn: NUMPALETE3
+
+		annotation SummarizationSetBy = Automatic
+
+	column FLOWABAST
+		dataType: string
+		lineageTag: 4fe5311c-777f-4e60-aee4-b38f4fef63f3
+		summarizeBy: none
+		sourceColumn: FLOWABAST
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOCAMADA1
+		dataType: string
+		lineageTag: cbb383d9-8e74-46c3-985b-3580185bc38a
+		summarizeBy: none
+		sourceColumn: PESOCAMADA1
+
+		annotation SummarizationSetBy = Automatic
+
+	column PESOCAMADA2
+		dataType: string
+		lineageTag: 91fbc1ed-d318-48fe-8e27-9a1b266887e6
+		summarizeBy: none
+		sourceColumn: PESOCAMADA2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CAMADA
+		dataType: string
+		lineageTag: 2dbb5c12-42ee-4d5a-ba39-eba4a1950b1f
+		summarizeBy: none
+		sourceColumn: CAMADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column LASTRO
+		dataType: string
+		lineageTag: 5d9f907e-e136-436d-8815-62fced307625
+		summarizeBy: none
+		sourceColumn: LASTRO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTESTDISPANT
+		dataType: int64
+		formatString: 0
+		lineageTag: acc0e499-b046-4637-8082-aa8a4e4e5b50
+		summarizeBy: sum
+		sourceColumn: QTESTDISPANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTANTEST
+		dataType: string
+		lineageTag: e4b68379-4b5d-4d2d-b728-ea796620976b
+		summarizeBy: none
+		sourceColumn: QTANTEST
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCCOFERENTE
+		dataType: int64
+		formatString: 0
+		lineageTag: f5f28d52-457e-4842-bf20-dd525082752e
+		summarizeBy: sum
+		sourceColumn: CODFUNCCOFERENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCEMBALADOR
+		dataType: int64
+		formatString: 0
+		lineageTag: 8c3fc152-36f5-4f53-a68d-964a090a74c0
+		summarizeBy: sum
+		sourceColumn: CODFUNCEMBALADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINICIOCONFERENCIA
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 47fdade0-207e-4bf4-a49d-0bcf3da29188
+		summarizeBy: none
+		sourceColumn: DTINICIOCONFERENCIA
+
+		variation Variation
+			isDefault
+			relationship: 827a108d-9ca4-4af7-b1d6-87b64c49eb35
+			defaultHierarchy: LocalDateTable_7fbdbc26-d7ec-4721-8165-f5e8e325e6ee.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFIMCONFERENCIA
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 2f04e1e6-0cb9-46eb-bcb9-8467a57e5757
+		summarizeBy: none
+		sourceColumn: DTFIMCONFERENCIA
+
+		variation Variation
+			isDefault
+			relationship: 1bac99f2-f5f9-47a5-b0cb-1f46d3a4d9ed
+			defaultHierarchy: LocalDateTable_d36eef93-495b-4d4f-b6b3-622fe89bebc5.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQMONTAGEM
+		dataType: int64
+		formatString: 0
+		lineageTag: f288b5e2-b368-43d5-a832-c6d59f819c19
+		summarizeBy: sum
+		sourceColumn: NUMSEQMONTAGEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQENTREGA
+		dataType: int64
+		formatString: 0
+		lineageTag: 456b5010-5aa8-45b2-b98d-df4d5f1ebdc0
+		summarizeBy: sum
+		sourceColumn: NUMSEQENTREGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATALIBERACAO
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 32b16779-f048-496e-9d2f-0c93536b5d9b
+		summarizeBy: none
+		sourceColumn: DATALIBERACAO
+
+		variation Variation
+			isDefault
+			relationship: 30be249d-ca2a-4556-8681-55af87128c4c
+			defaultHierarchy: LocalDateTable_d7800437-3474-468c-88a9-f821d11a29f6.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMSEQSEPARACAO
+		dataType: string
+		lineageTag: 7d3144f8-47bf-45b8-a457-d9081f629cc6
+		summarizeBy: none
+		sourceColumn: NUMSEQSEPARACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ITEMSEPARADO
+		dataType: string
+		lineageTag: 9bfacd4b-b9ed-487f-bdcc-65239b9520fa
+		summarizeBy: none
+		sourceColumn: ITEMSEPARADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTCONFERIDA
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d9ded85-98c4-4a02-860d-2c0b94381366
+		summarizeBy: sum
+		sourceColumn: QTCONFERIDA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGOUMA
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f885db5-75ec-44b1-8801-9ad77540e38e
+		summarizeBy: sum
+		sourceColumn: CODIGOUMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEQUMA
+		dataType: int64
+		formatString: 0
+		lineageTag: 64981bc5-144a-4ca6-afe9-57693e59c97f
+		summarizeBy: sum
+		sourceColumn: SEQUMA
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATAENVIOVOVOLLECT
+		dataType: string
+		lineageTag: b8055f51-f3a0-4ebf-a5b5-9899191aa316
+		summarizeBy: none
+		sourceColumn: DATAENVIOVOVOLLECT
+
+		annotation SummarizationSetBy = Automatic
+
+	column OPERACAOINICIADARF
+		dataType: string
+		lineageTag: e2d31957-78aa-4eb6-a831-a2c56d4a4836
+		summarizeBy: none
+		sourceColumn: OPERACAOINICIADARF
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODMOTIVO
+		dataType: string
+		lineageTag: ab66e4c3-8bfd-4b0c-87f6-8d7e292ae561
+		summarizeBy: none
+		sourceColumn: CODMOTIVO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVIASETIQUETA
+		dataType: string
+		lineageTag: 9bd023cd-e36d-482b-aa08-9cd88328d787
+		summarizeBy: none
+		sourceColumn: NUMVIASETIQUETA
+
+		annotation SummarizationSetBy = Automatic
+
+	column RESPAVARIA
+		dataType: string
+		lineageTag: 4a07f03c-8026-43be-841a-295a2cb73aa1
+		summarizeBy: none
+		sourceColumn: RESPAVARIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCGER
+		dataType: int64
+		formatString: 0
+		lineageTag: 05c5964c-6a91-4d9c-b148-200dd221c6ca
+		summarizeBy: sum
+		sourceColumn: CODFUNCGER
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSWMSORIG
+		dataType: string
+		lineageTag: 6dd3c69f-ed3f-40d7-a50d-485e1f68a5f2
+		summarizeBy: none
+		sourceColumn: NUMTRANSWMSORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSENT
+		dataType: string
+		lineageTag: 12719318-da02-4cbf-a999-d9d6ae3cf1fc
+		summarizeBy: none
+		sourceColumn: NUMTRANSENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTATRIB
+		dataType: string
+		lineageTag: 07f8c0d5-0de9-4a0c-931d-2456a768d486
+		summarizeBy: none
+		sourceColumn: DTATRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCATRIB
+		dataType: string
+		lineageTag: a06ca370-9e0c-46d5-ba72-09cca9634738
+		summarizeBy: none
+		sourceColumn: CODFUNCATRIB
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRIORIDADERF
+		dataType: string
+		lineageTag: 2d1e2267-abd9-407b-824f-73c7c20f448d
+		summarizeBy: none
+		sourceColumn: PRIORIDADERF
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVOLPED
+		dataType: string
+		lineageTag: 5093e4be-acb1-4f1a-beda-b62a79acfa9d
+		summarizeBy: none
+		sourceColumn: NUMVOLPED
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMAGRUPADOR
+		dataType: int64
+		formatString: 0
+		lineageTag: 3afa21dd-26fa-43c8-a634-7afdcac828ee
+		summarizeBy: sum
+		sourceColumn: NUMAGRUPADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODMODSEP
+		dataType: string
+		lineageTag: 796d1dff-0b7b-452c-aa97-1cd05d434d87
+		summarizeBy: none
+		sourceColumn: CODMODSEP
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVOLAGRUPADOR
+		dataType: int64
+		formatString: 0
+		lineageTag: c52dba00-0534-45ab-a6a0-239dfcb0c345
+		summarizeBy: sum
+		sourceColumn: NUMVOLAGRUPADOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFABRICACAO
+		dataType: string
+		lineageTag: 025ff150-5875-4367-bbf2-fb4b31400884
+		summarizeBy: none
+		sourceColumn: DTFABRICACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBS
+		dataType: string
+		lineageTag: 32d09c29-037d-40e7-9a51-d47246ad6bc4
+		summarizeBy: none
+		sourceColumn: OBS
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTPECAS
+		dataType: int64
+		formatString: 0
+		lineageTag: dd248801-fcfb-4d03-a5a7-841cc747ad8e
+		summarizeBy: sum
+		sourceColumn: QTPECAS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ORDEMTRANSF
+		dataType: int64
+		formatString: 0
+		lineageTag: a9c2e1fc-3eaa-406f-be0a-295a4f74cb67
+		summarizeBy: sum
+		sourceColumn: ORDEMTRANSF
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATAGERACAO
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: b4f78d74-7875-453e-90e6-3dc37bcb1027
+		summarizeBy: none
+		sourceColumn: DATAGERACAO
+
+		variation Variation
+			isDefault
+			relationship: ef87c666-a6b8-4fa1-bc60-b265e6c9930d
+			defaultHierarchy: LocalDateTable_79cb6eee-797a-486f-956a-a6d7d32ec6a5.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column GRUPOESTFIMOS
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f29a676-0cf4-4a42-af3d-f4626e94c92b
+		summarizeBy: sum
+		sourceColumn: GRUPOESTFIMOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPOENDERECAMENTO
+		dataType: string
+		lineageTag: fe738c78-e332-43b0-b7a7-afa2e512065a
+		summarizeBy: none
+		sourceColumn: TIPOENDERECAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFIMOSFILA
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 7dd97878-65d0-419c-a7a2-4ad12cebf2d0
+		summarizeBy: none
+		sourceColumn: DTFIMOSFILA
+
+		variation Variation
+			isDefault
+			relationship: 445ff49c-b015-47be-83eb-e26bdd93c084
+			defaultHierarchy: LocalDateTable_80958682-0614-429f-bd33-575a03de6c7d.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINTEGRACAO
+		dataType: string
+		lineageTag: a8eeaa9a-edbb-4fc1-851b-279f84dbea71
+		summarizeBy: none
+		sourceColumn: DTINTEGRACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTPECASORIG
+		dataType: int64
+		formatString: 0
+		lineageTag: 33bb960e-164f-44eb-aff3-fcb786f82cd2
+		summarizeBy: sum
+		sourceColumn: QTPECASORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTCXORIG
+		dataType: int64
+		formatString: 0
+		lineageTag: f11962b8-cb7c-4f27-8907-87d4ae5da689
+		summarizeBy: sum
+		sourceColumn: QTCXORIG
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTCX
+		dataType: int64
+		formatString: 0
+		lineageTag: 4ed724eb-d35a-406d-8d68-c7164bd963f8
+		summarizeBy: sum
+		sourceColumn: QTCX
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMVIASCARGARUA
+		dataType: string
+		lineageTag: 15c7d3f5-c15e-4ae1-a271-9c5b4146a0ef
+		summarizeBy: none
+		sourceColumn: NUMVIASCARGARUA
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTDEFALTAINFORMADA
+		dataType: int64
+		formatString: 0
+		lineageTag: 2cffbdcf-adcb-4585-a0ef-848535c1ae3b
+		summarizeBy: sum
+		sourceColumn: QTDEFALTAINFORMADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PULASEQCONF
+		dataType: string
+		lineageTag: b8738120-2299-455d-845c-a1d0243970c7
+		summarizeBy: none
+		sourceColumn: PULASEQCONF
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTGERACAOCLP
+		dataType: string
+		lineageTag: 92ea007d-94b6-4efc-9474-aeea25a03f5e
+		summarizeBy: none
+		sourceColumn: DTGERACAOCLP
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTFIMPROMOLOTE
+		dataType: string
+		lineageTag: c3d06c7f-5c4a-4d7e-95e4-53daa6f4140b
+		summarizeBy: none
+		sourceColumn: DTFIMPROMOLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTINICIOPROMOLOTE
+		dataType: string
+		lineageTag: 5d1d213f-26ae-438e-9d59-f0d1fb55ffb0
+		summarizeBy: none
+		sourceColumn: DTINICIOPROMOLOTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODBOX
+		dataType: string
+		lineageTag: 6f59efe8-8df8-409f-b517-28fa1eb7e333
+		summarizeBy: none
+		sourceColumn: CODBOX
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTGERACAOCPL
+		dataType: string
+		lineageTag: adeb833c-43a0-4f46-adf4-ceadc6898cac
+		summarizeBy: none
+		sourceColumn: DTGERACAOCPL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CONFTOTALOS
+		dataType: string
+		lineageTag: 4db42f53-07c6-4deb-af3f-345dd6afb740
+		summarizeBy: none
+		sourceColumn: CONFTOTALOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFILIALGESTAO
+		dataType: string
+		lineageTag: 15c55f55-0bf2-48fc-9fc8-05d3be0e6780
+		summarizeBy: none
+		sourceColumn: CODFILIALGESTAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIBERADOVOCOLLECT
+		dataType: string
+		lineageTag: 4ad3083c-0028-44fd-9bc2-75f2542d7ddb
+		summarizeBy: none
+		sourceColumn: LIBERADOVOCOLLECT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODDISTRIBUICAO
+		dataType: int64
+		formatString: 0
+		lineageTag: 724e625e-8969-48b0-a21e-be91b5eb53da
+		summarizeBy: sum
+		sourceColumn: CODDISTRIBUICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROTINALANC
+		dataType: string
+		lineageTag: 7969be43-1e28-4896-9f5b-d403c91bed47
+		summarizeBy: none
+		sourceColumn: ROTINALANC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCAUTFAT
+		dataType: string
+		lineageTag: 2025d6d9-fd84-4dda-8104-f1c4c74acad6
+		summarizeBy: none
+		sourceColumn: CODFUNCAUTFAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATALIBFAT
+		dataType: string
+		lineageTag: 313e122d-8277-4ea2-a35f-ecaf58c5d85e
+		summarizeBy: none
+		sourceColumn: DATALIBFAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMTRANSCARREG
+		dataType: int64
+		formatString: 0
+		lineageTag: 0dce979a-37d3-40c9-9f20-a5523c7ccecd
+		summarizeBy: sum
+		sourceColumn: NUMTRANSCARREG
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEPARACAOANTECIPADA
+		dataType: string
+		lineageTag: 6eb16977-cb31-4e78-9b4e-ad90046ea395
+		summarizeBy: none
+		sourceColumn: SEPARACAOANTECIPADA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCLIBERACAO
+		dataType: string
+		lineageTag: 06f52e36-11ab-410b-9261-ce54fffd8845
+		summarizeBy: none
+		sourceColumn: CODFUNCLIBERACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODPRODACAB
+		dataType: int64
+		formatString: 0
+		lineageTag: 43d2add8-8e17-427d-b333-8982177f2940
+		summarizeBy: sum
+		sourceColumn: CODPRODACAB
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODFUNCLIBERACAO_AUX
+		dataType: string
+		lineageTag: cd419db5-ddb4-465d-9e3f-304a79ead9c7
+		summarizeBy: none
+		sourceColumn: CODFUNCLIBERACAO_AUX
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODAGREGACAO
+		dataType: string
+		lineageTag: b6e99516-5f36-45f8-b745-efa824484681
+		summarizeBy: none
+		sourceColumn: CODAGREGACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODENDERECOSTAGE
+		dataType: string
+		lineageTag: 9f234498-34b1-44a7-8b10-670333220b8d
+		summarizeBy: none
+		sourceColumn: CODENDERECOSTAGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODBOXAGRUPAMENTO
+		dataType: string
+		lineageTag: 4e1b08cd-694f-47c1-85be-d9741df61ac8
+		summarizeBy: none
+		sourceColumn: CODBOXAGRUPAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DTENTRADA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3cdc110b-30ce-47c5-84e7-acd101ad82f0
+		summarizeBy: none
+		sourceColumn: DTENTRADA
+
+		variation Variation
+			isDefault
+			relationship: 8eede4ca-c6d4-43b5-9c41-57dd77727411
+			defaultHierarchy: LocalDateTable_209e01ba-73ce-49c7-abd6-8f04d1aba4ac.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column LOTEDESDOBRADO
+		dataType: string
+		lineageTag: aac63ca2-60a0-4ff6-97fe-ee784f40b49b
+		summarizeBy: none
+		sourceColumn: LOTEDESDOBRADO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PCMOVENDPEND = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Dogec\Documents\Jorge - SID - av3\PCMOVENDPEND.xlsx"), null, true),
+				    #"Result 1_Sheet" = Fonte{[Item="Result 1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Result 1_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"DATA", type date}, {"CODPROD", type text}, {"QT", Int64.Type}, {"CODOPER", type text}, {"NUMTRANS", type any}, {"HORA", Int64.Type}, {"MINUTO", Int64.Type}, {"NUMTRANSWMS", Int64.Type}, {"DTVALIDADE", type date}, {"CODROTINA", Int64.Type}, {"NUMCARINI", type any}, {"NUMCARFIM", type any}, {"NUMVIAS", Int64.Type}, {"NUMSEQ", Int64.Type}, {"NUMCAR", Int64.Type}, {"NUMBONUS", type any}, {"DTESTORNO", type datetime}, {"CODFUNCESTORNO", Int64.Type}, {"NUMPALETE", Int64.Type}, {"TIPOPROD", Int64.Type}, {"NUMPED", Int64.Type}, {"NUMLOTE", type text}, {"QTRESERVADA", type any}, {"POSICAO", type text}, {"QTORIG", Int64.Type}, {"CODFUNCCONF", Int64.Type}, {"DATACONF", type any}, {"CODFILIAL", Int64.Type}, {"NUMTRANSVENDA", Int64.Type}, {"NUMPEDINI", Int64.Type}, {"NUMPEDFIM", Int64.Type}, {"NUMTRANSVENDAINI", type any}, {"NUMTRANSVENDAFIM", type any}, {"CODENDERECO", Int64.Type}, {"DTINICIOOS", type datetime}, {"DTFIMOS", type datetime}, {"CODFUNCOS", Int64.Type}, {"NUMOS", Int64.Type}, {"TIPOOS", Int64.Type}, {"QTSEPARADA", Int64.Type}, {"MUNICENT", type any}, {"NUMBOX", Int64.Type}, {"NUMVOL", Int64.Type}, {"CODENDERECOORIG", Int64.Type}, {"SEQPALETE", type any}, {"CODPRACA", Int64.Type}, {"CODFUNCOSFIM", Int64.Type}, {"FUNCULTIMP", Int64.Type}, {"DTULTIMP", type datetime}, {"SEQCONF", Int64.Type}, {"FUNCPRIIMP", Int64.Type}, {"DTPRIIMP", type datetime}, {"MATRFUNC", type any}, {"CODFUNCINICIOS", type any}, {"NUMPALETE1", type any}, {"NUMPALETE2", type any}, {"TIPOEMBALAGEM", type text}, {"DTFIMSEPARACAO", type datetime}, {"QTERROS", type any}, {"QTCANCEL", type any}, {"NUMVOLPAS", type any}, {"CODPRODORIG", type any}, {"PCMOVENDPEND", type any}, {"NUMPALETE3", type any}, {"FLOWABAST", type any}, {"PESOCAMADA1", type any}, {"PESOCAMADA2", type any}, {"CAMADA", type any}, {"LASTRO", type any}, {"QTESTDISPANT", Int64.Type}, {"QTANTEST", type any}, {"CODFUNCCOFERENTE", Int64.Type}, {"CODFUNCEMBALADOR", Int64.Type}, {"DTINICIOCONFERENCIA", type datetime}, {"DTFIMCONFERENCIA", type datetime}, {"NUMSEQMONTAGEM", Int64.Type}, {"NUMSEQENTREGA", Int64.Type}, {"DATALIBERACAO", type datetime}, {"NUMSEQSEPARACAO", type any}, {"ITEMSEPARADO", type any}, {"QTCONFERIDA", Int64.Type}, {"CODIGOUMA", Int64.Type}, {"SEQUMA", Int64.Type}, {"DATAENVIOVOVOLLECT", type any}, {"OPERACAOINICIADARF", type any}, {"CODMOTIVO", type any}, {"NUMVIASETIQUETA", type any}, {"RESPAVARIA", type any}, {"CODFUNCGER", Int64.Type}, {"NUMTRANSWMSORIG", type any}, {"NUMTRANSENT", type any}, {"DTATRIB", type any}, {"CODFUNCATRIB", type any}, {"PRIORIDADERF", type any}, {"NUMVOLPED", type any}, {"NUMAGRUPADOR", Int64.Type}, {"CODMODSEP", type any}, {"NUMVOLAGRUPADOR", Int64.Type}, {"DTFABRICACAO", type any}, {"OBS", type any}, {"QTPECAS", Int64.Type}, {"ORDEMTRANSF", Int64.Type}, {"DATAGERACAO", type datetime}, {"GRUPOESTFIMOS", Int64.Type}, {"TIPOENDERECAMENTO", type any}, {"DTFIMOSFILA", type datetime}, {"DTINTEGRACAO", type any}, {"QTPECASORIG", Int64.Type}, {"QTCXORIG", Int64.Type}, {"QTCX", Int64.Type}, {"NUMVIASCARGARUA", type any}, {"QTDEFALTAINFORMADA", Int64.Type}, {"PULASEQCONF", type any}, {"DTGERACAOCLP", type any}, {"DTFIMPROMOLOTE", type any}, {"DTINICIOPROMOLOTE", type any}, {"CODBOX", type any}, {"DTGERACAOCPL", type any}, {"CONFTOTALOS", type any}, {"CODFILIALGESTAO", type any}, {"LIBERADOVOCOLLECT", type text}, {"CODDISTRIBUICAO", Int64.Type}, {"ROTINALANC", type text}, {"CODFUNCAUTFAT", type any}, {"DATALIBFAT", type any}, {"NUMTRANSCARREG", Int64.Type}, {"SEPARACAOANTECIPADA", type text}, {"CODFUNCLIBERACAO", type any}, {"CODPRODACAB", Int64.Type}, {"CODFUNCLIBERACAO_AUX", type any}, {"CODAGREGACAO", type any}, {"CODENDERECOSTAGE", type any}, {"CODBOXAGRUPAMENTO", type any}, {"DTENTRADA", type date}, {"LOTEDESDOBRADO", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

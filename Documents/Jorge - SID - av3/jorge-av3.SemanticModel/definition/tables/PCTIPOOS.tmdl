@@ -1,0 +1,59 @@
+table PCTIPOOS
+	lineageTag: b69beb8a-b9bf-4a9b-a7bf-20979f937c10
+
+	column CODIGO
+		dataType: int64
+		formatString: 0
+		lineageTag: a6da0ed1-b5f6-4b69-9d52-a75e5bdb3a64
+		summarizeBy: sum
+		sourceColumn: CODIGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESCRICAO
+		dataType: string
+		lineageTag: 9c17e9e3-3513-41f7-891a-f95c51a55559
+		summarizeBy: none
+		sourceColumn: DESCRICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZACHECKOUT
+		dataType: string
+		lineageTag: 4fe25a4c-9e2d-49a6-ab32-d52aa47eb1b8
+		summarizeBy: none
+		sourceColumn: UTILIZACHECKOUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column UTILIZARF
+		dataType: string
+		lineageTag: 6e679cf1-4838-4179-9853-bd88c933485d
+		summarizeBy: none
+		sourceColumn: UTILIZARF
+
+		annotation SummarizationSetBy = Automatic
+
+	column APLICACAO
+		dataType: string
+		lineageTag: 02c5e295-554c-461e-a1e4-507e4514d9e7
+		summarizeBy: none
+		sourceColumn: APLICACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PCTIPOOS = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Dogec\Documents\Jorge - SID - av3\PCTIPOOS.xlsx"), null, true),
+				    #"Result 1_Sheet" = Fonte{[Item="Result 1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Result 1_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"CODIGO", Int64.Type}, {"DESCRICAO", type text}, {"UTILIZACHECKOUT", type text}, {"UTILIZARF", type text}, {"APLICACAO", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

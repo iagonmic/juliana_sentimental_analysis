@@ -1,0 +1,42 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+/// Erros nas consultas que foram carregadas em 26/04/2025 07:22:43.
+queryGroup 'Erros na Consulta - 26/04/2025 07:22:43'
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation PBI_QueryOrder = ["PCPRODUT","PCMOVENDPEND","PCTIPOOS","Erros em PCMOVENDPEND"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63fe6d07e0e1b
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table PCPRODUT
+ref table PCMOVENDPEND
+ref table DateTableTemplate_f351b583-19d0-4d77-a6fb-b5c0c090881f
+ref table LocalDateTable_96605be6-dc55-461d-b919-3f2786807071
+ref table LocalDateTable_ee897427-0881-4550-a162-640314a30adf
+ref table LocalDateTable_f29949f9-3a0f-496b-8541-4583aa1a3729
+ref table LocalDateTable_1eb50b36-bb6a-4ffa-9e76-4d99a270ca4c
+ref table LocalDateTable_9f2baf56-dcdb-4394-890e-bc49edbc12e7
+ref table LocalDateTable_1c77797a-28fb-4dbf-b357-44f99a22c142
+ref table LocalDateTable_4a66e734-fe07-45b9-bae7-3b1693de0912
+ref table LocalDateTable_4e40eaf8-6faf-4bb3-b032-da46a9786e7c
+ref table LocalDateTable_7fbdbc26-d7ec-4721-8165-f5e8e325e6ee
+ref table LocalDateTable_d36eef93-495b-4d4f-b6b3-622fe89bebc5
+ref table LocalDateTable_d7800437-3474-468c-88a9-f821d11a29f6
+ref table LocalDateTable_79cb6eee-797a-486f-956a-a6d7d32ec6a5
+ref table LocalDateTable_80958682-0614-429f-bd33-575a03de6c7d
+ref table LocalDateTable_209e01ba-73ce-49c7-abd6-8f04d1aba4ac
+ref table PCTIPOOS
+
+ref cultureInfo pt-BR
+

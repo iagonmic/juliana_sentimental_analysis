@@ -1,0 +1,62 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 59,
+            "y": 73
+          },
+          "nodeIndex": "PCPRODUT",
+          "nodeLineageTag": "bdd15b35-9b3b-469c-944e-24010b075d7a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 395,
+            "y": 0
+          },
+          "nodeIndex": "PCMOVENDPEND",
+          "nodeLineageTag": "7fa76a93-1cff-4dc0-baff-af236185b6d1",
+          "size": {
+            "height": 440,
+            "width": 234
+          },
+          "zIndex": 1,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 771,
+            "y": 169
+          },
+          "nodeIndex": "PCTIPOOS",
+          "nodeLineageTag": "b69beb8a-b9bf-4a9b-a7bf-20979f937c10",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
