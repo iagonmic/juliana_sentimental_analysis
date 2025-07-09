@@ -1,1 +1,5 @@
 snscrape
+wordcloud
+spacy
+pandas
+matplotlib
