@@ -33,9 +33,7 @@ for _ in range(10):  # Ajuste conforme o limite do seu plano
         response = client.search_recent_tweets(
             query=query,
             max_results=10,
-            tweet_fields=['created_at', 'lang', 'public_metrics'],
-            expansions=['author_id'],
-            user_fields=['username'],
+            tweet_fields=['created_at', 'author_id', 'lang'],
             next_token=next_token
         )
         if not response.data:
@@ -64,3 +62,4 @@ for _ in range(10):  # Ajuste conforme o limite do seu plano
         break
 
 df = pd.DataFrame(all_tweets)
+df.to_excel('')
