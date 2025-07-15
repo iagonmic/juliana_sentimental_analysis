@@ -12,6 +12,9 @@ from glob import glob
 # pesquisamos no google da seguinte maneira: site:g1.globo.com "Juliana Marins"
 # extraimos manualmente 40 urls desses sites, 10 por fonte, sobre o caso e inserimos em um arquivo url.csv com os campos 'fonte' e 'url'
 
+saidas_dir = os.path.abspath(os.path.join(os.getcwd(), '..', 'saidas')) # Localizando a pasta saidas
+os.makedirs(saidas_dir, exist_ok=True)
+
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
 }
@@ -126,8 +129,10 @@ if __name__ == '__main__':
 
         df = pd.DataFrame({'url': websites})
         df['texto'] = df['url'].apply(get_text_from_website, driver=driver)
+        df.to_excel(os.path.join(saidas_dir, 'noticias.xlsx'), index=False)
     
     else:
         driver = start_driver()
         df = pd.read_csv(glob(os.getcwd() + '/url.csv')[0])
         df['texto'] = df['url'].apply(get_text_from_website, driver=driver)
+        df.to_excel(os.path.join(saidas_dir, 'noticias.xlsx'), index=False)
