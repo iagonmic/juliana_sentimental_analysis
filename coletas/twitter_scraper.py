@@ -3,6 +3,10 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+saidas_dir = os.path.join(script_dir, '..', 'saidas')
+os.makedirs(saidas_dir, exist_ok=True)
+
 # carregando apis dentro do .env
 load_dotenv()
 
@@ -62,4 +66,4 @@ for _ in range(10):  # Ajuste conforme o limite do seu plano
         break
 
 df = pd.DataFrame(all_tweets)
-df.to_excel('')
+df.to_excel(os.path.join(saidas_dir, 'tweets_juliana_marins.xlsx'), index=False)
