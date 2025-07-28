@@ -36,7 +36,7 @@ def gerar_nuvem_palavras(df: pd.DataFrame, coluna: str = 'processed_text', salva
     plt.figure(figsize=(16, 8))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
-    plt.title("Nuvem de Palavras em Alta Resolução", fontsize=18)
+    plt.title("WordCloud", fontsize=18)
 
     if salvar:
         plt.savefig(caminho, dpi=400, bbox_inches='tight')

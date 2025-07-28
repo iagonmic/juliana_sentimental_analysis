@@ -2,12 +2,12 @@ import tweepy
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import time
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 saidas_dir = os.path.join(script_dir, '..', 'saidas')
 os.makedirs(saidas_dir, exist_ok=True)
 
-# carregando apis dentro do .env
 load_dotenv()
 
 api_key = os.getenv('API_KEY')
@@ -16,54 +16,62 @@ bearer_token = os.getenv('BEARER_TOKEN')
 access_token = os.getenv('ACCESS_TOKEN')
 access_token_secret = os.getenv('ACCESS_TOKEN_SECRET')
 
+client = tweepy.Client(
+    bearer_token=bearer_token,
+    consumer_key=api_key,
+    consumer_secret=api_key_secret,
+    access_token=access_token,
+    access_token_secret=access_token_secret
+)
 
-# passamos a query que tenha "Juliana Marins"
-# filtramos por lang:pt para português
-# filtramos por -is:retweet para não ter retweets
-
-# inicializamos o client
-client = tweepy.Client(bearer_token,api_key,api_key_secret,access_token,access_token_secret)
 auth = tweepy.OAuth1UserHandler(api_key, api_key_secret, access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 query = "juliana marins lang:pt -is:retweet"
 
-# buscamos os tweets | limite mensal de 100 no plano gratuito
 all_tweets = []
 next_token = None
 
-for _ in range(10):  # Ajuste conforme o limite do seu plano
+for _ in range(10):  # Limite de chamadas (ajuste conforme seu plano)
     try:
         response = client.search_recent_tweets(
             query=query,
-            max_results=10,
-            tweet_fields=['created_at', 'author_id', 'lang'],
+            max_results=10, 
+            tweet_fields=['created_at', 'author_id', 'lang', 'public_metrics'],
+            expansions=['author_id'],
             next_token=next_token
         )
+
         if not response.data:
-            break  # Não há mais tweets
-        tweet_data = response.data
-        users = {u['id']: u for u in response.includes['users']}
-        for tweet in tweet_data:
-            user = users[tweet.author_id]
+            break  
+        users = {}
+        if response.includes and hasattr(response.includes, 'users'):
+            users = {u.id: u for u in response.includes.users}
+
+        for tweet in response.data:
+            user = users.get(tweet.author_id)
             all_tweets.append({
-                'usuario': user.username,
+                'usuario': user.username if user else 'desconhecido',
                 'data': tweet.created_at,
                 'texto': tweet.text,
                 'likes': tweet.public_metrics['like_count'],
                 'retweets': tweet.public_metrics['retweet_count']
             })
+
         next_token = response.meta.get('next_token')
         if not next_token:
-            break  # Chegou ao fim dos resultados
+            break
+
     except tweepy.TooManyRequests:
         print("Rate limit atingido. Aguardando 15 minutos...")
-        import time
-        time.sleep(15 * 60)  # Espera 15 minutos
+        time.sleep(15 * 60)
         continue
     except Exception as e:
         print("Erro:", e)
         break
 
 df = pd.DataFrame(all_tweets)
-df.to_excel(os.path.join(saidas_dir, 'tweets_juliana_marins.xlsx'), index=False)
+output_path = os.path.join(saidas_dir, 'tweets_juliana_marins.csv')
+df.to_csv(output_path, index=False)
+print(f"Arquivo salvo com sucesso em: {output_path}")
+
