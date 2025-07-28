@@ -133,6 +133,9 @@ if __name__ == '__main__':
     
     else:
         driver = start_driver()
-        df = pd.read_csv(glob(os.getcwd() + '/url.csv')[0])
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        pai_dir = os.path.dirname(script_dir)
+        caminho = os.path.join(pai_dir, 'saidas', 'url.csv')
+        df = pd.read_csv(caminho)
         df['texto'] = df['url'].apply(get_text_from_website, driver=driver)
         df.to_excel(os.path.join(saidas_dir, 'noticias.xlsx'), index=False)

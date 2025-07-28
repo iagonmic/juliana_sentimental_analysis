@@ -1,8 +1,10 @@
 from processamento.str_transform import carregar_dados, printar_textos_brutos, limpar_e_printar_textos
 from processamento.analise_nlp import lematizar_e_printar, gerar_nuvem_palavras
+import os
 
 def main():
-    caminho = ('saidas/dados_coletados.xlsx').strip()
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    caminho = os.path.join(script_dir, 'saidas', 'dados_coletados.xlsx')
     df = carregar_dados(caminho)
 
     if df.empty:
